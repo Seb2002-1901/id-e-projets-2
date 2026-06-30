@@ -436,13 +436,13 @@ Tu viens de passer un mois à transformer l'agitation en exécution. Tu as prot�
 3. Quel défi t'a montré que tu étais capable de bien plus que tu ne le pensais ?
 4. Quelle règle de ton manuel de productivité veux-tu ancrer pour de bon dans tes journées ?
 
-**Total XP du mois 6 :** 30 défis · **+1 660 XP** possibles
+**Total XP du mois 6 :** 30 défis · **+1 670 XP** possibles
 
 | Bande de difficulté | Nombre de défis | XP par défi | Sous-total |
 |---|---|---|---|
-| Difficulté 5/10 | 14 | +50 | +700 |
-| Difficulté 6/10 | 16 | +60 | +960 |
-| **Total** | **30** | — | **+1 660 XP** |
+| Difficulté 5/10 | 13 | +50 | +650 |
+| Difficulté 6/10 | 17 | +60 | +1 020 |
+| **Total** | **30** | — | **+1 670 XP** |
 
 **Stats dominantes du mois :** **Discipline** (cœur du mois : tâche reine, blocs, batch, anti-distraction, pas de zéro) et **Mental** (focus profond, mono-tâche, détox, silence des notifications), avec des poussées de **Courage** (oui retiré, email difficile, projet livré), de **Charisme** (délégation, monochrome social, regard extérieur), de **Savoir** (projet qui dort, audit, manuel), et des touches de **Création** (sprint livrable) et de **Prospérité** (désabonnement).
 
