@@ -4,11 +4,28 @@
 
 ---
 
+## 🏔️ 0. Architecture de marque (décision V2)
+
+Cap365 adopte une **architecture de marque maison + produit** :
+
+| Niveau | Nom | Rôle |
+|---|---|---|
+| **Marque principale (maison)** | **Cairn** | La marque ombrelle, l'univers, la voix. Un *cairn* est l'amas de pierres qui **balise un sentier** : chaque marcheur **ajoute sa pierre**. Métaphore exacte de la progression par l'action — et nom **international natif** (identique en FR/EN), au fort potentiel de storytelling. |
+| **Produit phare** | **Cap365 — 365 Défis de Vie** | Le programme d'un an : 1 défi/jour, gamifié en RPG de la vie réelle. « Cap365 » reste le nom commercial du produit. |
+
+**Pourquoi cette architecture (et pas un simple renommage) :** elle conserve l'acquis « Cap365 » comme **nom de produit** tout en plaçant au-dessus une **marque durable et internationale (Cairn)** capable d'accueillir demain d'autres produits (parcours 30 jours, versions thématiques, communauté). On évite la perte de notoriété d'un renommage brutal **et** la faiblesse long terme d'un nom générique isolé.
+
+> Lecture liée : l'audit complet de marque (10 noms évalués, Cairn 8,0/10) → `v2-audit-et-transformation/05-audit-marque-et-noms.md`.
+> Mécanique de marque : 1 défi validé = **1 pierre posée** ; l'amas qui grandit = ta progression visible ; le balisage = l'anti-abandon (le repère qui t'empêche de te perdre).
+
+---
+
 ## 📌 1. La marque en un coup d'œil
 
 | Élément | Valeur |
 |---|---|
-| **Nom de marque** | **Cap365** |
+| **Marque principale (maison)** | **Cairn** |
+| **Nom du produit** | **Cap365 — 365 Défis de Vie** |
 | **Slogan** | Un défi par jour. Une version de toi par an. |
 | **Baseline** | 365 Défis de Vie |
 | **Catégorie** | Produit digital premium de développement personnel par l'action |
