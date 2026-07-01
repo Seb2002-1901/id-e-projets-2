@@ -7,7 +7,7 @@
 >
 > 🔧 **Le produit existe en deux états :** la **V1** (ce dossier) et la **V2** — audit critique + transformation en *RPG de la vie réelle* (8 stats, radar, 50 niveaux/10 rangs, anti-abandon incarné, expérience « app sans app »). Voir [`v2-audit-et-transformation/`](./v2-audit-et-transformation/README.md), l'expérience [`experience/`](./experience/), le **kit de lancement commercial** [`lancement-commercial/`](./lancement-commercial/00-README.md), le dossier de **production** [`production/`](./production/00-README.md) et la **livraison finale** (audit + rapport + checklists) [`livraison-finale/`](./livraison-finale/00-RAPPORT-FINAL.md).
 >
-> 👉 **Pour lancer, commence par [`livraison-finale/00-RAPPORT-FINAL.md`](./livraison-finale/00-RAPPORT-FINAL.md)** : audit complet, ce qui reste à faire (~1 semaine), ordre d'exécution, risques et notes finales.
+> 👉 **Pour lancer :** lis [`livraison-finale/00-RAPPORT-FINAL.md`](./livraison-finale/00-RAPPORT-FINAL.md) (audit + notes), puis exécute [`execution-finale/`](./execution-finale/00-README.md) — CSV d'import Notion prêts, données de test, et 4 runbooks jour par jour (assemblage → go live → première semaine) pour lancer **seul en 7 jours**.
 
 ---
 
