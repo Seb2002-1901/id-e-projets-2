@@ -29,6 +29,7 @@
 | — | **Expansion future** (app, abonnement, communauté, événements, partenariats, gammes, licences, international — classés impact/difficulté/coût/priorité) | [`07-expansion-future.md`](./07-expansion-future.md) | 8 |
 | 2 · 8 · 9 | **Améliorations priorisées · Plan de transformation · Roadmap 14 jours** | [`08-liste-priorisee-et-roadmap-14-jours.md`](./08-liste-priorisee-et-roadmap-14-jours.md) | — |
 | 3 · 10 | **Nouvelle architecture produit · Version finale recommandée** | [`09-nouvelle-architecture-et-version-finale.md`](./09-nouvelle-architecture-et-version-finale.md) | — |
+| ✅ | **Audit final de qualité du produit fini + note honnête (7,8/10)** | [`10-audit-final-qualite.md`](./10-audit-final-qualite.md) | — |
 
 ---
 
