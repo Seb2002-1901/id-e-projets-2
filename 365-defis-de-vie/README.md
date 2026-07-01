@@ -8,6 +8,8 @@
 > 🔧 **Le produit existe en deux états :** la **V1** (ce dossier) et la **V2** — audit critique + transformation en *RPG de la vie réelle* (8 stats, radar, 50 niveaux/10 rangs, anti-abandon incarné, expérience « app sans app »). Voir [`v2-audit-et-transformation/`](./v2-audit-et-transformation/README.md), l'expérience [`experience/`](./experience/), le **kit de lancement commercial** [`lancement-commercial/`](./lancement-commercial/00-README.md), le dossier de **production** [`production/`](./production/00-README.md) et la **livraison finale** (audit + rapport + checklists) [`livraison-finale/`](./livraison-finale/00-RAPPORT-FINAL.md).
 >
 > 👉 **Pour lancer :** lis [`livraison-finale/00-RAPPORT-FINAL.md`](./livraison-finale/00-RAPPORT-FINAL.md) (audit + notes), exécute [`execution-finale/`](./execution-finale/00-README.md) (CSV Notion + données de test + runbooks J1-J7), et reproduis les visuels avec [`livraison-visuelle/`](./livraison-visuelle/00-README.md) — **kit graphique verrouillé + specs des 8 écrans + visuels de vente + mockups** (à reproduire dans Canva sans réfléchir). Lançable **seul en 7 jours**.
+>
+> 👁️ **Voir le produit rendu :** [`apercu/`](./apercu/00-README.md) contient les **maquettes des 8 écrans rendues en PNG** (via Chromium), la page de vente, 27 prompts de génération d'images et le dossier Canva — de quoi voir Cap365 terminé et raccourcir la production visuelle.
 
 ---
 
