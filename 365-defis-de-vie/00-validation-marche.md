@@ -62,7 +62,7 @@ La cible est **concentrée et facile à atteindre** : elle passe beaucoup de tem
 
 > *Hypothèse raisonnable.* **(note repositionnée — voir section dédiée)**
 
-Le format est **très partageable** : défis quotidiens à poster, séries (streaks) à afficher, certificats et badges à montrer, et un kit de défis à relever à plusieurs. Chaque récompense symbolique (Certificat de Transformation, Sceaux de Pilier, Carte de l'Année, Titres du mois) est conçue comme un **objet de preuve sociale partageable**. Le pack « kit de défis à partager » de l'offre Élite transforme un usage solitaire en expérience collective, ce qui démultiplie l'exposition organique.
+Le format est **très partageable** : défis quotidiens à poster, séries (streaks) à afficher, certificats et badges à montrer, et un kit de défis à relever à plusieurs. Chaque récompense symbolique (Certificat de Transformation, Sceaux de Pilier, Carte de l'Année, Titres du mois) est conçue comme un **objet de preuve sociale partageable**. Le pack « kit de défis à partager » de l'offre Le Sommet transforme un usage solitaire en expérience collective, ce qui démultiplie l'exposition organique.
 
 **Ce qui soutient la note :**
 - 🏅 Récompenses visuelles pensées pour être affichées et partagées.
@@ -110,7 +110,7 @@ Le risque : un programme que l'on vit seul, dans son coin, ne génère aucune ex
 **Leviers de partage natifs intégrés au système :**
 - 🏅 **Récompenses symboliques visuelles** (Certificat de Transformation, Sceaux de Pilier, Carte de l'Année, Titres du mois) conçues pour être affichées.
 - 🎖️ **Badges et trophées affichables** qui matérialisent le statut et la progression.
-- 👥 **Kit de défis à plusieurs** (offre Élite) qui transforme l'expérience solitaire en dynamique collective.
+- 👥 **Kit de défis à plusieurs** (offre Le Sommet) qui transforme l'expérience solitaire en dynamique collective.
 - 🔥 **Séries et niveaux** publiables, qui entretiennent un réflexe de partage régulier.
 
 **Résultat :** chaque utilisateur devient une **preuve sociale vivante**, ce qui alimente l'acquisition organique. → **Viralité 8/10.**

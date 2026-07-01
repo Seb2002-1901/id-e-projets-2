@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 96" width="380" height="96">
+  <!-- Marque : cairn -->
+  <g>
+    <ellipse cx="44" cy="78" rx="36" ry="13" fill="#1B2A4A"/>
+    <ellipse cx="44" cy="55" rx="26" ry="11" fill="#2E5EAA"/>
+    <ellipse cx="44" cy="37" rx="18" ry="9" fill="#3B82C4"/>
+    <ellipse cx="44" cy="22" rx="11" ry="6.5" fill="#F5A623"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="100" y="60" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="46" fill="#1B2A4A">Cap<tspan fill="#F5A623">365</tspan></text>
+  <text x="102" y="82" font-family="Inter, Arial, sans-serif" font-weight="500" font-size="14" letter-spacing="2" fill="#8A93A2">365 DÉFIS DE VIE</text>
+</svg>

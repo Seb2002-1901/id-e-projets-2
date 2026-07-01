@@ -1,0 +1,19 @@
+{
+  "name": "cap365-notion-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monte automatiquement le template Notion de Cap365 à partir des CSV du dépôt (API officielle Notion). Idempotent.",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node src/build.js",
+    "start": "node src/build.js",
+    "finish": "node src/post-install.js",
+    "check": "node --check src/build.js && node --check src/notion.js && node --check src/schema.js && node --check src/csv.js && node --check src/blocks.js && node --check src/post-install.js && echo OK"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5"
+  }
+}
