@@ -16,6 +16,12 @@
 | 6 | **Plan de test marché 14 jours** | [`06-plan-tests-marche-14-jours.md`](./06-plan-tests-marche-14-jours.md) | Obtenir les 1ers users + valider message/offre, avec grille de décision. |
 | 7 | **Plan de contenu TikTok/Instagram** | [`07-plan-contenu-tiktok-instagram.md`](./07-plan-contenu-tiktok-instagram.md) | Calendrier + 20 hooks pour déclencher les premières ventes. |
 
+### Fichiers d'exécution (données prêtes à l'emploi)
+| Fichier | Rôle |
+|---|---|
+| [`defis-365-import-notion.csv`](./defis-365-import-notion.csv) + [`.md`](./defis-365-import-notion.md) | **CSV d'import des 365 défis** dans Notion (18 colonnes) + mode d'emploi. |
+| [`tableau-de-bord-kpi-lancement.csv`](./tableau-de-bord-kpi-lancement.csv) + [`.md`](./tableau-de-bord-kpi-lancement.md) | **Tableau de bord KPI** (Google Sheets, formules live) + onglets Sources/Rétention. |
+
 ---
 
 ## Séquence d'exécution (l'ordre réel des opérations)
