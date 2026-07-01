@@ -1,0 +1,5 @@
+node_modules/
+.env
+.cap365-notion-state.json
+RAPPORT-NOTION.md
+formule-niveau.txt

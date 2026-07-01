@@ -13,6 +13,8 @@
 >
 > 📕 **Livraison ultime :** [`livraison-ultime/`](./livraison-ultime/00-RAPPORT-FINAL-ABSOLU.md) = le **PDF premium généré** (`Cap365-365-Defis-de-Vie.pdf`, 103 pages), les **6 modèles légaux**, le **parcours premier client**, la **checklist de test (57 cas)** et le dossier Canva du PDF.
 >
+> 🤖 **Montage Notion automatisé :** [`outils/cap365-notion-builder/`](./outils/cap365-notion-builder/README.md) = projet Node.js (API officielle Notion) qui **crée les 6 bases, importe les CSV, pose formules/relations/rollups et préremplit le profil** en une commande (`./run.sh`) — idempotent, token en variable d'environnement.
+>
 > 📦 **Pack de production :** [`pack-production/`](./pack-production/README.md) = tous les assets réels prêts à l'emploi — **31 SVG** (logo, 14 icônes, 5 badges, radar, composants), **48 PNG** (écrans, SVG rendus, fonds dégradés), **tokens** (colors.css/json, components.css), **9 CSV Notion**, 6 pages TinyPages, emails, dossier Canva, plan PDF.
 
 ---
