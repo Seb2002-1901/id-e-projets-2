@@ -113,4 +113,43 @@ Tu peux relancer **`./run.sh`** autant de fois que tu veux :
 - [ ] (Sécurité) token toujours uniquement dans `.env` ; `.env` non commité.
 
 ---
-*Ce builder n'ajoute aucune fonctionnalité à Cap365 : il monte, dans Notion, exactement les bases/propriétés/formules/données déjà définies dans le dépôt (`pack-production/Notion/*.csv`, `production/03-template-notion-final.md`).*
+
+## 9. Post-installation — tableau de bord « Quartier Général » (`./post-install.sh`)
+
+Une fois le montage réussi (`./run.sh`), tu peux **enrichir** ta page Cap365 avec un **tableau de bord** monté automatiquement. C'est une **2ᵉ commande, indépendante et relançable** :
+
+```bash
+./post-install.sh
+```
+> Équivalent : `npm run finish` (ou `node src/post-install.js`). Utilise le **même `.env`**.
+
+### Ce qu'elle fait (via l'API)
+- Crée/actualise la sous-page **« 🎮 Cap365 — Quartier Général »** dans ta page Cap365.
+- Y pose **tous les blocs que l'API sait créer** : callouts, titres, séparateurs, listes à puces, listes numérotées, **tableau simple** (barème XP), **instructions**, **checklist de démarrage** (cases à cocher).
+- Ajoute les **7 sections** : 🎯 Défi du jour · 👤 Mon personnage · 📈 Progression · 🏆 Badges · 📅 Calendrier · 🎯 Quêtes · ✅ Comment utiliser ce template.
+- Insère des **liens directs** (mentions) vers tes **6 bases**.
+- **Vérifie / crée les propriétés utiles** manquantes (add-only, jamais destructif) : `Statut`, `Validé`, `Date de validation`, `Ressenti`, `XP` (Défis) ; `Série courante`, progression, `Rang (auto)`, `Niveau (auto)` (Profil).
+- Ajoute une section **« 🛠️ À finir manuellement »** (vues personnalisées, galerie de badges, vue calendrier, affichage mobile premium, radar visuel).
+- Écrit un rapport **`POST-INSTALL-NOTION.md`** (automatisé / manuel / liens des bases / vérifications / erreurs).
+
+### Garanties
+- **Ne touche JAMAIS aux 365 défis** ni à aucune ligne : elle ne fait qu'**ajouter des colonnes manquantes** et **(re)construire la page** de tableau de bord. Aucune écriture de ligne.
+- **Idempotente** : à chaque exécution, la page est **reconstruite à l'identique** (contenu remplacé, **aucun doublon**). L'ID de la page est mémorisé dans `.cap365-notion-state.json`.
+- **Token privé** : lu depuis `.env`, **jamais affiché** ni écrit dans le rapport.
+
+### Ce qu'elle ne peut pas faire (limite API — listé dans le rapport)
+Les **vues** (Défi du jour, Calendrier, Galerie), l'**affichage mobile premium** et le **radar** des 8 stats restent manuels : l'API n'expose ni la création de vues ni la mise en page. La page « Quartier Général » te sert de **socle** où insérer ensuite ces vues en « vue liée de base ».
+
+### Commandes Mac (copier-coller)
+```bash
+# depuis le dossier du builder, après ./run.sh
+chmod +x post-install.sh
+./post-install.sh
+# lire le rapport
+open POST-INSTALL-NOTION.md
+# relancer plus tard (idempotent, aucun doublon)
+./post-install.sh
+```
+
+---
+*Ce builder n'ajoute aucune fonctionnalité à Cap365 : il monte, dans Notion, exactement les bases/propriétés/formules/données déjà définies dans le dépôt (`pack-production/Notion/*.csv`, `production/03-template-notion-final.md`). La post-installation ne fait qu'ajouter une page de tableau de bord et des colonnes manquantes — sans jamais modifier tes données.*

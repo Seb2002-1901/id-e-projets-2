@@ -32,6 +32,16 @@
 - [ ] Afficher le **radar** des 8 stats (barres, faute de graphe radar natif).
 - [ ] Rendre le template **dupliquable** + page **« Crée ton personnage »**.
 
+## 🎮 Tableau de bord — post-installation (`./post-install.sh`)
+> À lancer **après** le montage. Utilise le même `.env`. Ne touche pas aux 365 défis. Détails : `POST-INSTALL-MAC.md`.
+- [ ] `./post-install.sh` se termine par « ✅ Terminé » et affiche un lien de page.
+- [ ] La page **« 🎮 Cap365 — Quartier Général »** apparaît dans la page Cap365.
+- [ ] Elle contient les **7 sections** (Défi du jour, Personnage, Progression, Badges, Calendrier, Quêtes, Comment utiliser).
+- [ ] Les **liens vers les 6 bases** fonctionnent (clic → ouvre la base).
+- [ ] Le **tableau barème XP** et la **checklist de démarrage** sont présents.
+- [ ] Le rapport **`POST-INSTALL-NOTION.md`** est généré (0 erreur attendu).
+- [ ] Relancer `./post-install.sh` → la page est **reconstruite sans doublon**.
+
 ## 🔒 Sécurité
 - [ ] Le **token** n'est que dans `Builder/.env` (jamais partagé).
 - [ ] (Optionnel) après le montage, tu peux **révoquer/roter** le token sur my-integrations.

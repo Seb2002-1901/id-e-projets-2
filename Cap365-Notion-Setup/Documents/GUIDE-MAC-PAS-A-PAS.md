@@ -43,6 +43,14 @@ cd ~/Desktop/Cap365-Notion-Setup/Builder
 ```
 Le script installe ses dépendances (1re fois) puis monte le template. **Durée ~3-5 min** (l'import des 365 défis est volontairement ralenti pour respecter les limites de Notion). Laisse-le finir.
 
+## Étape 5 — Construire le tableau de bord (post-installation)
+Une fois l'Étape 4 terminée, lance la **2ᵉ commande** (même `.env`, sans risque pour tes défis) :
+```bash
+cd ~/Desktop/Cap365-Notion-Setup/Builder
+./post-install.sh
+```
+Elle crée la page **« 🎮 Cap365 — Quartier Général »** (les 7 sections, les liens vers tes 6 bases, un tableau, une checklist…) et un rapport `POST-INSTALL-NOTION.md`. **Relançable** : elle reconstruit la page sans doublon et **ne modifie jamais tes 365 défis**. Pas-à-pas dédié : `POST-INSTALL-MAC.md`.
+
 ---
 
 ## Ce qui se crée tout seul

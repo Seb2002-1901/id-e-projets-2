@@ -8,7 +8,8 @@
   "scripts": {
     "build": "node src/build.js",
     "start": "node src/build.js",
-    "check": "node --check src/build.js && node --check src/notion.js && node --check src/schema.js && node --check src/csv.js && echo OK"
+    "finish": "node src/post-install.js",
+    "check": "node --check src/build.js && node --check src/notion.js && node --check src/schema.js && node --check src/csv.js && node --check src/blocks.js && node --check src/post-install.js && echo OK"
   },
   "dependencies": {
     "@notionhq/client": "^2.2.15",

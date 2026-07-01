@@ -19,11 +19,13 @@ Cap365-Notion-Setup/
 └── Documents/
     ├── GUIDE-MAC-PAS-A-PAS.md   ← le pas-à-pas complet
     ├── COMMANDES-MAC.md         ← les commandes à copier-coller
+    ├── POST-INSTALL-MAC.md      ← 2ᵉ commande : le tableau de bord
     └── CHECKLIST-NOTION.md      ← à cocher avant/après
 ```
 
 ## L'essentiel
-- **Une seule commande** monte le template : `./run.sh` (depuis `Builder/`).
-- **Idempotent** : relançable sans créer de doublons.
+- **2 commandes** (depuis `Builder/`) : `./run.sh` monte le template, puis `./post-install.sh` construit le tableau de bord « 🎮 Cap365 — Quartier Général » (voir `Documents/POST-INSTALL-MAC.md`).
+- **Idempotent** : les deux commandes sont relançables sans créer de doublons.
+- **Sans risque** : la post-installation **ne modifie jamais tes 365 défis** (elle ajoute une page + des colonnes manquantes).
 - **Token privé** : uniquement dans `Builder/.env`, jamais dans le code.
-- **Limite** : l'API Notion crée les bases/données/formules, **pas** les vues ni le dashboard (à finaliser à la main, ~30-60 min — voir le rapport généré).
+- **Limite** : l'API Notion crée les bases/données/formules **et** la page de dashboard, **pas** les vues ni le radar (à finaliser à la main, ~30-60 min — voir les rapports générés).

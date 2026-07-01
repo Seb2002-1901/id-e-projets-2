@@ -112,7 +112,84 @@ async function countRows(client, dbId) {
   return n;
 }
 
+// ---- Sous-pages & blocs (pour le tableau de bord / post-installation) ----
+
+function plainTitle(richArray) {
+  return (richArray || []).map((t) => (t.plain_text != null ? t.plain_text : (t.text && t.text.content) || '')).join('');
+}
+
+// Liste les sous-pages d'une page : [{ id, title }].
+async function listChildPages(client, parentPageId) {
+  const pages = [];
+  let cursor;
+  do {
+    const res = await call(() => client.blocks.children.list({ block_id: parentPageId, start_cursor: cursor, page_size: 100 }), 'list children');
+    for (const b of res.results) {
+      if (b.type === 'child_page') pages.push({ id: b.id, title: (b.child_page && b.child_page.title) || '' });
+    }
+    cursor = res.has_more ? res.next_cursor : undefined;
+  } while (cursor);
+  return pages;
+}
+
+async function findChildPageByTitle(client, parentPageId, title) {
+  const pages = await listChildPages(client, parentPageId);
+  const hit = pages.find((p) => p.title === title);
+  return hit ? hit.id : null;
+}
+
+// Crée une sous-page vide (titre + icône emoji optionnelle). Retourne la page.
+async function createSubpage(client, parentPageId, title, emoji) {
+  const props = { title: { title: [{ type: 'text', text: { content: title } }] } };
+  const args = { parent: { type: 'page_id', page_id: parentPageId }, properties: props };
+  if (emoji) args.icon = { type: 'emoji', emoji };
+  return call(() => client.pages.create(args), `create page ${title}`);
+}
+
+// Récupère l'URL publique d'une page/base (best effort).
+async function getUrl(client, id, kind) {
+  try {
+    const obj = kind === 'database'
+      ? await call(() => client.databases.retrieve({ database_id: id }), 'retrieve db url')
+      : await call(() => client.pages.retrieve({ page_id: id }), 'retrieve page url');
+    return obj.url || null;
+  } catch { return null; }
+}
+
+// Supprime (archive) tous les blocs enfants d'une page. Retourne le nombre supprimé.
+// Idempotent : garantit une reconstruction sans doublon.
+async function clearPageChildren(client, pageId) {
+  let deleted = 0;
+  // On liste puis supprime par lots jusqu'à ce que la page soit vide.
+  // (la suppression décale la pagination : on relit à chaque tour)
+  for (let guard = 0; guard < 50; guard++) {
+    const ids = [];
+    let cursor;
+    do {
+      const res = await call(() => client.blocks.children.list({ block_id: pageId, start_cursor: cursor, page_size: 100 }), 'list to clear');
+      for (const b of res.results) ids.push(b.id);
+      cursor = res.has_more ? res.next_cursor : undefined;
+    } while (cursor);
+    if (!ids.length) break;
+    for (const id of ids) {
+      await call(() => client.blocks.delete({ block_id: id }), 'delete block');
+      deleted++;
+    }
+  }
+  return deleted;
+}
+
+// Ajoute des blocs enfants par lots (limite Notion : 100 blocs par appel).
+async function appendChildren(client, pageId, blocks, batchSize = 50) {
+  for (let i = 0; i < blocks.length; i += batchSize) {
+    const batch = blocks.slice(i, i + batchSize);
+    await call(() => client.blocks.children.append({ block_id: pageId, children: batch }), 'append blocks');
+  }
+}
+
 module.exports = {
   makeClient, call, rt, sleep, listChildDatabases, retrieveDatabase,
   createDatabase, ensureProperties, findPageByKey, upsertRow, countRows,
+  plainTitle, listChildPages, findChildPageByTitle, createSubpage, getUrl,
+  clearPageChildren, appendChildren,
 };

@@ -51,6 +51,23 @@ open ~/Desktop/Cap365-Notion-Setup/Builder/RAPPORT-NOTION.md
 
 ---
 
+## 5) (Après le montage) Construire le tableau de bord
+```bash
+cd ~/Desktop/Cap365-Notion-Setup/Builder && chmod +x post-install.sh && ./post-install.sh
+```
+➡️ Crée la page **« 🎮 Cap365 — Quartier Général »** (sections, liens vers les 6 bases,
+tableau, checklist…) + le rapport `POST-INSTALL-NOTION.md`. **Ne touche pas aux 365 défis.**
+Détails complets : `Documents/POST-INSTALL-MAC.md`.
+
+```bash
+# lire le rapport de post-installation
+open ~/Desktop/Cap365-Notion-Setup/Builder/POST-INSTALL-NOTION.md
+# relancer plus tard (idempotent)
+cd ~/Desktop/Cap365-Notion-Setup/Builder && ./post-install.sh
+```
+
+---
+
 ## En cas de souci
 ```bash
 # Node manquant
