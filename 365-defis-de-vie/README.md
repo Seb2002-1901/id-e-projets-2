@@ -11,6 +11,8 @@
 >
 > 👁️ **Voir le produit rendu :** [`apercu/`](./apercu/00-README.md) contient les **maquettes des 8 écrans rendues en PNG** (via Chromium), la page de vente, 27 prompts de génération d'images et le dossier Canva — de quoi voir Cap365 terminé et raccourcir la production visuelle.
 >
+> 📕 **Livraison ultime :** [`livraison-ultime/`](./livraison-ultime/00-RAPPORT-FINAL-ABSOLU.md) = le **PDF premium généré** (`Cap365-365-Defis-de-Vie.pdf`, 103 pages), les **6 modèles légaux**, le **parcours premier client**, la **checklist de test (57 cas)** et le dossier Canva du PDF.
+>
 > 📦 **Pack de production :** [`pack-production/`](./pack-production/README.md) = tous les assets réels prêts à l'emploi — **31 SVG** (logo, 14 icônes, 5 badges, radar, composants), **48 PNG** (écrans, SVG rendus, fonds dégradés), **tokens** (colors.css/json, components.css), **9 CSV Notion**, 6 pages TinyPages, emails, dossier Canva, plan PDF.
 
 ---
