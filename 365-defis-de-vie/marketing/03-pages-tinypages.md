@@ -1,5 +1,7 @@
 # Cap365 — Pages TinyPages (prêtes à coller)
 
+> ⚠️ **VERSION V1 — SUPERSÉDÉE. Ne pas utiliser pour le lancement.** Ces pages sont remplacées par le kit V2 : **[`../lancement-commercial/`](../lancement-commercial/00-README.md)** (angle RPG, offres **Le Sentier / L'Ascension / Le Sommet**, garantie **30 jours**). Fichier conservé pour historique uniquement.
+
 > **Un défi par jour. Une version de toi par an.**
 > Document opérationnel — pages web complètes, prêtes à intégrer dans TinyPages.
 > Produit : **Cap365 — 365 Défis de Vie** · Cible : 18-35 ans en quête de discipline, confiance et progression concrète.
@@ -230,14 +232,14 @@ Les autres programmes te donnent **tout, tout de suite** — et tu craques sous 
 ## Tu peux relire cette page demain. Ou commencer ton défi aujourd'hui.
 
 **Bouton principal (orange) :** 🚀 Je commence maintenant — dès 19€
-**Sous-CTA :** Accès immédiat · Garantie 14 jours · Sans engagement
+**Sous-CTA :** Accès immédiat · Garantie 30 jours · Sans engagement
 
 ---
 ---
 
 # 3. 🛒 PAGE PRODUIT (détail des offres + prix bible)
 
-> Objectif : présenter les 3 offres, justifier la valeur, faire monter en gamme vers Transformation (39€). Prix et contenus **canoniques** (bible).
+> Objectif : présenter les 3 offres, justifier la valeur, faire monter en gamme vers L'Ascension (39€). Prix et contenus **canoniques** (bible).
 
 ---
 
@@ -256,7 +258,7 @@ Trois formules, un même principe : un défi par jour pour bâtir ta discipline,
 
 ### 🟦 SECTION — Comparatif des offres (tableau)
 
-| | **Essentiel** | **Transformation** ⭐ | **Élite** |
+| | **Le Sentier** | **L'Ascension** ⭐ | **Le Sommet** |
 |---|---|---|---|
 | **Prix** | **19€** | **39€** | **89€** |
 | Les 365 défis progressifs | ✅ | ✅ | ✅ |
@@ -272,14 +274,14 @@ Trois formules, un même principe : un défi par jour pour bâtir ta discipline,
 | Bilans trimestriels guidés | — | — | ✅ |
 | Accès à vie aux mises à jour | — | — | ✅ |
 
-> ⭐ **Le plus choisi : Transformation (39€).** Le système complet, l'anti-abandon activé, juste ce qu'il faut pour tenir l'année.
+> ⭐ **Le plus choisi : L'Ascension (39€).** Le système complet, l'anti-abandon activé, juste ce qu'il faut pour tenir l'année.
 
 ---
 
-### 🟦 SECTION — Offre 1 : Cap365 Essentiel (19€)
+### 🟦 SECTION — Offre 1 : Le Sentier (19€)
 
 **Titre :**
-## 🟢 Cap365 Essentiel — 19€
+## 🟢 Le Sentier — 19€
 
 **Promesse :**
 Avoir chaque jour un défi concret à relever pour enfin sortir de la stagnation et bâtir ta discipline pas à pas.
@@ -294,20 +296,20 @@ Avoir chaque jour un défi concret à relever pour enfin sortir de la stagnation
 
 **Pourquoi c'est rentable :** à 19€, soit **5 centimes par défi** sur l'année, c'est moins qu'un livre de développement personnel qui finira au fond d'un tiroir. Le ticket d'entrée premium, mais accessible.
 
-**Bouton (orange) :** Choisir Essentiel — 19€
+**Bouton (orange) :** Choisir Le Sentier — 19€
 
 ---
 
-### 🟦 SECTION — Offre 2 : Cap365 Transformation (39€) ⭐ Le cœur de gamme
+### 🟦 SECTION — Offre 2 : L'Ascension (39€) ⭐ Le cœur de gamme
 
 **Titre :**
-## 🟠 Cap365 Transformation — 39€ · ⭐ Le plus populaire
+## 🟠 L'Ascension — 39€ · ⭐ Le plus populaire
 
 **Promesse :**
 Vivre une année structurée de transformation, avec un système qui te tient motivé et te montre noir sur blanc à quel point tu avances.
 
 **Contenu :**
-- ✨ **Tout le contenu de l'Essentiel**, plus :
+- ✨ **Tout le contenu de Le Sentier**, plus :
 - 🏅 Le système de gamification complet (badges, trophées, classement personnel, récompenses symboliques)
 - 📚 Les fiches d'approfondissement pour les 52 thèmes hebdomadaires
 - 📊 Le tableau de bord de progression interactif
@@ -322,20 +324,20 @@ Vivre une année structurée de transformation, avec un système qui te tient mo
 
 **Pourquoi c'est le bon choix :** à 39€, tu accèdes à un système conçu pour **multiplier tes chances d'aller au bout** — bien en dessous du coût d'un seul coaching.
 
-**Bouton (orange, mis en avant) :** ⭐ Choisir Transformation — 39€
+**Bouton (orange, mis en avant) :** ⭐ Choisir L'Ascension — 39€
 
 ---
 
-### 🟦 SECTION — Offre 3 : Cap365 Élite (89€)
+### 🟦 SECTION — Offre 3 : Le Sommet (89€)
 
 **Titre :**
-## 🔵 Cap365 Élite — 89€
+## 🔵 Le Sommet — 89€
 
 **Promesse :**
 T'offrir l'arsenal complet pour faire de cette année LA bascule : parcours spécialisés, bilans réguliers et un journal qui documente ta progression jour après jour.
 
 **Contenu :**
-- ✨ **Tout le contenu de Transformation**, plus :
+- ✨ **Tout le contenu de L'Ascension**, plus :
 - 🧭 Les 4 parcours thématiques approfondis (Discipline, Confiance, Corps & Énergie, Compétences)
 - 📓 Le journal de transformation premium (version interactive + version imprimable haut de gamme)
 - 📈 Les bilans trimestriels guidés pour mesurer et ajuster ta progression
@@ -349,9 +351,9 @@ T'offrir l'arsenal complet pour faire de cette année LA bascule : parcours spé
 
 **Pour qui :** le déterminé qui veut tout, prend son année au sérieux et veut un accompagnement complet sur les 4 piliers.
 
-**Pourquoi c'est le summum :** à 89€, Élite cumule parcours spécialisés, bilans et **accès à vie**. Réservée aux plus engagés.
+**Pourquoi c'est le summum :** à 89€, Le Sommet cumule parcours spécialisés, bilans et **accès à vie**. Réservée aux plus engagés.
 
-**Bouton (orange) :** Choisir Élite — 89€
+**Bouton (orange) :** Choisir Le Sommet — 89€
 
 ---
 
@@ -371,9 +373,9 @@ T'offrir l'arsenal complet pour faire de cette année LA bascule : parcours spé
 **Titre :**
 ## Prêt à commencer ton année ?
 
-**Bouton principal (orange) :** ⭐ Je choisis Transformation — 39€
-**Liens secondaires :** Essentiel à 19€ · Élite à 89€
-**Réassurance :** Paiement unique · Accès immédiat · Garantie 14 jours
+**Bouton principal (orange) :** ⭐ Je choisis L'Ascension — 39€
+**Liens secondaires :** Le Sentier à 19€ · Le Sommet à 89€
+**Réassurance :** Paiement unique · Accès immédiat · Garantie 30 jours
 
 ---
 ---
@@ -401,10 +403,10 @@ Vérifie ta commande, complète tes infos, et accède immédiatement à Cap365. 
 
 | Article | Détail | Prix |
 |---|---|---|
-| **Cap365 Transformation** | Le système complet + gamification + Filet de Reprise | **39€** |
+| **L'Ascension** | Le système complet + gamification + Filet de Reprise | **39€** |
 | 🎁 Bonus inclus | 30 défis week-end · Guide « Habitude qui tient » · Wallpapers | Offert |
 
-> *(Remplace l'article et le prix selon l'offre choisie : Essentiel 19€ · Transformation 39€ · Élite 89€.)*
+> *(Remplace l'article et le prix selon l'offre choisie : Le Sentier 19€ · L'Ascension 39€ · Le Sommet 89€.)*
 
 **Sous-total :** [montant]€
 **Total à payer aujourd'hui :** **[montant]€** · *paiement unique, sans abonnement*
@@ -443,11 +445,11 @@ Pour les jours où tu veux pousser plus loin : 100 défis intenses supplémentai
 
 - 🔒 **Paiement 100 % sécurisé** — connexion chiffrée, tes données sont protégées.
 - ⚡ **Accès immédiat** — tu reçois ton produit par email juste après le paiement.
-- ↩️ **Garantie 14 jours** — satisfait ou remboursé, sans justification.
+- ↩️ **Garantie 30 jours** — satisfait ou remboursé, sans justification.
 - 🚫 **Aucun abonnement** — paiement unique, rien ne se renouvelle.
 - 💬 **Support réactif** — une question ? On répond.
 
-> 🟢 *« Tu peux essayer Cap365 pendant 14 jours. Si la méthode ne te parle pas, on te rembourse. Le seul risque, c'est de rester là où tu es. »*
+> 🟢 *« Tu peux essayer Cap365 pendant 30 jours. Si la méthode ne te parle pas, on te rembourse. Le seul risque, c'est de rester là où tu es. »*
 
 ---
 ---
@@ -507,10 +509,10 @@ Pas dans 1 an. Pas lundi prochain. **Maintenant.** C'est exactement comme ça qu
 **Titre :**
 ## 💡 Tu veux aller plus loin dès maintenant ?
 
-Si tu as pris **l'Essentiel** ou **Transformation**, tu peux débloquer le niveau au-dessus à tout moment — et profiter de ce qui aide vraiment à tenir l'année :
+Si tu as pris **Le Sentier** ou **L'Ascension**, tu peux débloquer le niveau au-dessus à tout moment — et profiter de ce qui aide vraiment à tenir l'année :
 
-- 🛟 **Passe à Transformation (39€)** pour activer le **Filet de Reprise** et la gamification complète.
-- 🧭 **Passe à Élite (89€)** pour les **4 parcours thématiques**, les **bilans trimestriels** et l'**accès à vie**.
+- 🛟 **Passe à L'Ascension (39€)** pour activer le **Filet de Reprise** et la gamification complète.
+- 🧭 **Passe à Le Sommet (89€)** pour les **4 parcours thématiques**, les **bilans trimestriels** et l'**accès à vie**.
 
 **Bouton secondaire (orange contour) :** Voir les options d'évolution
 **Lien discret :** Non merci, je commence avec ce que j'ai
@@ -583,11 +585,11 @@ Ce n'est pas un PDF, mais **un système complet** : défis progressifs, gamifica
 
 ---
 
-### ❓ 9. Quelle offre choisir entre Essentiel, Transformation et Élite ?
+### ❓ 9. Quelle offre choisir entre Le Sentier, L'Ascension et Le Sommet ?
 
-- **Essentiel (19€)** : pour tester la méthode en autonomie.
-- **Transformation (39€)** : le choix du cœur de cible — système complet + gamification + Filet de Reprise pour tenir l'année.
-- **Élite (89€)** : pour les plus engagés — parcours thématiques, bilans trimestriels et accès à vie.
+- **Le Sentier (19€)** : pour tester la méthode en autonomie.
+- **L'Ascension (39€)** : le choix du cœur de cible — système complet + gamification + Filet de Reprise pour tenir l'année.
+- **Le Sommet (89€)** : pour les plus engagés — parcours thématiques, bilans trimestriels et accès à vie.
 
 Tu peux toujours **monter en gamme plus tard.**
 
@@ -595,7 +597,7 @@ Tu peux toujours **monter en gamme plus tard.**
 
 ### ❓ 10. Et si finalement ça ne me convient pas ?
 
-Tu es couvert par la **garantie 14 jours** : satisfait ou remboursé, sans justification. Tu peux essayer la méthode sereinement — le seul vrai risque, c'est de rester exactement là où tu es aujourd'hui.
+Tu es couvert par la **garantie 30 jours** : satisfait ou remboursé, sans justification. Tu peux essayer la méthode sereinement — le seul vrai risque, c'est de rester exactement là où tu es aujourd'hui.
 
 ---
 ---
@@ -618,11 +620,11 @@ On préfère que tu essaies vraiment Cap365 plutôt que de te convaincre avec de
 
 ### 🛡️ SECTION — Nos garanties (bullets)
 
-- ↩️ **Garantie satisfait ou remboursé 14 jours.** Tu testes la méthode. Si elle ne te parle pas, tu demandes ton remboursement dans les 14 jours, **sans avoir à te justifier.**
+- ↩️ **Garantie satisfait ou remboursé 30 jours.** Tu testes la méthode. Si elle ne te parle pas, tu demandes ton remboursement dans les 30 jours, **sans avoir à te justifier.**
 - ⚡ **Accès immédiat garanti.** Ton produit arrive par email juste après le paiement. Pas d'attente, pas de logistique.
 - 🚫 **Aucun abonnement, aucun prélèvement caché.** Paiement unique. Rien ne se renouvelle. Ce que tu paies, c'est ce que tu paies.
 - 🔒 **Paiement 100 % sécurisé.** Connexion chiffrée, tes données protégées.
-- ♾️ **Mises à jour incluses (offre Élite).** Tes nouveaux défis annuels, à vie.
+- ♾️ **Mises à jour incluses (offre Le Sommet).** Tes nouveaux défis annuels, à vie.
 
 ---
 
@@ -642,7 +644,7 @@ Ce qu'on te garantit, c'est un **système honnête** : des défis concrets, une 
 ### 🛡️ SECTION — CTA
 
 **Bouton principal (orange) :** 🚀 Commencer sans risque — dès 19€
-**Réassurance :** Garantie 14 jours · Accès immédiat · Sans abonnement
+**Réassurance :** Garantie 30 jours · Accès immédiat · Sans abonnement
 
 ---
 ---
@@ -657,7 +659,7 @@ Ce qu'on te garantit, c'est un **système honnête** : des défis concrets, une 
 
 **Titre :** Dans 1 an, tu auras 365 jours de plus. Avec quoi vas-tu les remplir ?
 **Bouton (orange) :** 🚀 Commencer ma transformation
-**Sous-CTA :** À partir de 19€ · Accès immédiat · Garantie 14 jours
+**Sous-CTA :** À partir de 19€ · Accès immédiat · Garantie 30 jours
 
 ---
 
@@ -676,11 +678,11 @@ Ce qu'on te garantit, c'est un **système honnête** : des défis concrets, une 
 
 ---
 
-### 🔁 CTA-D — Montée en gamme (vers Transformation)
+### 🔁 CTA-D — Montée en gamme (vers L'Ascension)
 
 **Titre :** Le système complet pour vraiment tenir l'année.
 **Texte :** Gamification complète + Filet de Reprise activé. Le choix du cœur de cible.
-**Bouton (orange) :** ⭐ Choisir Transformation — 39€
+**Bouton (orange) :** ⭐ Choisir L'Ascension — 39€
 
 ---
 

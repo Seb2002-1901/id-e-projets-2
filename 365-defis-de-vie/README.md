@@ -35,13 +35,15 @@ Cap365 n'est pas une liste de défis : c'est un **système de transformation à 
 
 | Offre | Nom | Prix | Pour qui |
 |---|---|---|---|
-| **Starter** | Cap365 Essentiel | **19 €** | Tester la méthode en autonomie, sans s'engager dans le système complet. |
-| **Premium** ⭐ | Cap365 Transformation | **39 €** | Le cœur de cible : système complet, gamification et anti-abandon pour tenir l'année. |
-| **VIP** | Cap365 Élite | **89 €** | Le déterminé qui veut tout : 4 parcours, bilans trimestriels et accès à vie. |
+| **Starter** | **Le Sentier** | **19 €** | Tester la méthode en autonomie : les 365 défis, prêts à l'emploi. |
+| **Premium** ⭐ | **L'Ascension** | **39 €** | Le cœur de cible : le RPG complet (radar, rangs, badges, quêtes, anti-abandon). |
+| **VIP** | **Le Sommet** | **89 €** | Le déterminé qui veut tout : partage/Wrapped, certificats, communauté, accès à vie. |
 
-- **Essentiel (19 €)** : les 365 défis progressifs, le guide « Tes 7 premiers jours », le carnet de suivi imprimable, le système de niveaux et d'XP de base.
-- **Transformation (39 €)** : tout l'Essentiel + gamification complète (badges, trophées, classement personnel), fiches des 52 thèmes hebdo, tableau de bord interactif, **Filet de Reprise activé**. Bonus : 30 défis week-end, mini-guide « Construire une habitude qui tient », wallpapers.
-- **Élite (89 €)** : tout Transformation + 4 parcours thématiques (Discipline, Confiance, Corps & Énergie, Compétences), journal premium, bilans trimestriels, **accès à vie aux mises à jour**. Bonus : 100 défis hardcore, bibliothèque audio, kit de défis à partager.
+*(Noms d'offres canoniques V2. Prix inchangés 19 / 39 / 89 €.)*
+
+- **Le Sentier (19 €)** : les 365 défis progressifs (PDF premium) + guide « 7 premiers jours » + calendrier de validation.
+- **L'Ascension (39 €)** ⭐ *best-value* : tout Le Sentier + **template Notion RPG complet** (radar 8 stats, XP, 50 niveaux / 10 rangs, badges, quêtes, anti-abandon / Filet de Reprise) + les 6 bonus.
+- **Le Sommet (89 €)** : tout L'Ascension + kit de partage / Wrapped + certificats personnalisables + parcours thématiques + accès communauté + mises à jour à vie.
 
 ---
 
@@ -110,7 +112,7 @@ Carte complète des livrables, regroupés par section. Commence par les **Fondat
 
 1. **Cale les fondations.** Lis `01-marque-identite.md`, `02-differenciation.md` et `05-design-systeme.md` pour verrouiller marque, message et charte avant toute mise en page.
 2. **Assemble le produit.** Compile les 12 fichiers `defis/` + la gamification (`04-systeme-gamification.md`) dans un document maquetté à la charte (Montserrat titres / Inter corps, palette Cap365), cible ~220 pages, puis exporte en **PDF premium**.
-3. **Décline les offres.** Construis les 3 livrables (Essentiel 19 € / Transformation 39 € / Élite 89 €) en ajoutant les bonus du dossier `bonus/` selon le palier (cf. `03-offres-gamme.md`).
+3. **Décline les offres.** Construis les 3 livrables (Le Sentier 19 € / L'Ascension 39 € / Le Sommet 89 €) en ajoutant les bonus du dossier `bonus/` selon le palier (cf. `03-offres-gamme.md`).
 4. **Monte le tunnel de vente.** Mets en place la page de vente (`marketing/03-pages-tinypages.md`), les séquences email (`marketing/04-sequences-email.md`) et le tunnel (`marketing/02-tunnel-de-vente.md`).
 5. **Lance et pilote.** Active les calendriers de contenu (`pilotage/04`), suis le `plan-lancement-30-jours` (`pilotage/03`) et pilote au tableau de bord KPI (`pilotage/01`).
 

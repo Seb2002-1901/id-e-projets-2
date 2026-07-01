@@ -9,7 +9,7 @@
 >
 > 🎯 **Rappel produit :** Cap365 ne promet **jamais** richesse, bonheur permanent ou vie parfaite. On vend de la **discipline, de la confiance et des compétences par l'action quotidienne**. Angle **« RPG de la vraie vie »** : métaphore de la pierre / du cairn, 8 stats + radar, rangs **Éveil → Légende**, anti-abandon (**Filet de Reprise**). Offres : **Le Sentier 19 € · L'Ascension 39 € · Le Sommet 89 €**, garantie **30 jours**. On tutoie, ton coach exigeant et bienveillant, zéro hype.
 >
-> 📝 **Note de nommage :** ce plan emploie les noms d'offres du canon actuel (**Le Sentier / L'Ascension / Le Sommet**). Les scripts existants citent parfois les anciens libellés (Essentiel / Transformation / Élite) : à la lecture, **remplace-les par les nouveaux** avant de tourner. Le contenu, les mécanismes et les hooks restent valables tels quels.
+> 📝 **Note de nommage :** noms d’offres canoniques — **Le Sentier (19 €) / L’Ascension (39 €) / Le Sommet (89 €)**. Contenu, mécanismes et hooks des scripts référencés restent valables tels quels.
 
 ---
 

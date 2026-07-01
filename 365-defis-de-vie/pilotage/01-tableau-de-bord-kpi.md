@@ -62,7 +62,7 @@ Chaque fiche suit la même structure : **Définition · Formule · Pourquoi c'es
 | **Cible / benchmark** | Objectif de **croissance mois après mois (MoM) positive et régulière**. Pas de montant absolu universel : il dépend du budget ads. Repère sain pour un produit digital : que le CA couvre largement le CAC + les frais (ratio CA / dépenses pub ≥ 2,5). |
 | **Fréquence de suivi** | **Quotidien** en phase de lancement et pendant les campagnes ; **hebdomadaire** en rythme de croisière ; **mensuel** pour la tendance de fond. |
 
-💡 **Note Cap365 :** sépare toujours le CA par **palier** (Essentiel 19 € / Transformation 39 € / Élite 89 €) et par **source** (pub Meta, TikTok, email, organique). Un CA global qui monte peut cacher un palier 39 € qui s'effondre. C'est le détail qui pilote.
+💡 **Note Cap365 :** sépare toujours le CA par **palier** (Le Sentier 19 € / L'Ascension 39 € / Le Sommet 89 €) et par **source** (pub Meta, TikTok, email, organique). Un CA global qui monte peut cacher un palier 39 € qui s'effondre. C'est le détail qui pilote.
 
 ---
 
@@ -100,11 +100,11 @@ Chaque fiche suit la même structure : **Définition · Formule · Pourquoi c'es
 |---|---|
 | **Définition** | Montant moyen dépensé par commande, order bump et upsell inclus. Dit combien rapporte « en moyenne » chaque client qui passe à la caisse. |
 | **Formule** | `Panier moyen = CA ÷ Nombre de commandes`<br>Ex. : 3 990 € ÷ 110 commandes = **36,27 €** |
-| **Pourquoi c'est important** | Augmenter le panier moyen augmente le CA **sans nouveau trafic ni nouveau client**. C'est le levier des order bumps, upsells (Transformation → Élite) et bonus. Il fixe aussi le plafond du CAC : tu ne peux pas payer un client plus cher que ce qu'il rapporte. |
+| **Pourquoi c'est important** | Augmenter le panier moyen augmente le CA **sans nouveau trafic ni nouveau client**. C'est le levier des order bumps, upsells (L'Ascension → Le Sommet) et bonus. Il fixe aussi le plafond du CAC : tu ne peux pas payer un client plus cher que ce qu'il rapporte. |
 | **Cible / benchmark** | **32 – 45 €**, soit au-dessus du palier d'entrée (19 €) et tiré vers le palier phare (39 €). Un AOV proche de 39 € signale que l'ancrage de prix et la montée en gamme fonctionnent. |
 | **Fréquence de suivi** | **Hebdomadaire.** |
 
-💡 **Note Cap365 :** l'AOV est le thermomètre de la **stratégie de prix à 3 paliers**. S'il colle à 19 €, l'order bump et l'upsell ne jouent pas leur rôle : revoir la page comparative et la proposition Transformation à 39 €.
+💡 **Note Cap365 :** l'AOV est le thermomètre de la **stratégie de prix à 3 paliers**. S'il colle à 19 €, l'order bump et l'upsell ne jouent pas leur rôle : revoir la page comparative et la proposition L'Ascension à 39 €.
 
 ---
 
@@ -146,7 +146,7 @@ Chaque fiche suit la même structure : **Définition · Formule · Pourquoi c'es
 | **Cible / benchmark** | **Croissance nette positive et régulière** chaque mois. Jalons psychologiques utiles : 100, 500, 1 000 clients. Au-delà du nombre, surveiller la **qualité** (satisfaction, réachat). |
 | **Fréquence de suivi** | **Hebdomadaire** (nouveaux clients) ; **mensuel** (cumul et tendance). |
 
-💡 **Note Cap365 :** segmente ta base par palier d'entrée (Essentiel / Transformation / Élite). Les clients Essentiel à 19 € sont ton **réservoir d'upsell** prioritaire vers Transformation et Élite.
+💡 **Note Cap365 :** segmente ta base par palier d'entrée (Le Sentier / L'Ascension / Le Sommet). Les clients Le Sentier à 19 € sont ton **réservoir d'upsell** prioritaire vers L'Ascension et Le Sommet.
 
 ---
 
@@ -188,7 +188,7 @@ Chaque fiche suit la même structure : **Définition · Formule · Pourquoi c'es
 | **Cible / benchmark** | **10 – 20 %** pour un produit digital one-shot avec upsells et éditions annuelles. Cohérent avec les cibles d'upsell du tunnel (12-20 %). Au-delà de 20 %, ta gamme et ta relation client sont excellentes. |
 | **Fréquence de suivi** | **Mensuel** (le réachat se mesure sur la durée). |
 
-💡 **Note Cap365 :** ton réachat naturel = **upsell Essentiel → Transformation → Élite**, plus les packs « 30 défis bonus », « 100 défis hardcore » et les **éditions annuelles** (accès à vie inclus dans Élite, à vendre aux autres paliers). Construis une séquence email dédiée à la montée en gamme.
+💡 **Note Cap365 :** ton réachat naturel = **upsell Le Sentier → L'Ascension → Le Sommet**, plus les packs « 30 défis bonus », « 100 défis hardcore » et les **éditions annuelles** (accès à vie inclus dans Le Sommet, à vendre aux autres paliers). Construis une séquence email dédiée à la montée en gamme.
 
 ---
 
@@ -270,9 +270,9 @@ Note de contexte (campagne en cours, lancement, promo…) : ____________________
 
 | Palier | Prix | Nb ventes | CA | % du CA total |
 |---|---|---|---|---|
-| Cap365 Essentiel | 19 € | ______ | ______ € | ______ % |
-| Cap365 Transformation | 39 € | ______ | ______ € | ______ % |
-| Cap365 Élite | 89 € | ______ | ______ € | ______ % |
+| Le Sentier | 19 € | ______ | ______ € | ______ % |
+| L'Ascension | 39 € | ______ | ______ € | ______ % |
+| Le Sommet | 89 € | ______ | ______ € | ______ % |
 | **TOTAL** | — | **______** | **______ €** | **100 %** |
 
 ### Détail acquisition par canal

@@ -200,14 +200,14 @@ Chaque vidéo, chaque bio, chaque Story renvoie vers **un seul lien** (page de c
 
 - Réaliser le **pic de ventes** du mois sur la fenêtre de lancement.
 - Convertir une part significative de la **liste d'attente** (audience la plus chaude).
-- Pousser le **mix de ventes** vers l'offre phare **Transformation (39 €)**.
+- Pousser le **mix de ventes** vers l'offre phare **L'Ascension (39 €)**.
 - Tenir une **honnêteté radicale** : aucune fausse urgence, le bonus s'arrête vraiment à J20.
 
 ### 🎁 Le bonus de lancement (éthique)
 
 | Élément | Détail |
 |---|---|
-| **Nature** | Un bonus à valeur réelle, offert en plus de l'offre choisie pendant la fenêtre de lancement. Ex. : **le mini-guide « Construire une habitude qui tient » + les wallpapers de motivation** offerts même sur le palier Essentiel (où ils ne sont normalement pas inclus). *Ne jamais offrir un bonus déjà compris dans le palier.* |
+| **Nature** | Un bonus à valeur réelle, offert en plus de l'offre choisie pendant la fenêtre de lancement. Ex. : **le mini-guide « Construire une habitude qui tient » + les wallpapers de motivation** offerts même sur le palier Le Sentier (où ils ne sont normalement pas inclus). *Ne jamais offrir un bonus déjà compris dans le palier.* |
 | **Durée** | **J13 → J20 inclus (8 jours).** Annoncée dès J11. |
 | **Après J20** | Le bonus disparaît réellement et n'est **pas** reproposé avant plusieurs semaines. Le **prix du produit ne change pas** : pas de fausse hausse de prix. |
 | **Garde-fou** | Le compteur est une vraie date, pas un timer qui se réarme à chaque visite. |
@@ -221,7 +221,7 @@ Chaque vidéo, chaque bio, chaque Story renvoie vers **un seul lien** (page de c
 | 💶 Ventes cumulées (lancement) | Pic du mois | Quotidien | Tableau de bord KPI §3.1 |
 | 🎯 Conversion liste → acheteur | **5 – 12 %** (audience chaude) | Quotidien | Tunnel : conversion tiède 5-10 %+ |
 | 🛒 Panier moyen (AOV) | **32 – 45 €** (tiré vers 39 €) | Quotidien | Tableau de bord KPI §4 |
-| 📊 Mix de ventes | ~25 % Essentiel · **~55 % Transformation** · ~20 % Élite | Quotidien | Tunnel §6 |
+| 📊 Mix de ventes | ~25 % Le Sentier · **~55 % L'Ascension** · ~20 % Le Sommet | Quotidien | Tunnel §6 |
 | 🧩 Adoption order bump | 20 – 35 % | Quotidien | Tunnel §7 |
 | ⬆️ Acceptation upsell | 12 – 20 % | Quotidien | Tunnel §8 |
 | ↩️ Taux de remboursement | < 5 % | Hebdo | Tableau de bord KPI §6 |
@@ -291,7 +291,7 @@ Chaque vidéo, chaque bio, chaque Story renvoie vers **un seul lien** (page de c
 - **Stabiliser** un flux de ventes organique régulier (sans bonus, prix normal).
 - Collecter les **premiers avis clients authentiques** (note ≥ 4,5 / 5, ≥ premiers verbatims).
 - Maximiser l'**activation J1** des nouveaux acheteurs (rétention).
-- Lancer la **séquence de montée en gamme** (Essentiel → Transformation → Élite).
+- Lancer la **séquence de montée en gamme** (Le Sentier → L'Ascension → Le Sommet).
 - Produire le **bilan du mois** pour piloter la suite.
 
 ### 📊 KPIs de la phase post-lancement
@@ -301,7 +301,7 @@ Chaque vidéo, chaque bio, chaque Story renvoie vers **un seul lien** (page de c
 | 💶 Ventes evergreen (hors lancement) | Flux régulier > 0, stable | Quotidien | Tableau de bord §3.1 |
 | ✅ Activation J1 | **55 – 70 %** font le 1ᵉʳ défi sous 48 h | Quotidien | Tunnel §10 |
 | ⭐ Avis clients recueillis | ≥ premiers avis · note ≥ 4,5/5 | Quotidien | Tableau de bord §11 |
-| 🔄 Conversion montée en gamme | **3 – 8 %** Essentiel → sup. (sur 60 j) | Hebdo | Tunnel §11.3 |
+| 🔄 Conversion montée en gamme | **3 – 8 %** Le Sentier → sup. (sur 60 j) | Hebdo | Tunnel §11.3 |
 | ↩️ Taux de remboursement | < 5 % | Hebdo | Tableau de bord §6 |
 | 📈 ROAS organique (proxy) | Ventes ÷ coût de prod (~temps) | Bilan J30 | — |
 
@@ -338,7 +338,7 @@ Chaque vidéo, chaque bio, chaque Story renvoie vers **un seul lien** (page de c
 - **📊 KPIs :** ouverture/clic email valeur, désabonnements (doit rester bas).
 
 #### **J26 — Lancer la séquence de montée en gamme**
-- **Actions :** activer la **séquence upsell** pour les acheteurs **Essentiel** (cf. tunnel §11.3) : J10 « le truc qui manque à ton Essentiel » → vers Transformation. Pour les Transformation : pousser doucement vers Élite.
+- **Actions :** activer la **séquence upsell** pour les acheteurs **Le Sentier** (cf. tunnel §11.3) : J10 « le truc qui manque à ton Le Sentier » → vers L'Ascension. Pour les L'Ascension : pousser doucement vers Le Sommet.
 - **🎯 Objectif :** augmenter l'AOV a posteriori et la valeur vie client, à coût quasi nul.
 - **📊 KPIs :** conversion montée en gamme, réachat.
 

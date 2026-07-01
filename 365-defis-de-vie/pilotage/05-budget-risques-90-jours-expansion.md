@@ -59,7 +59,7 @@ L'avantage du 100 % digital : **pas de stock, pas de logistique, pas de matière
 | 🔵 **Version confort (mensuel)** | **~0–600 €** (selon sous-traitance design unique) | **~63–75 €/mois** | Plateforme + emailing + Canva Pro + montage. Achète du temps et de la finition. |
 | 🔵 **Version confort + test pub** | **~300–900 €** la 1ʳᵉ vague | **~63–75 €/mois** + budget pub piloté | Le test pub reste **borné** : on coupe si le coût d'acquisition dépasse la marge. |
 
-> 🧮 **Lecture de marge (hypothèse raisonnable).** Sur l'offre phare **Transformation à 39 €**, après ~5 % de frais de transaction, il reste **~37 €** de marge brute par vente (produit digital, coût marginal quasi nul). **Une seule vente couvre près de la moitié d'un mois en version confort.** Le seuil de rentabilité de la version confort est donc d'environ **2 ventes/mois** — un objectif très atteignable.
+> 🧮 **Lecture de marge (hypothèse raisonnable).** Sur l'offre phare **L'Ascension à 39 €**, après ~5 % de frais de transaction, il reste **~37 €** de marge brute par vente (produit digital, coût marginal quasi nul). **Une seule vente couvre près de la moitié d'un mois en version confort.** Le seuil de rentabilité de la version confort est donc d'environ **2 ventes/mois** — un objectif très atteignable.
 
 > ✅ **Recommandation.** Lance en **🟢 version 0 €** pour les premières ventes. Bascule en **🔵 version confort poste par poste**, financé par les ventes, dès que la friction (mise en page, emailing limité, montage lent) te coûte plus de temps que l'abonnement ne coûte d'argent.
 
@@ -104,8 +104,8 @@ L'avantage du 100 % digital : **pas de stock, pas de logistique, pas de matière
 
 | # | Hypothèse à tester | Méthode de test | Seuil de validation (hypothèse) |
 |---|---|---|---|
-| H5 | **Le prix de 39 € (offre phare) est le bon point d'ancrage** | A/B test du prix affiché en avant ; observer le mix 19/39/89 € | L'offre **Transformation représente ≥ 50 %** des ventes en valeur |
-| H6 | **Les 3 paliers (19/39/89 €) déclenchent bien la montée en gamme** | Mesurer la répartition des ventes par offre | **≥ 15 %** des acheteurs prennent Élite ; peu restent bloqués au seul Essentiel |
+| H5 | **Le prix de 39 € (offre phare) est le bon point d'ancrage** | A/B test du prix affiché en avant ; observer le mix 19/39/89 € | L'offre **L'Ascension représente ≥ 50 %** des ventes en valeur |
+| H6 | **Les 3 paliers (19/39/89 €) déclenchent bien la montée en gamme** | Mesurer la répartition des ventes par offre | **≥ 15 %** des acheteurs prennent Le Sommet ; peu restent bloqués au seul Le Sentier |
 | H7 | **L'angle marketing gagnant** (procrastination ? discipline ? « 5 ans qui défilent » ?) | Tester 5–10 accroches différentes, mesurer le taux de clic/vues | Identifier **1–2 angles** qui sur-performent nettement les autres |
 | H8 | **La garantie / promesse n'entraîne pas un taux de remboursement excessif** | Suivre le taux de remboursement sur les 30 premiers jours | **Taux de remboursement < 10 %** |
 
@@ -159,7 +159,7 @@ L'avantage du 100 % digital : **pas de stock, pas de logistique, pas de matière
 - 🔵 Basculer en **version confort** les postes les plus frictionnels (emailing, design), financés par les ventes du Mois 1.
 - 📉 Identifier le point de décrochage n°1 dans le parcours client et le corriger.
 
-**✅ Indicateur de réussite (hypothèse) :** taux de conversion en **hausse mesurable**, **≥ 5 avis authentiques** publiés, mix de ventes confirmant **Transformation comme offre dominante**.
+**✅ Indicateur de réussite (hypothèse) :** taux de conversion en **hausse mesurable**, **≥ 5 avis authentiques** publiés, mix de ventes confirmant **L'Ascension comme offre dominante**.
 
 ### 📅 Mois 3 — Systématiser & préparer la suite (J61 → J90)
 
@@ -193,18 +193,18 @@ L'architecture **19 € → 39 € → 89 €** est en soi une **échelle d'upse
 
 | Mouvement | De → Vers | Argument de montée en gamme | Gain panier (hypothèse) |
 |---|---|---|---|
-| 🪜 **Order bump** | Essentiel 19 € → Transformation 39 € | « Pour +20 €, débloque la gamification complète et le Filet de Reprise — le système conçu pour ne pas abandonner. » | +20 € |
-| 🪜 **Order bump** | Transformation 39 € → Élite 89 € | « Pour aller au bout : 4 parcours thématiques, bilans trimestriels et accès à vie. » | +50 € |
+| 🪜 **Order bump** | Le Sentier 19 € → L'Ascension 39 € | « Pour +20 €, débloque la gamification complète et le Filet de Reprise — le système conçu pour ne pas abandonner. » | +20 € |
+| 🪜 **Order bump** | L'Ascension 39 € → Le Sommet 89 € | « Pour aller au bout : 4 parcours thématiques, bilans trimestriels et accès à vie. » | +50 € |
 | 🪜 **Bump à la commande** | Tout palier + add-on | Cocher un complément directement sur la page de paiement | +9 à +29 € |
 
 ### 5.2 Nouveaux upsells à construire
 
 | Upsell | Description | Prix cible (hypothèse) | Pour qui |
 |---|---|---|---|
-| 🎧 **Pack audio complet** | Version audio quotidienne des défis + motivation, pour les actifs « mains libres » | 19 € (add-on) | Acheteurs Essentiel/Transformation |
+| 🎧 **Pack audio complet** | Version audio quotidienne des défis + motivation, pour les actifs « mains libres » | 19 € (add-on) | Acheteurs Le Sentier/L'Ascension |
 | 🗂️ **Banque de défis bonus** | +100 défis hardcore supplémentaires (au-delà des packs inclus) | 15 € | Les plus ambitieux, finisseurs |
 | 🖨️ **Pack imprimé premium** | Journal + carnet de suivi en version haut de gamme à imprimer (PDF prêt à l'impression pro) | 12 € | Ceux qui aiment le papier |
-| 🔁 **Mise à jour annuelle** | Accès aux nouvelles éditions et défis ajoutés chaque année (pour les non-Élite) | 19 €/an | Acheteurs Essentiel/Transformation |
+| 🔁 **Mise à jour annuelle** | Accès aux nouvelles éditions et défis ajoutés chaque année (pour les hors Le Sommet) | 19 €/an | Acheteurs Le Sentier/L'Ascension |
 | ⚡ **Coaching de démarrage express** | 1 séance de cadrage de 30 min pour personnaliser son année (capacité limitée, honnête) | 49 € | Ceux qui veulent un coup de pouce humain |
 
 > 💡 **Mécanique recommandée : un seul upsell par moment.** Order bump sur la page de paiement (faible friction, +9 à +29 €), puis **un upsell post-achat** (page de remerciement) vers le palier ou l'add-on le plus pertinent. Ne jamais empiler 3 upsells d'affilée — ça casse la confiance.
@@ -220,7 +220,7 @@ L'architecture **19 € → 39 € → 89 €** est en soi une **échelle d'upse
 | 📓 **Le Journal de transformation (standalone)** | Le journal premium vendu seul, utilisable avec ou sans Cap365 | 14 € | Outil quotidien autonome, porte d'entrée vers la méthode |
 | 🎯 **Mini-challenges thématiques (30 jours)** | Challenges courts par thème : « 30 jours Confiance », « 30 jours Discipline », « 30 jours Corps & Énergie » | 12 € pièce / 29 € le pack 3 | Entrée à petit prix qui renvoie vers le programme 365 |
 | 📱 **Pack wallpapers + écrans de motivation** | Fonds d'écran de la charte + écrans de rappel quotidien | 7 € | Achat d'impulsion, renforce l'univers de marque |
-| 🤝 **Kit de défis à plusieurs (standalone)** | La version « relever les défis en groupe / entre amis » vendue seule | 15 € | Vecteur de viralité, vendu aussi hors Élite |
+| 🤝 **Kit de défis à plusieurs (standalone)** | La version « relever les défis en groupe / entre amis » vendue seule | 15 € | Vecteur de viralité, vendu aussi hors Le Sommet |
 | 📖 **Guide « Construire une habitude qui tient »** | Le mini-guide de psychologie appliquée, vendu seul | 9 € | Complément théorique léger, cohérent avec la méthode |
 | 🔉 **Bibliothèque audio de motivation** | Audios quotidiens, vendus en abonnement ou achat unique | 12 € / unique · 4 €/mois | Format récurrent, fidélise au quotidien |
 

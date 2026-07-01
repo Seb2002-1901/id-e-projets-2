@@ -1,5 +1,7 @@
 # ✉️ Cap365 — Séquences e-mail prêtes à l'emploi
 
+> ⚠️ **VERSION V1 — SUPERSÉDÉE. Ne pas utiliser pour le lancement.** Remplacée par **[`../lancement-commercial/07-emails.md`](../lancement-commercial/07-emails.md)** (6 séquences V2 alignées RPG + offres Le Sentier / L'Ascension / Le Sommet). Fichier conservé pour historique uniquement.
+
 > Document de référence e-mail marketing. Quatre séquences complètes, prêtes à copier-coller dans ton outil d'envoi : **Bienvenue/Livraison**, **Valeur/Nurture**, **Vente/Lancement** et **Relance panier abandonné**. Chaque e-mail livre son **objet** (+ variante A/B), son **pré-en-tête**, son **corps complet**, son **CTA** et son **timing d'envoi**.
 >
 > ⚠️ **Statut des chiffres :** tous les taux d'ouverture, de clic et de conversion cités sont des **hypothèses raisonnables de marché** servant au pilotage. Ils doivent être remplacés par tes données réelles dès les premiers envois. Aucune promesse de gain n'est faite.
@@ -309,7 +311,7 @@ Tu as déjà goûté à la méthode avec tes 5 défis. La version complète, c'e
 
 👉 **[DÉCOUVRIR CAP365 EN ENTIER]** ([LienOffre])
 
-À partir de **19 €** pour l'Essentiel — soit 5 centimes par défi sur l'année. Le prix d'un livre qui, lui, finit au fond d'un tiroir.
+À partir de **19 €** pour l'Le Sentier — soit 5 centimes par défi sur l'année. Le prix d'un livre qui, lui, finit au fond d'un tiroir.
 
 Demain, je t'explique comment choisir ta formule. Pour l'instant : un dernier défi du jour t'attend. 😉
 
@@ -375,9 +377,9 @@ Trois formules, pour commencer où tu veux :
 
 | Formule | Prix | Pour qui |
 |---|---|---|
-| **Essentiel** | 19 € | Tester la méthode en autonomie |
-| ⭐ **Transformation** | 39 € | Le système complet (le choix de la plupart) |
-| **Élite** | 89 € | Tout, + parcours, bilans et accès à vie |
+| **Le Sentier** | 19 € | Tester la méthode en autonomie |
+| ⭐ **L'Ascension** | 39 € | Le système complet (le choix de la plupart) |
+| **Le Sommet** | 89 € | Tout, + parcours, bilans et accès à vie |
 
 👉 **[CHOISIR MA FORMULE]** ([LienOffre])
 
@@ -434,7 +436,7 @@ Les bonus de lancement restent offerts jusqu'au **[DateFin].**
 
 ## ✉️ E-mail 3.3 — Quelle formule pour toi ?
 
-- **Objet (A) :** Essentiel, Transformation ou Élite ? (le guide en 1 min)
+- **Objet (A) :** Le Sentier, L'Ascension ou Le Sommet ? (le guide en 1 min)
 - **Objet (B) :** [Prénom], 9 personnes sur 10 choisissent celle-ci
 - **Pré-en-tête :** On t'aide à choisir sans te pousser. Plus les bonus jusqu'au [DateFin].
 
@@ -444,7 +446,7 @@ Salut [Prénom],
 
 Trois formules, un seul objectif : que tu choisisses celle qui te fait **vraiment passer à l'action.** Voici comment décider en une minute.
 
-| | **Essentiel — 19 €** | ⭐ **Transformation — 39 €** | **Élite — 89 €** |
+| | **Le Sentier — 19 €** | ⭐ **L'Ascension — 39 €** | **Le Sommet — 89 €** |
 |---|---|---|---|
 | Les 365 défis | ✅ | ✅ | ✅ |
 | Niveaux & XP | ✅ (base) | ✅ (complet) | ✅ (complet) |
@@ -456,11 +458,11 @@ Trois formules, un seul objectif : que tu choisisses celle qui te fait **vraimen
 | Accès à vie aux mises à jour | — | — | ✅ |
 | Bonus | — | 3 bonus | 7 bonus |
 
-> 💬 **Notre recommandation honnête :** la **Transformation à 39 €** est le bon choix pour la plupart. Elle ajoute la gamification complète et le Filet de Reprise — exactement les deux choses conçues pour les gens qui ont déjà lâché avant. C'est le prix d'une seule séance de coaching, pour une année entière.
+> 💬 **Notre recommandation honnête :** la **L'Ascension à 39 €** est le bon choix pour la plupart. Elle ajoute la gamification complète et le Filet de Reprise — exactement les deux choses conçues pour les gens qui ont déjà lâché avant. C'est le prix d'une seule séance de coaching, pour une année entière.
 
 > 🗣️ **Exemple fictif à remplacer :** *« J'avais déjà abandonné trois programmes. Le truc qui a changé, c'est que rater un jour ne me faisait plus tout arrêter. »* — Témoignage fictif d'illustration.
 
-Tu prends ton année au sérieux et tu veux tout (parcours, bilans, accès à vie) ? L'**Élite à 89 €** est faite pour ça.
+Tu prends ton année au sérieux et tu veux tout (parcours, bilans, accès à vie) ? L'**Le Sommet à 89 €** est faite pour ça.
 
 🎁 Les bonus de lancement restent inclus **jusqu'au [DateFin].** Plus que quelques jours.
 
@@ -493,7 +495,7 @@ Donc la vraie question n'est pas *« est-ce le bon produit ? »*. Tu le sais dé
 On ne te promet rien de magique. Pas de richesse, pas de bonheur permanent, pas de vie parfaite. **On te promet du travail, de la fierté, et des preuves concrètes que tu avances.** Le reste, tu le construis.
 
 - ⏳ Bonus de lancement : **jusqu'à ce soir, minuit [DateFin]**
-- 🛟 Filet de Reprise inclus (Transformation et Élite)
+- 🛟 Filet de Reprise inclus (L'Ascension et Le Sommet)
 - 🎯 Ton Défi #1 t'attend dès l'achat confirmé
 
 👉 **[REJOINDRE CAP365 AVANT CE SOIR]** ([LienOffre])

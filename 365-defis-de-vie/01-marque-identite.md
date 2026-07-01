@@ -235,7 +235,7 @@ Descripteur clair pour le référencement, les couvertures et les pages de vente
 | `cap365_badge_premier-pas.svg` | Badge « Premier Pas » |
 | `cap365_wallpaper_mobile_1080x1920.png` | Fond d'écran mobile motivation |
 | `cap365_certificat_transformation.pdf` | Certificat de fin d'année |
-| `cap365_couverture_essentiel.png` | Couverture offre Essentiel |
+| `cap365_couverture_le-sentier.png` | Couverture offre Le Sentier |
 | `cap365_illustration_sommet.svg` | Illustration symbolique (sommet) |
 
 ---

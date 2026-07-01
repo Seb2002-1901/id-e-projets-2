@@ -1,5 +1,7 @@
 # 💼 Cap365 — Gamme d'offres
 
+> ⚠️ **Noms d'offres mis à jour en V2 (canoniques).** Prix inchangés (**19 / 39 / 89 €**) mais les paliers s'appellent désormais **Le Sentier (19 €) · L'Ascension (39 €) ⭐ · Le Sommet (89 €)** — voir `v2-audit-et-transformation/09-nouvelle-architecture-et-version-finale.md`. Ce document a été mis à jour avec ces noms ; la valeur, l'ancrage et la structure décrits restent valables.
+
 > Document de référence commercial. Tout ce qui touche aux offres, aux prix, au contenu vendu et à la stratégie de tarification se trouve ici. Trois paliers clairs (19 € / 39 € / 89 €), un ancrage maîtrisé et une offre phare à mettre en avant. À respecter à la lettre : noms commerciaux, prix et structure sont canoniques.
 
 ---
@@ -8,17 +10,17 @@
 
 | Palier | Nom commercial | Prix conseillé | Promesse en une ligne | Pour qui |
 |---|---|---|---|---|
-| **Starter** | **Cap365 Essentiel** | **19 €** | Un défi concret chaque jour pour sortir de la stagnation. | Celui qui veut tester la méthode en autonomie. |
-| **Premium** ⭐ | **Cap365 Transformation** | **39 €** | Une année structurée avec le système complet anti-abandon. | Le cœur de cible qui veut vraiment tenir l'année. |
-| **VIP** | **Cap365 Élite** | **89 €** | L'arsenal complet pour faire de cette année LA bascule. | Le déterminé qui prend son année au sérieux. |
+| **Starter** | **Le Sentier** | **19 €** | Un défi concret chaque jour pour sortir de la stagnation. | Celui qui veut tester la méthode en autonomie. |
+| **Premium** ⭐ | **L'Ascension** | **39 €** | Une année structurée avec le système complet anti-abandon. | Le cœur de cible qui veut vraiment tenir l'année. |
+| **VIP** | **Le Sommet** | **89 €** | L'arsenal complet pour faire de cette année LA bascule. | Le déterminé qui prend son année au sérieux. |
 
-> ⭐ **Offre à mettre en avant : Cap365 Transformation (39 €)** — voir la recommandation *best-value* en section 7.
+> ⭐ **Offre à mettre en avant : L'Ascension (39 €)** — voir la recommandation *best-value* en section 7.
 
 **Logique de gamme :** trois marches lisibles, un écart de prix volontaire entre chaque (×2 puis ×2,3), une offre du milieu pensée comme point d'arrivée naturel, encadrée par une entrée accessible (19 €) et une ancre haute (89 €) qui rend le palier central évident.
 
 ---
 
-## 🟦 2. Starter — **Cap365 Essentiel** · 19 €
+## 🟦 2. Starter — **Le Sentier** · 19 €
 
 ### 🎯 La promesse
 > Avoir chaque jour un défi concret à relever pour enfin sortir de la stagnation et bâtir ta discipline pas à pas.
@@ -35,7 +37,7 @@
 Celui qui veut **tester la méthode sans s'engager dans le système complet**, ou qui aime fonctionner en autonomie sans accompagnement.
 
 ### 🎁 Bonus
-Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**, c'est le ticket d'entrée. Les bonus commencent à Transformation pour rendre la montée en gamme désirable.
+Aucun bonus dédié à ce palier : Le Sentier reste volontairement **épuré**, c'est le ticket d'entrée. Les bonus commencent à L'Ascension pour rendre la montée en gamme désirable.
 
 ### 💎 Valeur perçue & justification du prix
 
@@ -57,7 +59,7 @@ Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**,
 
 ---
 
-## ⭐ 3. Premium — **Cap365 Transformation** · 39 €
+## ⭐ 3. Premium — **L'Ascension** · 39 €
 
 > **C'est l'offre phare, l'ancrage central de la gamme et le *best-value* à pousser.**
 
@@ -67,7 +69,7 @@ Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**,
 ### 📦 Contenu détaillé
 | # | Élément | Ce que ça t'apporte |
 |---|---|---|
-| 1 | **Tout le contenu de l'Essentiel** | Les 365 défis, le guide de démarrage, le carnet, les niveaux & XP. |
+| 1 | **Tout le contenu de Le Sentier** | Les 365 défis, le guide de démarrage, le carnet, les niveaux & XP. |
 | 2 | **Le système de gamification complet** (badges, trophées, classement personnel, récompenses symboliques) | La régularité devient satisfaisante : chaque effort se transforme en preuve visible. |
 | 3 | **Les fiches d'approfondissement** pour les 52 thèmes hebdomadaires | Tu comprends *pourquoi* chaque semaine compte, pas seulement *quoi* faire. |
 | 4 | **Le tableau de bord de progression interactif** | Ta courbe d'évolution sous les yeux : séries, niveaux, meilleure semaine. |
@@ -89,7 +91,7 @@ Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**,
 
 | Composant | Valeur de référence estimée* |
 |---|---|
-| Tout l'Essentiel (valeur empilée) | 50 € |
+| Tout Le Sentier (valeur empilée) | 50 € |
 | Système de gamification complet (badges, trophées, classement, récompenses) | 25 € |
 | Fiches d'approfondissement des 52 thèmes hebdo | 19 € |
 | Tableau de bord de progression interactif | 15 € |
@@ -99,13 +101,13 @@ Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**,
 | **Prix de vente** | **39 €** |
 | **Ratio valeur / prix** | **≈ 3,6×** |
 
-> 🧮 **Repère parlant :** une **seule séance de coaching** (60-90 €) te couvre une heure. À 39 €, Transformation te couvre **une année entière de progression** avec le système conçu pour aller au bout. C'est l'ancrage central : positionné juste au-dessus de l'Essentiel pour rendre la montée en gamme évidente, et **bien en dessous du coût d'un coaching**.
+> 🧮 **Repère parlant :** une **seule séance de coaching** (60-90 €) te couvre une heure. À 39 €, L'Ascension te couvre **une année entière de progression** avec le système conçu pour aller au bout. C'est l'ancrage central : positionné juste au-dessus de Le Sentier pour rendre la montée en gamme évidente, et **bien en dessous du coût d'un coaching**.
 
 *\*Hypothèses raisonnables de marché, à ajuster. Aucune comparaison trompeuse : on situe la valeur, on ne barre pas un faux prix.*
 
 ---
 
-## 🟨 4. VIP — **Cap365 Élite** · 89 €
+## 🟨 4. VIP — **Le Sommet** · 89 €
 
 ### 🎯 La promesse
 > T'offrir l'arsenal complet pour faire de cette année **LA bascule** : parcours spécialisés, bilans réguliers et un journal qui documente ta métamorphose jour après jour.
@@ -113,7 +115,7 @@ Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**,
 ### 📦 Contenu détaillé
 | # | Élément | Ce que ça t'apporte |
 |---|---|---|
-| 1 | **Tout le contenu de Transformation** | Le système complet, le Filet de Reprise, les bonus, le tableau de bord. |
+| 1 | **Tout le contenu de L'Ascension** | Le système complet, le Filet de Reprise, les bonus, le tableau de bord. |
 | 2 | **Les 4 parcours thématiques approfondis** (Discipline, Confiance, Corps & Énergie, Compétences) | Tu travailles chaque pilier en profondeur, pas seulement au fil des jours. |
 | 3 | **Le journal de transformation premium** (version interactive + version imprimable haut de gamme) | L'objet qui documente ton année, à garder et à relire. |
 | 4 | **Les bilans trimestriels guidés** | Tu mesures, tu ajustes, tu corriges le cap quatre fois dans l'année. |
@@ -136,7 +138,7 @@ Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**,
 
 | Composant | Valeur de référence estimée* |
 |---|---|
-| Tout Transformation (valeur empilée) | 141 € |
+| Tout L'Ascension (valeur empilée) | 141 € |
 | 4 parcours thématiques approfondis | 40 € |
 | Journal de transformation premium (interactif + imprimable) | 25 € |
 | Bilans trimestriels guidés (×4) | 20 € |
@@ -146,7 +148,7 @@ Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**,
 | **Prix de vente** | **89 €** |
 | **Ratio valeur / prix** | **≈ 3,3×** |
 
-> 🧮 **Repère parlant :** Élite cumule **parcours spécialisés, bilans et accès à vie**. Réservée aux plus engagés, elle sert aussi d'**ancre haute** : à 89 €, elle rend l'offre Transformation à 39 € encore plus attractive par contraste. Le « à vie » justifie l'écart de prix car la valeur s'étale sur plusieurs années.
+> 🧮 **Repère parlant :** Le Sommet cumule **parcours spécialisés, bilans et accès à vie**. Réservée aux plus engagés, elle sert aussi d'**ancre haute** : à 89 €, elle rend l'offre L'Ascension à 39 € encore plus attractive par contraste. Le « à vie » justifie l'écart de prix car la valeur s'étale sur plusieurs années.
 
 *\*Hypothèses raisonnables de marché, à ajuster.*
 
@@ -154,7 +156,7 @@ Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**,
 
 ## 📊 5. Tableau comparatif des 3 offres
 
-| | 🟦 **Essentiel** | ⭐ **Transformation** | 🟨 **Élite** |
+| | 🟦 **Le Sentier** | ⭐ **L'Ascension** | 🟨 **Le Sommet** |
 |---|:---:|:---:|:---:|
 | **Prix** | **19 €** | **39 €** | **89 €** |
 | Les 365 défis progressifs | ✅ | ✅ | ✅ |
@@ -179,13 +181,13 @@ Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**,
 
 ---
 
-## 🏆 6. Recommandation *best-value* : **Cap365 Transformation (39 €)**
+## 🏆 6. Recommandation *best-value* : **L'Ascension (39 €)**
 
 > **C'est l'offre à mettre en avant sur la page de vente, dans les pubs et dans les emails.**
 
 ### Pourquoi c'est le *best-value*
-1. **Le meilleur ratio valeur / prix de la gamme : ≈ 3,6×** — supérieur à l'Essentiel (2,6×) et à l'Élite (3,3×).
-2. **Elle contient le mécanisme décisif** : le **Filet de Reprise**, absent de l'Essentiel. C'est précisément ce qui empêche l'abandon — donc ce qui fait la différence entre acheter et *réussir*.
+1. **Le meilleur ratio valeur / prix de la gamme : ≈ 3,6×** — supérieur à Le Sentier (2,6×) et à l'Le Sommet (3,3×).
+2. **Elle contient le mécanisme décisif** : le **Filet de Reprise**, absent de Le Sentier. C'est précisément ce qui empêche l'abandon — donc ce qui fait la différence entre acheter et *réussir*.
 3. **Elle parle au cœur de cible** : Lucas, 26 ans, qui a déjà lâché des challenges. À 19 € il prend un risque d'échec ; à 39 € il prend le système qui le fait aller au bout.
 4. **Le prix reste sous le seuil de friction** : moins de 40 €, soit l'achat impulsif premium par excellence, **très en dessous** d'une séance de coaching.
 
@@ -199,36 +201,36 @@ Aucun bonus dédié à ce palier : l'Essentiel reste volontairement **épuré**,
 
 ## ⚓ 7. Stratégie d'ancrage de prix
 
-### Le principe : faire de Transformation l'évidence
+### Le principe : faire de L'Ascension l'évidence
 La gamme est conçue pour que le choix « rationnel » du prospect tombe naturellement sur **l'offre du milieu**. Les deux autres paliers ne sont pas que des choix : ce sont des **points de comparaison** qui guident la décision.
 
 ### Les 3 leviers d'ancrage
 
-**1️⃣ L'ancre haute — Élite à 89 €**
-C'est le **prix de référence supérieur** présenté en premier sur la grille. Il fait paraître les 39 € de Transformation **raisonnables par contraste** (effet d'ancrage classique). Personne n'a besoin d'acheter Élite pour qu'elle joue son rôle : sa simple présence relève la perception de valeur de toute la gamme.
+**1️⃣ L'ancre haute — Le Sommet à 89 €**
+C'est le **prix de référence supérieur** présenté en premier sur la grille. Il fait paraître les 39 € de L'Ascension **raisonnables par contraste** (effet d'ancrage classique). Personne n'a besoin d'acheter Le Sommet pour qu'elle joue son rôle : sa simple présence relève la perception de valeur de toute la gamme.
 
-**2️⃣ L'ancre basse — Essentiel à 19 €**
-Volontairement **épuré et sans bonus**, il rend la marche vers Transformation désirable. L'écart de **+20 €** débloque le système complet **et** le Filet de Reprise : un différentiel perçu énorme pour un petit pas de prix. C'est l'effet « pourquoi se priver de l'essentiel pour 20 € de plus ? ».
+**2️⃣ L'ancre basse — Le Sentier à 19 €**
+Volontairement **épuré et sans bonus**, il rend la marche vers L'Ascension désirable. L'écart de **+20 €** débloque le système complet **et** le Filet de Reprise : un différentiel perçu énorme pour un petit pas de prix. C'est l'effet « pourquoi se priver de l'essentiel pour 20 € de plus ? ».
 
-**3️⃣ L'ancre du milieu — Transformation à 39 €**
+**3️⃣ L'ancre du milieu — L'Ascension à 39 €**
 Positionnée en **point d'arrivée** : assez riche pour tout résoudre, assez accessible pour ne pas hésiter. C'est l'offre que la structure entière pousse à choisir (**effet de compromis** / *Goldilocks* : on évite l'extrême bas comme l'extrême haut).
 
 ### Les ancres externes (à utiliser dans le copy)
 | Comparaison externe | Prix de référence | Effet recherché |
 |---|---|---|
-| 1 séance de coaching | 60-90 € | Transformation (39 €) couvre **un an**, pas une heure. |
-| 1 livre de développement perso | 15-20 € | Essentiel (19 €) = même prix, mais on **agit** au lieu de lire. |
+| 1 séance de coaching | 60-90 € | L'Ascension (39 €) couvre **un an**, pas une heure. |
+| 1 livre de développement perso | 15-20 € | Le Sentier (19 €) = même prix, mais on **agit** au lieu de lire. |
 | 1 abonnement salle de sport / mois | 30-50 € | Cap365 = **un an** de progression pour le prix d'**un mois** de salle. |
 
 ### Règles d'application
 - ✅ **Toujours afficher les 3 offres ensemble** : l'ancrage ne fonctionne que par contraste.
-- ✅ **Ordre d'affichage recommandé** : Essentiel → **Transformation (mise en avant)** → Élite, OU Élite à gauche comme ancre haute selon le test A/B.
-- ✅ **Mettre en valeur visuellement** la colonne Transformation (badge « Recommandé », accent orange, légère surélévation).
+- ✅ **Ordre d'affichage recommandé** : Le Sentier → **L'Ascension (mise en avant)** → Le Sommet, OU Le Sommet à gauche comme ancre haute selon le test A/B.
+- ✅ **Mettre en valeur visuellement** la colonne L'Ascension (badge « Recommandé », accent orange, légère surélévation).
 - ✅ **Exprimer le coût en unités parlantes** : « ≈ 5 centimes par défi », « moins qu'une séance de coaching », « le prix d'un mois de salle pour une année ».
-- ✅ **Upsells & séquençage** : possibilité de proposer Élite en *order bump* / upsell post-achat, et d'envisager des éditions annuelles et packs de défis additionnels (cf. monétisation, note 8/10 de la validation marché).
+- ✅ **Upsells & séquençage** : possibilité de proposer Le Sommet en *order bump* / upsell post-achat, et d'envisager des éditions annuelles et packs de défis additionnels (cf. monétisation, note 8/10 de la validation marché).
 - ❌ **Jamais de faux prix barrés** ni de fausse urgence trompeuse (honnêteté radicale, valeur n°3 de la marque). Les « valeurs empilées » sont des repères de cadrage, signalés comme **hypothèses raisonnables**, pas des prix officiels barrés.
 - ❌ **Aucune promesse interdite** dans l'argumentaire de prix : on ne vend ni la richesse, ni le bonheur permanent, ni la vie parfaite. On vend **discipline, confiance et compétences par l'action**.
 
 ---
 
-> 📎 **Rappel charte :** prix canoniques **19 € / 39 € / 89 €**, noms canoniques **Cap365 Essentiel / Transformation / Élite**. Accent d'action **orange `#F5A623`**, primaire **`#1B2A4A`**, succès **`#27AE82`**. Ton direct, chaleureux, responsabilisant : on promet du travail et de la fierté, jamais de la magie.
+> 📎 **Rappel charte :** prix canoniques **19 € / 39 € / 89 €**, noms canoniques **Le Sentier / L'Ascension / Le Sommet**. Accent d'action **orange `#F5A623`**, primaire **`#1B2A4A`**, succès **`#27AE82`**. Ton direct, chaleureux, responsabilisant : on promet du travail et de la fierté, jamais de la magie.

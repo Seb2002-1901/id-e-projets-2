@@ -23,7 +23,7 @@
 | **Slogan signature** | *Un défi par jour. Une version de toi par an.* |
 
 ### 🗂️ Vocabulaire de marque à utiliser (et à ne pas trahir)
-- **Marque :** Cap365 — **Offres :** Essentiel (19€), Transformation (39€), Élite (89€).
+- **Marque :** Cap365 — **Offres :** Le Sentier (19€), L'Ascension (39€), Le Sommet (89€).
 - **Mécanismes propriétaires :** la **Courbe d'Inconfort Progressive**, le **Système de Preuves**, le **Filet de Reprise**.
 - **Gamification :** XP, niveaux/rangs (Rang 1 Éveil → Rang 10 Légende, 50 niveaux en 10 rangs), radar des 8 stats, séries (streaks), 24 badges (4 raretés : Commun, Rare, Épique, Légendaire), journée de grâce, rituel de reprise, badge **Phénix**.
 - **Avatar :** Lucas, 26 ans, sait quoi faire mais n'applique rien, abandonne le mercredi, peur du regard des autres.
@@ -502,9 +502,9 @@
 > Cap365, c'est pas un PDF. C'est un système complet : 365 défis progressifs, gamification, suivi, et un mécanisme anti-abandon.
 >
 > 3 façons d'embarquer :
-> 🟦 **Essentiel — 19€** : les 365 défis + le carnet de suivi + les niveaux de base.
-> 🟧 **Transformation — 39€** : le système complet + gamification + Filet de Reprise. *(Le cœur de gamme.)*
-> 🟨 **Élite — 89€** : tout + 4 parcours thématiques + bilans trimestriels + accès à vie.
+> 🟦 **Le Sentier — 19€** : les 365 défis + le carnet de suivi + les niveaux de base.
+> 🟧 **L'Ascension — 39€** : le système complet + gamification + Filet de Reprise. *(Le cœur de gamme.)*
+> 🟨 **Le Sommet — 89€** : tout + 4 parcours thématiques + bilans trimestriels + accès à vie.
 >
 > Investis dans la version de toi de l'an prochain.
 >
@@ -537,7 +537,7 @@
 - [ ] On **tutoie**, phrases courtes, verbes d'action, zéro hype, zéro jargon creux.
 - [ ] Témoignages signalés comme **exemples fictifs à remplacer**.
 - [ ] Statistiques de marché traitées comme **hypothèses** (ou retirées si non sourçables).
-- [ ] Noms de marque exacts : **Cap365**, Essentiel/Transformation/Élite, prix 19/39/89€.
+- [ ] Noms de marque exacts : **Cap365**, Le Sentier/L'Ascension/Le Sommet, prix 19/39/89€.
 - [ ] Mécanismes nommés correctement : Courbe d'Inconfort Progressive, Système de Preuves, Filet de Reprise.
 - [ ] Charte couleur respectée : accent `#F5A623` sur action/XP/CTA, succès `#27AE82`, primaire `#1B2A4A`.
 - [ ] Typo : Montserrat (titres/hooks), Inter (corps).

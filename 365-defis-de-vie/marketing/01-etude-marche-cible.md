@@ -180,7 +180,7 @@ La plupart des programmes échouent non par manque de bons conseils, mais parce 
 
 > ⚠️ Prix, noms et contenus ci-dessous sont **canoniques (bible)** : à respecter à la lettre.
 
-### 🥉 Cap365 Essentiel — 19€
+### 🥉 Le Sentier — 19€
 
 | Inclus |
 |---|
@@ -193,11 +193,11 @@ La plupart des programmes échouent non par manque de bons conseils, mais parce 
 - **Cible :** celui qui veut tester la méthode sans s'engager dans le système complet, ou qui aime l'autonomie.
 - **Valeur perçue :** **5 centimes par défi** sur l'année. Le ticket d'entrée premium mais accessible.
 
-### 🥈 Cap365 Transformation — 39€ ⭐ *(offre phare)*
+### 🥈 L'Ascension — 39€ ⭐ *(offre phare)*
 
 | Inclus |
 |---|
-| ✅ Tout l'Essentiel |
+| ✅ Tout l'Le Sentier |
 | ✅ Système de gamification complet (badges, trophées, classement personnel, récompenses symboliques) |
 | ✅ Fiches d'approfondissement des 52 thèmes hebdomadaires |
 | ✅ Tableau de bord de progression interactif |
@@ -210,13 +210,13 @@ La plupart des programmes échouent non par manque de bons conseils, mais parce 
 
 - **Promesse :** vivre une année structurée de transformation, avec un système qui te tient motivé et te montre **noir sur blanc** ta progression.
 - **Cible :** le **cœur de cible** — il veut le système complet et l'accompagnement anti-abandon.
-- **Valeur perçue :** ancrage central, juste au-dessus de l'Essentiel, **bien en dessous du coût d'un coaching**.
+- **Valeur perçue :** ancrage central, juste au-dessus de l'Le Sentier, **bien en dessous du coût d'un coaching**.
 
-### 🥇 Cap365 Élite — 89€
+### 🥇 Le Sommet — 89€
 
 | Inclus |
 |---|
-| ✅ Tout Transformation |
+| ✅ Tout L'Ascension |
 | ✅ 4 parcours thématiques approfondis (Discipline, Confiance, Corps & Énergie, Compétences) |
 | ✅ Journal de transformation premium (interactif + imprimable haut de gamme) |
 | ✅ Bilans trimestriels guidés |
@@ -230,15 +230,15 @@ La plupart des programmes échouent non par manque de bons conseils, mais parce 
 
 - **Promesse :** l'arsenal complet pour faire de cette année **LA bascule**.
 - **Cible :** le déterminé qui veut tout et prend son année au sérieux.
-- **Valeur perçue :** **ancre haute** qui rend l'offre Transformation à 39€ encore plus évidente par contraste.
+- **Valeur perçue :** **ancre haute** qui rend l'offre L'Ascension à 39€ encore plus évidente par contraste.
 
 ## 4.3 Architecture de prix & psychologie d'ancrage
 
 | Offre | Prix | Rôle stratégique |
 |---|:---:|---|
-| Essentiel | 19€ | Porte d'entrée — capte les hésitants |
-| **Transformation** | **39€** | **Choix par défaut** — la montée en gamme paraît évidente |
-| Élite | 89€ | Ancre haute — fait paraître 39€ raisonnable |
+| Le Sentier | 19€ | Porte d'entrée — capte les hésitants |
+| **L'Ascension** | **39€** | **Choix par défaut** — la montée en gamme paraît évidente |
+| Le Sommet | 89€ | Ancre haute — fait paraître 39€ raisonnable |
 
 > 🎯 **Effet recherché :** placé entre 19€ et 89€, le palier à **39€ devient le choix « bon sens »**. C'est le pivot de la monétisation.
 
@@ -260,7 +260,7 @@ La plupart des programmes échouent non par manque de bons conseils, mais parce 
 | 🗓️ Urgence naturelle | « Chaque jour sans commencer est un jour de transformation perdu. Le meilleur moment pour relever le défi 1, c'est aujourd'hui. » |
 | 🎟️ Rareté de lancement réelle | Tarif ou bonus de lancement **limité dans le temps de façon honnête** (date réelle, respectée). |
 | 📅 Édition annuelle | Bonus exclusifs réservés à l'édition en cours (réelle logique de versioning produit). |
-| 👥 Cohorte de départ | Possibilité de démarrer en groupe (kit de défis à partager, offre Élite) à une date donnée. |
+| 👥 Cohorte de départ | Possibilité de démarrer en groupe (kit de défis à partager, offre Le Sommet) à une date donnée. |
 
 > ✅ L'urgence la plus puissante ici n'est pas commerciale, elle est **existentielle** : la peur de Lucas de ne rien avoir changé dans 5 ans. On la nomme honnêtement, on ne la fabrique pas.
 
@@ -268,7 +268,7 @@ La plupart des programmes échouent non par manque de bons conseils, mais parce 
 
 | Composant | Cap365 le fait |
 |---|:---:|
-| Transformation claire (A → B) | ✅ |
+| L'Ascension claire (A → B) | ✅ |
 | Mécanisme unique et nommé | ✅ ×3 |
 | Empilement de valeur visible | ✅ |
 | Anti-abandon intégré | ✅ Filet de Reprise |

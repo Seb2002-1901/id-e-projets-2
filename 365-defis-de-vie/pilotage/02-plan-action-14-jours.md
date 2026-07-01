@@ -204,16 +204,16 @@ Le plan suit **3 phases**, du socle au lancement, pour qu'aucune journée ne dé
 **🎯 Objectif du jour :** packager les **3 niveaux d'offre** (19 € / 39 € / 89 €) avec leurs contenus exacts.
 
 **✅ Check-list**
-- ⬜ Assembler **Cap365 Essentiel (19 €)** : 365 défis + guide 7 jours + carnet imprimable + système XP de base.
-- ⬜ Assembler **Cap365 Transformation (39 €)** : Essentiel + gamification complète + fiches 52 thèmes + tableau de bord + Filet de Reprise + bonus (30 défis week-end, mini-guide habitude, wallpapers).
-- ⬜ Assembler **Cap365 Élite (89 €)** : Transformation + 4 parcours thématiques + journal premium + bilans trimestriels + accès à vie + bonus (100 défis hardcore, audio, kit à plusieurs).
+- ⬜ Assembler **Le Sentier (19 €)** : 365 défis + guide 7 jours + carnet imprimable + système XP de base.
+- ⬜ Assembler **L'Ascension (39 €)** : Le Sentier + gamification complète + fiches 52 thèmes + tableau de bord + Filet de Reprise + bonus (30 défis week-end, mini-guide habitude, wallpapers).
+- ⬜ Assembler **Le Sommet (89 €)** : L'Ascension + 4 parcours thématiques + journal premium + bilans trimestriels + accès à vie + bonus (100 défis hardcore, audio, kit à plusieurs).
 - ⬜ Créer les **wallpapers de motivation** (mobile + ordinateur) à la charte.
 - ⬜ Exporter chaque offre en **PDF final** + dossiers de fichiers nommés proprement.
 - ⬜ Vérifier qu'aucune offre n'inclut/ne promet plus que ce que la Bible définit.
 
-**🧰 Outils :** Canva (exports), Google Drive (organisation des dossiers), Audacity (audio Élite si fait maison).
+**🧰 Outils :** Canva (exports), Google Drive (organisation des dossiers), Audacity (audio Le Sommet si fait maison).
 
-**📦 Livrable attendu :** **3 produits finis et exportés** (Essentiel, Transformation, Élite) avec leurs bonus.
+**📦 Livrable attendu :** **3 produits finis et exportés** (Le Sentier, L'Ascension, Le Sommet) avec leurs bonus.
 
 ---
 
@@ -263,7 +263,7 @@ Le plan suit **3 phases**, du socle au lancement, pour qu'aucune journée ne dé
 
 **✅ Check-list**
 - ⬜ Rédiger la **page de vente** : accroche (slogan), problème (stagnation/procrastination), solution (1 défi/jour), mécanismes propriétaires (Courbe d'Inconfort, Système de Preuves, Filet de Reprise).
-- ⬜ Présenter clairement les **3 offres** dans un tableau comparatif (ancrage Élite → Transformation cœur de cible).
+- ⬜ Présenter clairement les **3 offres** dans un tableau comparatif (ancrage Le Sommet → L'Ascension cœur de cible).
 - ⬜ Traiter les **6 objections** de l'avatar (déjà acheté, pas le temps, peur d'abandonner, 365 c'est énorme, trop cher, promet richesse/bonheur).
 - ⬜ Ajouter 2-3 **exemples fictifs de témoignages** clairement signalés « **exemple fictif à remplacer** ».
 - ⬜ Insérer un **appel à l'action** clair et un rappel honnête (« pas de miracle, des résultats que tu construis »).
@@ -337,7 +337,7 @@ Le plan suit **3 phases**, du socle au lancement, pour qu'aucune journée ne dé
 - 🧯 **Si la rédaction déborde (J3-J5) :** réduis la longueur du « Pourquoi ça compte » à 1 phrase et avance — tu enrichiras en v1.1. Le contenu cœur passe avant le superflu.
 - 🧯 **Si le design prend trop de temps (J7-J8) :** utilise un seul gabarit propre répété partout. La cohérence prime sur la variété.
 - 🧯 **Si la technique te bloque (J11) :** Gumroad fait boutique + paiement + livraison + page en un seul outil. Reste minimaliste.
-- 🧯 **Si tu n'es pas prêt à J14 :** lance d'abord l'offre **Transformation (39 €)** seule (cœur de cible) et ajoute Essentiel + Élite ensuite. Mieux vaut lancer une offre que de repousser les trois.
+- 🧯 **Si tu n'es pas prêt à J14 :** lance d'abord l'offre **L'Ascension (39 €)** seule (cœur de cible) et ajoute Le Sentier + Le Sommet ensuite. Mieux vaut lancer une offre que de repousser les trois.
 - 🧯 **Toujours :** un livrable par jour, jamais zéro. La constance bat l'intensité — c'est exactement la valeur que vend Cap365.
 
 ---

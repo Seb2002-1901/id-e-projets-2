@@ -42,7 +42,7 @@
 
 | # | Format | Hook | Angle principal | Durée |
 |---|---|---|---|---|
-| 01 | Storytime | « Il y a 1 an je rataais tout ce que je commençais. » | Transformation par la constance | 42 s |
+| 01 | Storytime | « Il y a 1 an je rataais tout ce que je commençais. » | L'Ascension par la constance | 42 s |
 | 02 | Avant / Après | « Voilà ce qui change quand tu fais 1 truc dur par jour. » | Preuve visible de progression | 28 s |
 | 03 | Défi du jour | « Ton défi d'aujourd'hui. 10 minutes. On y va. » | Démo produit en action | 24 s |
 | 04 | POV | « POV : t'as enfin arrêté d'attendre lundi. » | Identification émotionnelle | 22 s |
@@ -63,7 +63,7 @@
 # 🎬 SCRIPT 01 — Storytime · « Une version de toi par an »
 
 **Format :** Storytime face caméra + b-roll · **Durée cible :** 42 s
-**Angle :** La constance bat la motivation. Transformation réaliste sur 365 jours.
+**Angle :** La constance bat la motivation. L'Ascension réaliste sur 365 jours.
 
 ### 🎯 Hook (0-3 s)
 > **Verbal :** « Il y a un an, je ratais tout ce que je commençais. Aujourd'hui je vais te montrer ce qui a changé. »

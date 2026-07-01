@@ -42,7 +42,7 @@ Tu **réutilises** tes meilleurs TikTok en Reels Instagram (et inversement). Le 
 
 **Mécanismes propriétaires à citer** (jamais trahir les noms) : la **Courbe d'Inconfort Progressive**, le **Système de Preuves**, le **Filet de Reprise**.
 **Gamification :** XP (difficulté ×10), niveaux/rangs (Rang 1 Éveil → Rang 10 Légende, 50 niveaux en 10 rangs), radar des 8 stats, séries/streaks, 24 badges (4 raretés), journée de grâce, rituel de reprise, badge **Phénix**.
-**Offres :** Essentiel 19€ · Transformation 39€ · Élite 89€.
+**Offres :** Le Sentier 19€ · L'Ascension 39€ · Le Sommet 89€.
 
 ---
 
@@ -64,7 +64,7 @@ Tu **réutilises** tes meilleurs TikTok en Reels Instagram (et inversement). Le 
 
 | Jour | Format | Thème / angle | Hook (0-3 s) | CTA | Objectif |
 |---|---|---|---|---|---|
-| **J1** | Storytime | Transformation par la constance *(Script T01)* | « Il y a un an, je ratais tout ce que je commençais. » | « Le programme s'appelle Cap365. Lien en bio. » | Poser l'univers de marque |
+| **J1** | Storytime | L'Ascension par la constance *(Script T01)* | « Il y a un an, je ratais tout ce que je commençais. » | « Le programme s'appelle Cap365. Lien en bio. » | Poser l'univers de marque |
 | **J2** | POV | « T'as enfin arrêté d'attendre lundi » *(Script T04)* | « POV : t'as enfin arrêté d'attendre lundi. » | « Ton premier défi t'attend. Lien en bio. » | Identification émotionnelle |
 | **J3** | Défi du jour | Démo produit en action *(Script T03)* | « Ton défi d'aujourd'hui. 10 minutes. On y va. » | « Tu veux le défi de demain ? Lien en bio. » | Montrer le produit concret |
 | **J4** | Liste (valeur) | 5 micro-défis anti-procrastination *(Script T05)* | « 5 micro-défis qui cassent la procrastination. » | « Enregistre, puis va voir Cap365 en bio. » | Valeur gratuite + sauvegardes |
@@ -151,9 +151,9 @@ Chaque post doit savoir **où il envoie**. Rien ne pointe dans le vide.
 |---|---|---|
 | 👀 **Découverte** (froid) | Storytimes, POV, Mythe vs Réalité, Listes | Profil → lien en bio |
 | 🤔 **Considération** (tiède) | Démos produit, gamification, mécanismes, carrousels | Page de vente / aimant à leads |
-| 🛒 **Conversion** (chaud) | Objections levées, bilan, Stories FAQ, compte à rebours | Page de vente (offre Transformation 39€ par défaut) |
+| 🛒 **Conversion** (chaud) | Objections levées, bilan, Stories FAQ, compte à rebours | Page de vente (offre L'Ascension 39€ par défaut) |
 
-> 💡 L'offre **Transformation (39€)** est l'**ancre centrale** : c'est elle que pointent la majorité des CTA de conversion. L'Essentiel (19€) sert de porte d'entrée, l'Élite (89€) d'ancre haute.
+> 💡 L'offre **L'Ascension (39€)** est l'**ancre centrale** : c'est elle que pointent la majorité des CTA de conversion. L'Le Sentier (19€) sert de porte d'entrée, l'Le Sommet (89€) d'ancre haute.
 
 ---
 

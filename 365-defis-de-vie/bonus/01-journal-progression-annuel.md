@@ -44,7 +44,7 @@ Tu as relevé des défis. Tu as gagné de l'XP. Tu as débloqué des badges. Mai
 > *À remplir une seule fois, au tout début. Reviens la relire à chaque bilan.*
 
 **Date de départ :** `____ / ____ / ________`
-**Mon offre Cap365 :** ⬜ Essentiel  ⬜ Transformation  ⬜ Élite
+**Mon offre Cap365 :** ⬜ Le Sentier  ⬜ L'Ascension  ⬜ Le Sommet
 
 ### Pourquoi je commence cette année
 

@@ -20,7 +20,7 @@
 | 1 | **Source de trafic** | Capter l'attention de la cible (Lucas, 18-35 ans) et générer le clic. | CTR 1,5 – 3 % |
 | 2 | **Page d'accueil** (hub de marque) | Rassurer, incarner l'univers Cap365, orienter vers la landing. | 35 – 50 % vers landing |
 | 3 | **Landing page** (page de vente longue) | Convaincre, lever les objections, déclencher l'envie d'acheter. | 25 – 40 % vers produit/checkout |
-| 4 | **Page produit / comparatif** | Faire choisir le bon palier (pousser Transformation à 39 €). | 50 – 65 % vers checkout |
+| 4 | **Page produit / comparatif** | Faire choisir le bon palier (pousser L'Ascension à 39 €). | 50 – 65 % vers checkout |
 | 5 | **Page de paiement** (+ order bump) | Encaisser sans friction + maximiser le panier (bump). | 40 – 55 % de finalisation |
 | 6 | **Upsell → Downsell** (one-click) | Augmenter la valeur client juste après l'achat. | Upsell 12 – 20 % · Downsell 8 – 12 % |
 | 7 | **Page merci + Emails** | Livrer, activer l'usage, fidéliser, faire monter en gamme. | Ouverture 45 – 60 % |
@@ -56,7 +56,7 @@
                             ┌───────────────────────────────────────────┐
                             │   4. PAGE PRODUIT (comparatif 3 paliers)   │
                             │   19 € · ⭐39 € · 89 €  (ancrage)            │
-                            │   CTA: « Choisir Transformation »          │
+                            │   CTA: « Choisir L'Ascension »          │
                             └───────────────────┬───────────────────────┘
                                                 │  50–65 %
                                                 ▼
@@ -70,7 +70,7 @@
                                                 ▼
                             ┌───────────────────────────────────────────┐
                             │   6a. UPSELL one-click  (oui / non)        │
-                            │   Passe à Élite OU +Parcours (+/− selon palier)│
+                            │   Passe à Le Sommet OU +Parcours (+/− selon palier)│
                             │   CTA: « Oui, j'ajoute »                    │
                             └─────────┬───────────────────────┬─────────┘
                                 refus │                       │ accepte
@@ -130,7 +130,7 @@ Capter l'attention de la cible là où elle scrolle déjà (Lucas passe beaucoup
 
 ### 📈 Conversion cible
 - **CTR : 1,5 – 3 %** (hypothèse). Le remarketing vise le haut de la fourchette.
-- Coût par clic visé : à fixer selon enchères réelles ; cible un **CPA ≤ 30 % du prix de l'offre Transformation** comme garde-fou de rentabilité.
+- Coût par clic visé : à fixer selon enchères réelles ; cible un **CPA ≤ 30 % du prix de l'offre L'Ascension** comme garde-fou de rentabilité.
 
 ---
 
@@ -207,14 +207,14 @@ C'est le **cœur de la conversion**. On y déroule l'argumentaire complet : on n
 ## 🧩 6. Étape 4 — Page produit (comparatif des 3 paliers)
 
 ### 🎯 Objectif
-Faire **choisir le bon palier** et pousser doucement vers l'offre phare **Cap365 Transformation (39 €)**, grâce à l'ancrage haut (Élite 89 €) et l'entrée accessible (Essentiel 19 €).
+Faire **choisir le bon palier** et pousser doucement vers l'offre phare **L'Ascension (39 €)**, grâce à l'ancrage haut (Le Sommet 89 €) et l'entrée accessible (Le Sentier 19 €).
 
 ### 🗣️ Message clé
-> Trois façons de relever l'année. Une seule est faite pour ceux qui veulent vraiment **tenir** : Transformation. C'est le système complet, avec le Filet de Reprise activé.
+> Trois façons de relever l'année. Une seule est faite pour ceux qui veulent vraiment **tenir** : L'Ascension. C'est le système complet, avec le Filet de Reprise activé.
 
 ### 📊 Tableau comparatif (canonique — prix verrouillés)
 
-| | 🟦 **Essentiel** | ⭐ **Transformation** | 👑 **Élite** |
+| | 🟦 **Le Sentier** | ⭐ **L'Ascension** | 👑 **Le Sommet** |
 |---|---|---|---|
 | **Prix** | **19 €** | **39 €** | **89 €** |
 | 365 défis progressifs | ✅ | ✅ | ✅ |
@@ -232,16 +232,16 @@ Faire **choisir le bon palier** et pousser doucement vers l'offre phare **Cap365
 | **Bonus inclus** | — | 30 défis week-end · Mini-guide habitude · Wallpapers | + 100 défis hardcore · Audio motivation · Kit défis à plusieurs · Accès prioritaire |
 | | | 🏆 **Recommandé** | 💎 **Tout l'arsenal** |
 
-> 🧭 **Mise en avant visuelle :** la colonne **Transformation** est surlignée (cadre accent `#F5A623`, badge « Le plus choisi »). C'est l'ancrage central : Élite à 89 € rend les 39 € évidents par contraste.
+> 🧭 **Mise en avant visuelle :** la colonne **L'Ascension** est surlignée (cadre accent `#F5A623`, badge « Le plus choisi »). C'est l'ancrage central : Le Sommet à 89 € rend les 39 € évidents par contraste.
 
 ### 🔘 CTA principal
-- Colonne Essentiel : **« Commencer en autonomie »**
-- Colonne Transformation : **« Choisir Transformation »** *(bouton dominant, plein accent)*
-- Colonne Élite : **« Je prends tout »**
+- Colonne Le Sentier : **« Commencer en autonomie »**
+- Colonne L'Ascension : **« Choisir L'Ascension »** *(bouton dominant, plein accent)*
+- Colonne Le Sommet : **« Je prends tout »**
 
 ### 📈 Conversion cible
 - **50 – 65 % vers le checkout** (hypothèse). À ce stade le visiteur est très qualifié.
-- **Répartition cible des ventes** (hypothèse de mix) : ~25 % Essentiel · **~55 % Transformation** · ~20 % Élite.
+- **Répartition cible des ventes** (hypothèse de mix) : ~25 % Le Sentier · **~55 % L'Ascension** · ~20 % Le Sommet.
 
 ---
 
@@ -264,7 +264,7 @@ Faire **choisir le bon palier** et pousser doucement vers l'offre phare **Cap365
 
 | Élément | Détail |
 |---|---|
-| **Produit bump** | **Pack « 30 défis bonus week-end »** *(extrait du bonus Transformation, vendu à part pour l'Essentiel ; pour Transformation/Élite, voir variante ci-dessous)* |
+| **Produit bump** | **Pack « 30 défis bonus week-end »** *(extrait du bonus L'Ascension, vendu à part pour l'Le Sentier ; pour L'Ascension/Le Sommet, voir variante ci-dessous)* |
 | **Prix bump** | **+9 €** (impulsion, < 25 % du panier) |
 | **Formulation** | ☑️ *« Oui, j'ajoute le Pack 30 défis week-end pour +9 € — de quoi transformer tes samedis et dimanches en vraies victoires (au lieu de jours perdus). »* |
 | **Variante si le palier inclut déjà ce pack** | Bump remplacé par **« Pack Wallpapers + Audio motivation »** ou **« Kit défis à plusieurs » (+9 €)** selon ce qui n'est pas déjà inclus. *Ne jamais vendre un bonus déjà compris dans le palier.* |
@@ -296,9 +296,9 @@ Augmenter la valeur client immédiatement après l'achat, avec une **montée en 
 
 | Palier acheté | Upsell proposé | Prix de l'upsell | Argument |
 |---|---|---|---|
-| **Essentiel (19 €)** | Passage à **Transformation** (gamification complète + Filet de Reprise) | **+25 €** *(au lieu de +20 € en achat séparé — léger premium assumé, ou aligné selon politique)* | « Tu viens de prendre les défis. Ajoute le système qui t'empêche d'abandonner. » |
-| **Transformation (39 €)** | Passage à **Élite** (4 parcours + bilans + accès à vie) | **+50 €** | « Tu prends ton année au sérieux. Débloque les 4 parcours et l'accès à vie. » |
-| **Élite (89 €)** | **Pack add-on** : « 100 défis hardcore » déjà inclus → propose plutôt un **futur add-on / édition collector** ou rien | variable | Si tout est déjà inclus, **ne pas forcer** : remercier, passer à la page merci. |
+| **Le Sentier (19 €)** | Passage à **L'Ascension** (gamification complète + Filet de Reprise) | **+25 €** *(au lieu de +20 € en achat séparé — léger premium assumé, ou aligné selon politique)* | « Tu viens de prendre les défis. Ajoute le système qui t'empêche d'abandonner. » |
+| **L'Ascension (39 €)** | Passage à **Le Sommet** (4 parcours + bilans + accès à vie) | **+50 €** | « Tu prends ton année au sérieux. Débloque les 4 parcours et l'accès à vie. » |
+| **Le Sommet (89 €)** | **Pack add-on** : « 100 défis hardcore » déjà inclus → propose plutôt un **futur add-on / édition collector** ou rien | variable | Si tout est déjà inclus, **ne pas forcer** : remercier, passer à la page merci. |
 
 #### 🗣️ Message clé
 > Offre unique, visible une seule fois : on te débloque [le palier supérieur] à un tarif réservé aux nouveaux membres, maintenant, en un clic.
@@ -321,8 +321,8 @@ Récupérer une partie de la valeur quand l'upsell est refusé, en proposant une
 
 | Upsell refusé | Downsell proposé | Prix | Argument |
 |---|---|---|---|
-| Refus du passage à **Transformation** | **Add-on partiel** : juste le **Filet de Reprise + le mini-guide « Construire une habitude qui tient »** | **+12 €** | « Si tu n'ajoutes qu'une chose, prends le filet anti-abandon. C'est ce qui te fera tenir. » |
-| Refus du passage à **Élite** | **Un seul parcours thématique au choix** (Discipline OU Confiance OU Corps & Énergie OU Compétences) + bilans trimestriels | **+29 €** | « Pas l'arsenal complet ? Choisis le pilier qui compte le plus pour toi cette année. » |
+| Refus du passage à **L'Ascension** | **Add-on partiel** : juste le **Filet de Reprise + le mini-guide « Construire une habitude qui tient »** | **+12 €** | « Si tu n'ajoutes qu'une chose, prends le filet anti-abandon. C'est ce qui te fera tenir. » |
+| Refus du passage à **Le Sommet** | **Un seul parcours thématique au choix** (Discipline OU Confiance OU Corps & Énergie OU Compétences) + bilans trimestriels | **+29 €** | « Pas l'arsenal complet ? Choisis le pilier qui compte le plus pour toi cette année. » |
 
 #### 🗣️ Message clé
 > Pas tout, d'accord. Mais ne pars pas les mains vides : voici l'essentiel de ce qui te manque, à prix réduit.
@@ -405,7 +405,7 @@ Récupérer une partie de la valeur quand l'upsell est refusé, en proposant une
 ### 📈 Objectifs de performance (hypothèses)
 - **Taux d'ouverture : 45 – 60 %** (séquence transactionnelle/onboarding, audience chaude).
 - **Taux de clic : 8 – 15 %** sur les emails à CTA.
-- **Conversion montée en gamme : 3 – 8 %** des Essentiel → Transformation/Élite sur 60 jours.
+- **Conversion montée en gamme : 3 – 8 %** des Le Sentier → L'Ascension/Le Sommet sur 60 jours.
 
 ### 11.1 — 🚀 Séquence Onboarding (J0 → J7)
 
@@ -426,15 +426,15 @@ Récupérer une partie de la valeur quand l'upsell est refusé, en proposant une
 | E3 | Cap atteint (90/182/365) | « Tu viens de franchir un cap 🏆 » | Célébrer les jalons (médaille mi-parcours, certificat). | « Voir mon badge » |
 | E4 | Inactivité 5 jours | « On ne te lâche pas — un seul pas suffit » | Réactivation douce, sans culpabilisation. | « Faire un petit défi » |
 
-### 11.3 — 📈 Séquence Montée en gamme (acheteurs Essentiel)
+### 11.3 — 📈 Séquence Montée en gamme (acheteurs Le Sentier)
 
 | Email | Timing | Objet | Objectif | CTA |
 |---|---|---|---|---|
-| U1 | J10 | « Le truc qui manque à ton Essentiel » | Faire désirer le Filet de Reprise + gamification complète. | « Passer à Transformation » |
+| U1 | J10 | « Le truc qui manque à ton Le Sentier » | Faire désirer le Filet de Reprise + gamification complète. | « Passer à L'Ascension » |
 | U2 | J20 | « Pourquoi 9 personnes sur 10 abandonnent au mois 2 » *(hypothèse à étayer)* | Montrer la valeur de l'anti-abandon avant le creux du mois 2. | « Débloquer le système complet » |
 | U3 | J30 | « Offre de montée en gamme — fin de ta période d'essai » | Convertir avant la fin de la fenêtre garantie. | « J'upgrade maintenant » |
 
-> 🎯 Pour les acheteurs **Transformation**, la séquence pousse plutôt vers **Élite** (parcours thématiques, accès à vie) aux mêmes jalons.
+> 🎯 Pour les acheteurs **L'Ascension**, la séquence pousse plutôt vers **Le Sommet** (parcours thématiques, accès à vie) aux mêmes jalons.
 
 ### 11.4 — 🛒 Branche Panier abandonné (a quitté le checkout sans payer)
 
@@ -478,7 +478,7 @@ Récupérer une partie de la valeur quand l'upsell est refusé, en proposant une
 | Publicité | **« Découvrir la méthode »** | Remarketing : « Relève ton premier défi » |
 | Page d'accueil | **« Découvrir la méthode »** | Secondaire : « Voir les offres » |
 | Landing | **« Je relève le défi »** | « Accès immédiat · Garantie 30 jours » |
-| Page produit | **« Choisir Transformation »** | « Commencer en autonomie » / « Je prends tout » |
+| Page produit | **« Choisir L'Ascension »** | « Commencer en autonomie » / « Je prends tout » |
 | Paiement | **« Valider ma commande »** | « Remboursé sous 30 jours, sans justification » |
 | Order bump | ☑️ **« Oui, j'ajoute le Pack week-end (+9 €) »** | — |
 | Upsell | **« Oui, j'ajoute à ma commande »** | « Non merci, je continue » |
