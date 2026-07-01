@@ -53,7 +53,7 @@
 | 09 | Liste (erreurs) | « 3 raisons pour lesquelles t'abandonnes le mercredi. » | Psychologie de l'abandon | 28 s |
 | 10 | Avant / Après (journée) | « Ma journée avant vs depuis Cap365. » | Routine et identité | 30 s |
 | 11 | Mythe vs Réalité | « ‘‘Faut 21 jours pour une habitude.’’ Faux. » | Pédagogie + autorité douce | 27 s |
-| 12 | Défi du jour (hors zone) | « Difficulté 4 sur 5. Tu oses ou pas ? » | Sortie de zone de confort | 23 s |
+| 12 | Défi du jour (hors zone) | « Difficulté 8 sur 10. Tu oses ou pas ? » | Sortie de zone de confort | 23 s |
 | 13 | POV (projection) | « POV : c'est le 31 décembre et t'as tenu. » | Vision de fin d'année | 25 s |
 | 14 | Liste (badges) | « Les 4 badges que personne n'obtient. » | Curiosité + engagement | 26 s |
 | 15 | Storytime (objection) | « ‘‘J'ai pas le temps.’’ Je disais pareil. » | Lever l'objection temps | 38 s |
@@ -161,20 +161,20 @@ Son « glow up / transformation » avec drop sur la transition. **Hypothèse rai
 | 0-3 s | Hook + carton « DÉFI DU JOUR » + minuteur 10:00. |
 | 3-7 s | « Aujourd'hui : tu envoies LE message que tu repousses depuis 2 semaines. » |
 | 7-14 s | Plan : main qui tape le message, hésitation, puis « envoyé ». (b-roll écran flouté pour la confidentialité). |
-| 14-19 s | « C'est inconfortable ? Normal. C'est le but. Difficulté 3 sur 5. » |
-| 19-24 s | Validation : ✅ + « +30 XP ». « Fait. À demain pour le suivant. » |
+| 14-19 s | « C'est inconfortable ? Normal. C'est le but. Difficulté 6 sur 10. » |
+| 19-24 s | Validation : ✅ + « +60 XP ». « Fait. À demain pour le suivant. » |
 
 ### 📱 Texte à l'écran
 - 0-3 s : **« DÉFI DU JOUR ⏱️ 10:00 »**
 - 3 s : « Envoie LE message que tu repousses »
-- 14 s : **« Difficulté 3/5 · inconfortable = normal »**
-- 19 s : **« ✅ +30 XP »** (vert + orange)
+- 14 s : **« Difficulté 6/10 · inconfortable = normal »**
+- 19 s : **« ✅ +60 XP »** (vert + orange)
 
 ### 🎙️ Voix-off / script parlé
-*« Ton défi d'aujourd'hui. Dix minutes. Tu le fais avec moi. Aujourd'hui : tu envoies le message que tu repousses depuis deux semaines. Oui, là, maintenant. C'est inconfortable ? Normal, c'est exactement le but — difficulté trois sur cinq. Voilà. Envoyé. Plus trente d'XP. À demain pour le suivant. »*
+*« Ton défi d'aujourd'hui. Dix minutes. Tu le fais avec moi. Aujourd'hui : tu envoies le message que tu repousses depuis deux semaines. Oui, là, maintenant. C'est inconfortable ? Normal, c'est exactement le but — difficulté six sur dix. Voilà. Envoyé. Plus soixante d'XP. À demain pour le suivant. »*
 
 ### 🎥 B-roll suggéré
-Minuteur 10:00 en surimpression · main qui tape sur le téléphone · animation « ✅ +30 XP » · respiration avant d'appuyer sur envoyer.
+Minuteur 10:00 en surimpression · main qui tape sur le téléphone · animation « ✅ +60 XP » · respiration avant d'appuyer sur envoyer.
 
 ### 🎵 Son / tendance
 Beat motivant rythmé, type « lock in / focus ». **Hypothèse raisonnable :** son court et énergique, montée sur la validation finale.
@@ -367,14 +367,14 @@ Son storytime émotionnel, montée sur « pour la première fois ». **Hypothès
 |---|---|
 | 0-3 s | Hook + UI de jeu superposée à une action banale (faire son lit). |
 | 3-8 s | Action réelle = défi validé → « +20 XP » qui pop. |
-| 8-13 s | Barre d'XP se remplit → « NIVEAU 3 : Cap franchi 🆙 ». |
+| 8-13 s | Barre d'XP se remplit → « NIVEAU 3 · Rang Éveil 🆙 ». |
 | 13-17 s | « Série : 12 jours 🔥 · Badge débloqué : Hors Zone ». |
 | 17-20 s | « Sauf que là, les stats que tu montes… c'est les tiennes. » |
 
 ### 📱 Texte à l'écran
 - 0-3 s : **« POV : ta vie a une barre d'XP »**
 - 3 s : **« +20 XP »** (orange qui pop)
-- 8 s : **« NIVEAU 3 — Cap franchi 🆙 »**
+- 8 s : **« NIVEAU 3 — Rang Éveil 🆙 »**
 - 13 s : **« 🔥 Série 12 j · 🏅 Badge : Hors Zone »**
 - 17 s : **« Les stats que tu montes, c'est TOI »**
 
@@ -522,35 +522,35 @@ Son « did you know / hot take » avec voix off dominante. **Hypothèse raisonna
 
 ---
 
-# 🎬 SCRIPT 12 — Défi du jour · « Difficulté 4 sur 5 »
+# 🎬 SCRIPT 12 — Défi du jour · « Difficulté 8 sur 10 »
 
 **Format :** Défi du jour (hors zone de confort) · **Durée cible :** 23 s
 **Angle :** Sortie de zone de confort. La Courbe d'Inconfort Progressive, version « ça pique ».
 
 ### 🎯 Hook (0-3 s)
-> **Verbal :** « Défi du jour, difficulté 4 sur 5. Tu oses ou tu scrolles ? »
-> **Visuel :** Carton « DIFFICULTÉ ★★★★☆ » + jauge orange.
+> **Verbal :** « Défi du jour, difficulté 8 sur 10. Tu oses ou tu scrolles ? »
+> **Visuel :** Carton « DIFFICULTÉ 8/10 » + jauge orange.
 
 ### ⏱️ Déroulé seconde par seconde
 | Temps | Action / plan |
 |---|---|
-| 0-3 s | Hook + jauge difficulté 4/5. |
+| 0-3 s | Hook + jauge difficulté 8/10. |
 | 3-9 s | « Aujourd'hui : tu demandes un truc qui te fait peur. Un avis, un retour, un service. » |
 | 9-15 s | « Le pire qu'il puisse arriver : un non. Et tu survis à un non. » |
 | 15-20 s | Plan : on respire, on demande (b-roll). Réaction (peu importe laquelle). |
-| 20-23 s | « Fait. +40 XP. Badge ‘Hors Zone’ en approche. » |
+| 20-23 s | « Fait. +80 XP. Badge ‘Hors Zone’ en approche. » |
 
 ### 📱 Texte à l'écran
-- 0-3 s : **« DIFFICULTÉ ★★★★☆ · tu oses ? »**
+- 0-3 s : **« DIFFICULTÉ 8/10 · tu oses ? »**
 - 3 s : « Demande un truc qui te fait peur »
 - 9 s : **« Pire scénario : un non. Tu survis. »**
-- 20 s : **« ✅ +40 XP · Badge Hors Zone 🏅 »** (orange/vert)
+- 20 s : **« ✅ +80 XP · Badge Hors Zone 🏅 »** (orange/vert)
 
 ### 🎙️ Voix-off / script parlé
-*« Défi du jour, difficulté quatre sur cinq. Tu oses ou tu scrolles ? Aujourd'hui : tu demandes un truc qui te fait peur — un avis, un retour, un service. Le pire qu'il puisse arriver, c'est un non. Et tu survis à un non. Allez, on respire, on demande. Voilà. Plus quarante d'XP, badge ‘Hors Zone’ en approche. »*
+*« Défi du jour, difficulté huit sur dix. Tu oses ou tu scrolles ? Aujourd'hui : tu demandes un truc qui te fait peur — un avis, un retour, un service. Le pire qu'il puisse arriver, c'est un non. Et tu survis à un non. Allez, on respire, on demande. Voilà. Plus quatre-vingts d'XP, badge ‘Hors Zone’ en approche. »*
 
 ### 🎥 B-roll suggéré
-Jauge de difficulté orange · respiration avant l'action · plan de demande (visage déterminé) · animation « +40 XP » + badge.
+Jauge de difficulté orange · respiration avant l'action · plan de demande (visage déterminé) · animation « +80 XP » + badge.
 
 ### 🎵 Son / tendance
 Son tendu/motivant qui monte, type « do the scary thing ». **Hypothèse raisonnable :** son énergique avec build-up.
@@ -621,7 +621,7 @@ Son émouvant et inspirant, montée finale. **Hypothèse raisonnable :** son « 
 |---|---|
 | 0-3 s | Hook + 4 badges floutés. |
 | 3-9 s | **Mois de Fer** : « 30 jours d'affilée sans rater. La discipline pure. » |
-| 9-14 s | **Hors Zone** : « 15 défis en difficulté 4 ou 5. Le courage répété. » |
+| 9-14 s | **Hors Zone** : « 15 défis en difficulté 8-10. Le courage répété. » |
 | 14-19 s | **Demi-Tour Impossible** : « Cap des 182 défis. Tu peux plus reculer. » |
 | 19-23 s | **Cap365** : « Les 365 défis bouclés. Le badge final. » |
 | 23-26 s | « Tu commences par lequel ? » |
@@ -629,15 +629,15 @@ Son émouvant et inspirant, montée finale. **Hypothèse raisonnable :** son « 
 ### 📱 Texte à l'écran
 - 0-3 s : **« 4 badges que personne n'obtient 🏅 »**
 - 3 s : **« 🥇 Mois de Fer — 30 j d'affilée »**
-- 9 s : **« 🥇 Hors Zone — 15 défis diff. 4-5 »**
+- 9 s : **« 🥇 Hors Zone — 15 défis diff. 8-10 »**
 - 14 s : **« 🥇 Demi-Tour Impossible — 182 défis »**
 - 19 s : **« 🏆 Cap365 — 365/365 »** (orange)
 - 26 s : **« Tu vises lequel ? 👇 »**
 
 ### 🎙️ Voix-off / script parlé
-*« Les quatre badges Cap365 que presque personne obtient. T'es capable du dernier ? ‘Mois de Fer’ : trente jours d'affilée sans rater, la discipline pure. ‘Hors Zone’ : quinze défis en difficulté quatre ou cinq, le courage répété. ‘Demi-Tour Impossible’ : le cap des cent quatre-vingt-deux défis, là tu peux plus reculer. Et ‘Cap365’ : les trois cent soixante-cinq défis bouclés, le badge final. Tu commences par lequel ? »*
+*« Les quatre badges Cap365 que presque personne obtient. T'es capable du dernier ? ‘Mois de Fer’ : trente jours d'affilée sans rater, la discipline pure. ‘Hors Zone’ : quinze défis en difficulté huit à dix, le courage répété. ‘Demi-Tour Impossible’ : le cap des cent quatre-vingt-deux défis, là tu peux plus reculer. Et ‘Cap365’ : les trois cent soixante-cinq défis bouclés, le badge final. Tu commences par lequel ? »*
 
-> **Note canon :** noms et conditions de badges repris à la lettre de la bible (Mois de Fer = 30 j, Hors Zone = 15 défis diff. 4-5, Demi-Tour Impossible = 182, Cap365 = 365). Ne pas modifier.
+> **Note canon :** noms et conditions de badges repris à la lettre de la bible (Mois de Fer = 30 j, Hors Zone = 15 défis diff. 8-10, Demi-Tour Impossible = 182, Cap365 = 365). Ne pas modifier.
 
 ### 🎥 B-roll suggéré
 Grille de 4 médailles qui se révèlent · animation de déverrouillage par badge · progression de série en surimpression.

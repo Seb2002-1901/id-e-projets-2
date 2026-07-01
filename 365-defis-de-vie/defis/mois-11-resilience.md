@@ -9,8 +9,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 305 — Le contrat de résilience
-- **Catégorie :** Sortie de zone de confort · **Stat :** Vision
-- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Vision
+- **Catégorie :** Sortie de zone de confort · **Stat :** Charisme
+- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Charisme
 - **Temps :** 20 min · **Coût :** 0 €
 - **Objectif :** Écrire noir sur blanc l'épreuve que tu refuses encore d'affronter, et signer un engagement à la regarder en face ce mois-ci.
 - **Pourquoi ce défi :** On ne devient pas résilient en théorie. Nommer ce qu'on évite, c'est lui retirer la moitié de son pouvoir. L'engagement écrit crée une dette envers toi-même qui ouvre tout le mois.
@@ -38,8 +38,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 307 — La cartographie de tes rebonds
-- **Catégorie :** Gestion des émotions · **Stat :** Émotionnel
-- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Émotionnel
+- **Catégorie :** Gestion des émotions · **Stat :** Mental
+- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Mental
 - **Temps :** 30 min · **Coût :** 0 €
 - **Objectif :** Identifier 3 épreuves passées dont tu t'es relevé, et en extraire ta mécanique de rebond personnelle.
 - **Pourquoi ce défi :** Tu es déjà plus résilient que tu ne le crois. Revoir tes survies passées te donne des preuves concrètes que tu sais rebondir — et une méthode déjà testée à réactiver.
@@ -95,8 +95,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 311 — Le silence de 60 minutes
-- **Catégorie :** Gestion des émotions · **Stat :** Esprit
-- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Esprit
+- **Catégorie :** Gestion des émotions · **Stat :** Mental
+- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Mental
 - **Temps :** 60 min · **Coût :** 0 €
 - **Objectif :** Rester une heure entière seul, sans écran, sans musique, sans distraction — juste toi et tes pensées.
 - **Pourquoi ce défi :** On fuit le silence parce qu'il nous met face à nous-mêmes. Apprendre à rester seul sans fuir est une compétence de résilience : tu deviens un endroit sûr pour toi-même.
@@ -123,8 +123,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 313 — Le recadrage d'une journée pourrie
-- **Catégorie :** Gestion des émotions · **Stat :** Émotionnel
-- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Émotionnel
+- **Catégorie :** Gestion des émotions · **Stat :** Mental
+- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Mental
 - **Temps :** 20 min · **Coût :** 0 €
 - **Objectif :** Prendre une contrariété récente et la réécrire pour en extraire une leçon ou un angle utile.
 - **Pourquoi ce défi :** La résilience n'est pas nier le négatif, c'est refuser de s'y noyer. Le recadrage est une compétence entraînable qui change ce que tu fais d'un coup dur.
@@ -137,8 +137,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 314 — La marche dans l'inconfort
-- **Catégorie :** Aventure · **Stat :** Corps
-- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Corps
+- **Catégorie :** Aventure · **Stat :** Vitalité
+- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Vitalité
 - **Temps :** 45 min · **Coût :** 0 €
 - **Objectif :** Sortir marcher 45 minutes par un temps que tu détestes (pluie, froid, vent) au lieu de rester au chaud.
 - **Pourquoi ce défi :** Choisir d'aller dehors quand tout te pousse à rester dedans entraîne ta capacité à agir malgré l'inconfort. C'est de la résilience à l'état pur, jambes comprises.
@@ -180,8 +180,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 317 — Le budget catastrophe
-- **Catégorie :** Finances · **Stat :** Vision
-- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Vision
+- **Catégorie :** Finances · **Stat :** Charisme
+- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Charisme
 - **Temps :** 40 min · **Coût :** 0 €
 - **Objectif :** Construire un plan de survie financier si tu perdais ta source de revenu demain, pour transformer une angoisse floue en stratégie claire.
 - **Pourquoi ce défi :** La résilience financière, c'est savoir qu'on tiendrait le choc. Affronter le scénario noir sur papier retire le pouvoir paralysant de l'angoisse vague.
@@ -194,8 +194,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 318 — La conversation que tu fuis
-- **Catégorie :** Relations · **Stat :** Social
-- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Social
+- **Catégorie :** Relations · **Stat :** Charisme
+- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Charisme
 - **Temps :** 30 min · **Coût :** 0 €
 - **Objectif :** Avoir, en face à face, une conversation difficile que tu repousses depuis des semaines, calmement et jusqu'au bout.
 - **Pourquoi ce défi :** Les conversations évitées pourrissent en silence. Affronter le malaise relationnel au lieu de le fuir muscle ta tolérance à l'inconfort là où elle compte le plus.
@@ -251,8 +251,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 322 — Le pardon qui te libère
-- **Catégorie :** Relations · **Stat :** Émotionnel
-- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Émotionnel
+- **Catégorie :** Relations · **Stat :** Mental
+- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Mental
 - **Temps :** 30 min · **Coût :** 0 €
 - **Objectif :** Choisir une rancune que tu traînes et décider consciemment de la déposer, pour toi et non pour l'autre.
 - **Pourquoi ce défi :** Porter une rancune, c'est laisser une vieille blessure piloter ton présent. Pardonner n'excuse rien : ça te rend ta liberté émotionnelle et ta résilience.
@@ -279,8 +279,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 324 — Le journal de stress décodé
-- **Catégorie :** Apprentissage · **Stat :** Esprit
-- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Esprit
+- **Catégorie :** Apprentissage · **Stat :** Mental
+- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Mental
 - **Temps :** 35 min · **Coût :** 0 €
 - **Objectif :** Décoder ce qui te fait craquer en analysant tes 3 dernières montées de stress pour repérer le schéma déclencheur.
 - **Pourquoi ce défi :** On ne peut pas gérer ce qu'on ne comprend pas. Identifier tes déclencheurs de stress te donne une longueur d'avance la prochaine fois qu'ils se présentent.
@@ -322,8 +322,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 327 — Le défi de la solitude choisie
-- **Catégorie :** Aventure · **Stat :** Esprit
-- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Esprit
+- **Catégorie :** Aventure · **Stat :** Mental
+- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Mental
 - **Temps :** 1/2 journée · **Coût :** 0 €
 - **Objectif :** Passer une demi-journée entière seul à l'extérieur, sans réseau ni distraction, pour t'appuyer uniquement sur toi-même.
 - **Pourquoi ce défi :** Apprendre à se suffire à soi-même quelques heures est une épreuve de résilience profonde. Tu découvres que tu es une compagnie fiable et que tu sais te débrouiller seul.
@@ -351,8 +351,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 329 — Encaisser une critique de plein fouet
-- **Catégorie :** Social · **Stat :** Social
-- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Social
+- **Catégorie :** Social · **Stat :** Charisme
+- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Charisme
 - **Temps :** 30 min · **Coût :** 0 €
 - **Objectif :** Demander à quelqu'un une critique honnête sur toi ou ton travail, l'écouter sans te défendre, et en garder le meilleur.
 - **Pourquoi ce défi :** La résilience inclut la capacité à recevoir ce qui pique sans s'effondrer ni contre-attaquer. Solliciter une critique te désensibilise et te fait progresser d'un coup.
@@ -365,8 +365,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 330 — Le défi du corps poussé
-- **Catégorie :** Aventure · **Stat :** Corps
-- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Corps
+- **Catégorie :** Aventure · **Stat :** Vitalité
+- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Vitalité
 - **Temps :** 45 min · **Coût :** 0 €
 - **Objectif :** Te confronter à une épreuve physique que tu n'as jamais tentée et qui t'impressionne, et la mener jusqu'au bout en gérant ta peur autant que ton effort.
 - **Pourquoi ce défi :** Affronter un terrain physique inédit — pas juste « faire 20 % de plus » — t'oblige à improviser face à l'imprévu corporel. C'est l'inconnu du corps qui forge ici la résilience, pas le chiffre.
@@ -380,8 +380,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 331 — La lettre de ton futur résilient
-- **Catégorie :** Créativité · **Stat :** Vision
-- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Vision
+- **Catégorie :** Créativité · **Stat :** Charisme
+- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Charisme
 - **Temps :** 35 min · **Coût :** 0 €
 - **Objectif :** Écrire une lettre depuis ton « toi » d'ici un an, à qui ce mois de résilience a permis de traverser les épreuves à venir.
 - **Pourquoi ce défi :** Se projeter en version résiliente ancre l'identité que tu construis. Tu ne fais pas que survivre au mois : tu décides de qui il fait de toi.
@@ -394,8 +394,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 332 — Le grand inventaire de tes forces
-- **Catégorie :** Confiance en soi · **Stat :** Émotionnel
-- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Émotionnel
+- **Catégorie :** Confiance en soi · **Stat :** Mental
+- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Mental
 - **Temps :** 30 min · **Coût :** 0 €
 - **Objectif :** Dresser la liste des épreuves de ce mois que tu as traversées et en extraire les forces concrètes que tu as découvertes en toi.
 - **Pourquoi ce défi :** La résilience devient réelle quand on la voit noir sur blanc. Mesurer ce que tu as encaissé ce mois te donne une banque de preuves contre tes futurs doutes.
@@ -408,8 +408,8 @@ L'état d'esprit du mois : **tu n'évites plus l'inconfort, tu apprends à fonct
 ---
 
 ### Jour 333 — Le rituel de reprise maîtrisé
-- **Catégorie :** Organisation · **Stat :** Vision
-- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Vision
+- **Catégorie :** Organisation · **Stat :** Charisme
+- **Difficulté :** 9/10 · **XP :** +90 · **Stat :** +3 Charisme
 - **Temps :** 30 min · **Coût :** 0 €
 - **Objectif :** Construire ton protocole personnel de reprise : quoi faire, concrètement, le jour où tu tomberas ou abandonneras quelque chose.
 - **Pourquoi ce défi :** La résilience n'est pas ne jamais tomber : c'est savoir exactement comment se relever. Un protocole prêt à l'emploi t'évite de réfléchir au pire moment.
@@ -456,4 +456,4 @@ Tu viens de boucler **334 jours** — et tu sors du mois le plus exigeant de l'a
 
 **Stats dominantes du mois :** **Courage** (J309, J312, J315, J321, J326, J334) et **Discipline** (J306, J308, J319, J323, J325), portées par un socle **Mental / Émotionnel** (J310, J316, J320, J328 · J307, J313, J322, J332) et des pointes **Esprit, Corps, Social, Vision**.
 
-> Avec ce mois à 2 400 XP, le plus chargé de l'année, tu fonces vers le **Niveau 10 — Transformé** (8 500 XP). Tu ne lis plus sur la résilience : tu l'as pratiquée dans ta chair, jour après jour. Il ne reste qu'un mois pour boucler la boucle. Un défi par jour. Une version de toi par an. Cap sur le mois 12.
+> Avec ce mois à 2 400 XP, le plus chargé de l'année, tu fonces vers le **Rang 10 — Légende** (≈ 26 000 XP). Tu ne lis plus sur la résilience : tu l'as pratiquée dans ta chair, jour après jour. Il ne reste qu'un mois pour boucler la boucle. Un défi par jour. Une version de toi par an. Cap sur le mois 12.

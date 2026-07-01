@@ -28,7 +28,7 @@ Le Journal de progression sert à raconter **comment** tu changes. Ce calendrier
 
 | Élément | Calcul |
 | --- | --- |
-| 🎯 **XP du défi** | difficulté × 10 → de **10 XP** (diff. 1) à **50 XP** (diff. 5) |
+| 🎯 **XP du défi** | difficulté × 10 → de **10 XP** (diff. 1) à **100 XP** (diff. 10) |
 | 🔥 **Bonus de série** | **+5 XP / jour** au-delà de 3 jours consécutifs, plafonné à **+25 XP/jour** |
 | 📅 **Bonus semaine pleine** | **+50 XP** forfaitaires pour 7 jours d'affilée sans rater |
 
@@ -85,10 +85,10 @@ Quatre haltes majeures jalonnent l'année. À chacune, tu débloques une récomp
 
 | 🏁 Checkpoint | Jour | Ce que tu débloques | XP cumulé indicatif* |
 | --- | --- | --- | --- |
-| 🟢 **Cap du 1ᵉʳ mois** | **Jour 30** | Badge **Mois de Fer** (30 jours d'affilée) + Titre du mois | ≈ **600 XP** → Niv.3 |
-| 🔵 **Cap du Trimestre** | **Jour 90** | Badge **Cap du Trimestre** (90 défis) + 1ᵉʳ Sceau de Pilier | ≈ **2 000 XP** → Niv.5 |
-| 🟣 **Cap de Mi-Parcours** | **Jour 180** | **Médaille de Mi-Parcours** + badge **Demi-Tour Impossible** | ≈ **4 400 XP** → Niv.7 |
-| 🟠 **Cap Absolu** | **Jour 365** | Badge **Cap365** + **Certificat de Transformation** + Rang d'Honneur | ≈ **8 500 XP** → Niv.10 |
+| 🟢 **Cap du 1ᵉʳ mois** | **Jour 30** | Badge **Mois de Fer** (30 jours d'affilée) + Titre du mois | ≈ **1 300 XP** → Rang 2 Élan |
+| 🔵 **Cap du Trimestre** | **Jour 90** | Badge **Cap du Trimestre** (90 défis) + 1ᵉʳ Sceau de Pilier | ≈ **4 500 XP** → Rang 4 Constant |
+| 🟣 **Cap de Mi-Parcours** | **Jour 180** | **Médaille de Mi-Parcours** + badge **Demi-Tour Impossible** | ≈ **10 000 XP** → Rang 5 Aguerri |
+| 🟠 **Cap Absolu** | **Jour 365** | Badge **Cap365** + **Certificat de Transformation** + Rang d'Honneur | ≈ **26 000 XP** → Rang 10 Légende |
 
 > \* *Hypothèses raisonnables.* L'XP cumulé est une **estimation indicative** basée sur la Courbe d'Inconfort Progressive (difficulté qui monte sur l'année) et les bonus de série moyens. Ton chiffre réel dépend des défis relevés et de ta régularité. L'objectif n'est pas de « faire le score », c'est de tenir le cap.
 
@@ -495,22 +495,22 @@ L'année est bouclée. Tu n'es plus la même personne qu'au jour 1.
 
 ---
 
-# 🎚️ Échelle des niveaux (rappel)
+# 🎚️ Échelle des rangs (rappel)
 
-> *Ton niveau dépend de ton **XP cumulé annuel**. Reporte-le à chaque fin de mois.*
+> *Ton rang dépend de ton **XP cumulé annuel** (50 niveaux regroupés en 10 rangs). Reporte-le à chaque fin de mois. Seuils d'XP cumulée à l'entrée de chaque rang.*
 
-| Niveau | Titre | Seuil XP |
+| Rang | Nom | Seuil XP |
 | --- | --- | --- |
-| 🟢 **Niv.1** | Éveil | 0 XP |
-| 🟢 **Niv.2** | Élan | 150 XP |
-| 🔵 **Niv.3** | Cap franchi | 400 XP |
-| 🔵 **Niv.4** | Constance | 800 XP |
-| 🟣 **Niv.5** | Aguerri | 1 400 XP |
-| 🟣 **Niv.6** | Affirmé | 2 200 XP |
-| 🟠 **Niv.7** | Inarrêtable | 3 200 XP |
-| 🟠 **Niv.8** | Forgé | 4 500 XP |
-| 🔴 **Niv.9** | Maîtrise | 6 200 XP |
-| 🏆 **Niv.10** | Transformé | 8 500 XP |
+| 🟢 **Rang 1** | Éveil | 0 XP |
+| 🟢 **Rang 2** | Élan | 2 200 XP |
+| 🔵 **Rang 3** | Apprenti | 4 000 XP |
+| 🔵 **Rang 4** | Constant | 6 300 XP |
+| 🟣 **Rang 5** | Aguerri | 9 100 XP |
+| 🟣 **Rang 6** | Affirmé | 12 400 XP |
+| 🟠 **Rang 7** | Artisan | 16 000 XP |
+| 🟠 **Rang 8** | Maître | 19 800 XP |
+| 🔴 **Rang 9** | Mentor | 23 000 XP |
+| 🏆 **Rang 10** | Légende | ≈ 26 000 XP |
 
 ---
 

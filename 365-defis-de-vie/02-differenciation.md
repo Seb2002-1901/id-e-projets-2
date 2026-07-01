@@ -65,9 +65,9 @@ Ce sont les moteurs internes qui rendent Cap365 **non comparable** à un challen
 Algorithme de difficulté qui **augmente l'exigence des défis de manière graduée sur 52 semaines**, te gardant toujours juste au-delà de ta zone de confort sans jamais te submerger.
 
 **Comment ça fonctionne :**
-- Chaque défi est noté sur une échelle de difficulté de **1 à 5**.
-- Les premières semaines privilégient les difficultés basses (1-2) : l'enjeu est l'ancrage de l'habitude, pas l'exploit.
-- Au fil des 52 semaines, la part de défis de difficulté 3, 4 puis 5 augmente progressivement.
+- Chaque défi est noté sur une échelle de difficulté de **1 à 10**.
+- Les premières semaines privilégient les difficultés basses (1-3) : l'enjeu est l'ancrage de l'habitude, pas l'exploit.
+- Au fil des 52 semaines, la part de défis de difficulté moyenne (4-6) puis haute (7-10) augmente progressivement.
 - Tu restes en permanence dans la **zone d'inconfort productif** : assez challengé pour progresser, jamais assez submergé pour abandonner.
 
 C'est l'opposé exact du challenge à intensité fixe qui t'épuise ou t'ennuie.
@@ -79,9 +79,9 @@ C'est l'opposé exact du challenge à intensité fixe qui t'épuise ou t'ennuie.
 Chaque défi validé génère une **trace concrète** (XP, badge, entrée de journal) qui transforme un sentiment vague de progrès en **données visibles et motivantes**.
 
 **Comment ça fonctionne :**
-- **XP = difficulté du défi × 10** (soit 10 à 50 XP par défi).
-- L'XP cumulée fait franchir des **niveaux** (de Niv.1 *Éveil* à Niv.10 *Transformé*).
-- Les jalons importants débloquent des **badges** et **trophées** affichables.
+- **XP = difficulté du défi × 10** (soit 10 à 100 XP par défi).
+- L'XP cumulée fait franchir des **niveaux** (50 niveaux regroupés en 10 rangs, du Rang 1 *Éveil* au Rang 10 *Légende*).
+- Les jalons importants débloquent des **badges** (24 badges, 4 raretés : Commun, Rare, Épique, Légendaire) affichables.
 - Chaque défi nourrit ton **journal de bord** et la **Carte de l'Année**, une fresque qui se remplit jour après jour.
 
 Le progrès n'est plus une impression. C'est une **trace mesurable** que tu peux regarder, et même partager.
@@ -133,7 +133,7 @@ La régularité devient satisfaisante. Chaque jour validé te rapporte quelque c
 | **Motivation dans la durée** | Gamification complète et feedback immédiat | Repose uniquement sur la volonté |
 | **Périmètre couvert** | 15 catégories / 4 piliers (Discipline, Confiance, Corps & Énergie, Compétences) | Souvent un seul axe (sport, ou productivité) |
 | **Psychologie de l'abandon** | Au cœur de la conception | Ignorée |
-| **Récompenses tangibles** | Certificat, badges, trophées, Carte de l'Année, médailles | Aucune, ou simple « fierté personnelle » |
+| **Récompenses tangibles** | Certificat, 24 badges (dont badges légendaires), Carte de l'Année, médailles | Aucune, ou simple « fierté personnelle » |
 | **Partage / preuve sociale** | Récompenses visuelles, certificats et kit de défis à plusieurs | Peu ou pas partageable |
 | **Promesse** | Discipline, confiance et compétences par l'action — réaliste | Souvent survendue ou intenable |
 

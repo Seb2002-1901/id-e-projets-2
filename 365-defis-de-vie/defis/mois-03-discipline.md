@@ -461,4 +461,4 @@ Tu viens de boucler **90 jours**, soit un quart de ton année. La discipline n'e
 
 **Stats dominantes du mois :** **Discipline** (cœur du mois, présente sur la majorité des défis), suivie de **Courage** (J63, J67, J82, J89) et **Vitalité** (J70, J73, J80). Touches complémentaires sur **Charisme** (J77, J79), **Mental** (J75), **Savoir** (J86) et **Prospérité** (J76).
 
-> Avec ce mois à 1 310 XP, ta discipline pèse lourd dans ton compteur d'année. Tu consolides le **Niveau 5 — Aguerri** et tu vises déjà le **Niveau 6 — Affirmé**. Un défi par jour. Une version de toi par an. Le quart de l'année est franchi : cap sur le mois 4.
+> Avec ce mois à 1 310 XP, ta discipline pèse lourd dans ton compteur d'année. Tu consolides le **Rang 2 — Élan** et tu vises déjà le **Rang 3 — Apprenti**. Un défi par jour. Une version de toi par an. Le quart de l'année est franchi : cap sur le mois 4.

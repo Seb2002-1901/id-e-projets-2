@@ -25,7 +25,7 @@
 ### 🗂️ Vocabulaire de marque à utiliser (et à ne pas trahir)
 - **Marque :** Cap365 — **Offres :** Essentiel (19€), Transformation (39€), Élite (89€).
 - **Mécanismes propriétaires :** la **Courbe d'Inconfort Progressive**, le **Système de Preuves**, le **Filet de Reprise**.
-- **Gamification :** XP, niveaux (Niv.1 Éveil → Niv.10 Transformé), séries (streaks), badges, journée de grâce, rituel de reprise, badge **Phénix**.
+- **Gamification :** XP, niveaux/rangs (Rang 1 Éveil → Rang 10 Légende, 50 niveaux en 10 rangs), radar des 8 stats, séries (streaks), 24 badges (4 raretés : Commun, Rare, Épique, Légendaire), journée de grâce, rituel de reprise, badge **Phénix**.
 - **Avatar :** Lucas, 26 ans, sait quoi faire mais n'applique rien, abandonne le mercredi, peur du regard des autres.
 
 ### #️⃣ Banque de hashtags Cap365 (à piocher, 8–15 par post)
@@ -104,13 +104,13 @@
 
 **Script (voix) :**
 1. *(0–4 s)* « Chaque défi accompli te donne de l'XP. Difficulté ×10. »
-2. *(4–10 s)* « Tu montes de niveau : Éveil… Élan… Cap franchi… jusqu'à Transformé. »
+2. *(4–10 s)* « Tu montes de rang : Éveil… Élan… Apprenti… jusqu'à Légende. »
 3. *(10–17 s)* « Ta série s'allonge. Tes badges tombent. Ta courbe de progression se dessine — la preuve **visible** que t'avances vraiment. »
 4. *(17–23 s)* « Pas de classement contre les autres. Tu te mesures à ton meilleur toi. »
 
 **Texte à l'écran :**
 - `+30 XP ✅` (en accent `#F5A623`)
-- `Niv.3 Cap franchi`
+- `Niv.3 · Rang Éveil`
 - `Série : 12 jours 🔥`
 - `Tu te compares à TOI. Pas aux autres.`
 
@@ -286,16 +286,16 @@
 | Slide | Contenu |
 |---|---|
 | **1 — Hook** | « 5 vrais défis Cap365 (et pourquoi ils marchent). Swipe → » |
-| **2** | « 💪 Sport · Diff. 1 — 20 squats avant ton café. *Pourquoi : prouver qu'on peut commencer petit.* » |
-| **3** | « 🗣️ Confiance · Diff. 2 — Donne un compliment sincère à un inconnu. *Pourquoi : un cran hors zone de confort.* » |
-| **4** | « 📵 Discipline · Diff. 3 — 1 h sans téléphone, présence totale. *Pourquoi : reprendre la main sur ton attention.* » |
-| **5** | « 💰 Finances · Diff. 2 — Liste tes 3 dépenses inutiles du mois. *Pourquoi : la lucidité avant l'action.* » |
-| **6** | « 🧗 Sortie de zone de confort · Diff. 4 — Fais le truc que tu repousses depuis 2 semaines. *Pourquoi : briser l'évitement.* » |
+| **2** | « 💪 Sport · Diff. 2 — 20 squats avant ton café. *Pourquoi : prouver qu'on peut commencer petit.* » |
+| **3** | « 🗣️ Confiance · Diff. 4 — Donne un compliment sincère à un inconnu. *Pourquoi : un cran hors zone de confort.* » |
+| **4** | « 📵 Discipline · Diff. 6 — 1 h sans téléphone, présence totale. *Pourquoi : reprendre la main sur ton attention.* » |
+| **5** | « 💰 Finances · Diff. 4 — Liste tes 3 dépenses inutiles du mois. *Pourquoi : la lucidité avant l'action.* » |
+| **6** | « 🧗 Sortie de zone de confort · Diff. 8 — Fais le truc que tu repousses depuis 2 semaines. *Pourquoi : briser l'évitement.* » |
 | **7** | « Chaque défi = de l'XP, une preuve, un cran plus loin. 15 catégories. 365 jours. » |
 | **8 — CTA** | « Tu veux les 360 autres ? 📍 Lien en bio. » |
 
 **Légende :**
-> Pas de théorie. Des **actions concrètes**, classées en 15 catégories, calibrées en difficulté (1 à 5). 👇
+> Pas de théorie. Des **actions concrètes**, classées en 15 catégories, calibrées en difficulté (1 à 10). 👇
 >
 > Le secret n'est pas dans la taille du défi — il est dans le fait d'en faire **un par jour, tous les jours**. La difficulté monte par paliers réalistes sur l'année (la Courbe d'Inconfort Progressive).
 >
@@ -312,13 +312,13 @@
 | Slide | Contenu |
 |---|---|
 | **1 — Hook** | « Ta vraie vie a maintenant des niveaux. Voici comment tu montes. » |
-| **2** | « ⚡ XP = difficulté du défi × 10. De 10 XP (diff. 1) à 50 XP (diff. 5). » |
+| **2** | « ⚡ XP = difficulté du défi × 10. De 10 XP (diff. 1) à 100 XP (diff. 10). » |
 | **3** | « 🔥 Bonus de série : +5 XP / jour au-delà de 3 jours consécutifs. Semaine pleine = +50 XP. » |
-| **4** | « 🪜 Les 10 niveaux : Éveil → Élan → Cap franchi → Constance → Aguerri… » |
-| **5** | « …Affirmé → Inarrêtable → Forgé → Maîtrise → **Transformé** (8 500 XP). » |
-| **6** | « 🏅 Des badges qui tombent : Premier Pas, Semaine Pleine, Phénix, Cap365… » |
+| **4** | « 🪜 50 niveaux en 10 rangs : Éveil → Élan → Apprenti → Constant → Aguerri… » |
+| **5** | « …Affirmé → Artisan → Maître → Mentor → **Légende** (≈ 26 000 XP). » |
+| **6** | « 🏅 Des badges qui tombent : Premier Pas, Semaine Pleine, Phénix, Cap365… (24 badges, 4 raretés) » |
 | **7** | « 📈 Et une courbe de progression personnelle. Tu te bats contre ton record, pas contre les autres. » |
-| **8 — CTA** | « Niveau 1 Éveil débloqué dès ton 1ᵉʳ défi. 📍 Lien en bio. » |
+| **8 — CTA** | « Rang 1 Éveil débloqué dès ton 1ᵉʳ défi. 📍 Lien en bio. » |
 
 **Légende :**
 > On a transformé ta discipline en jeu — mais un jeu dont la récompense est **réelle**. 🎮👇

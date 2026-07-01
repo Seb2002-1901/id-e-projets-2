@@ -41,7 +41,7 @@ Tu **réutilises** tes meilleurs TikTok en Reels Instagram (et inversement). Le 
 | **Signature** | *Un défi par jour. Une version de toi par an.* |
 
 **Mécanismes propriétaires à citer** (jamais trahir les noms) : la **Courbe d'Inconfort Progressive**, le **Système de Preuves**, le **Filet de Reprise**.
-**Gamification :** XP (difficulté ×10), niveaux (Niv.1 Éveil → Niv.10 Transformé), séries/streaks, journée de grâce, rituel de reprise, badge **Phénix**.
+**Gamification :** XP (difficulté ×10), niveaux/rangs (Rang 1 Éveil → Rang 10 Légende, 50 niveaux en 10 rangs), radar des 8 stats, séries/streaks, 24 badges (4 raretés), journée de grâce, rituel de reprise, badge **Phénix**.
 **Offres :** Essentiel 19€ · Transformation 39€ · Élite 89€.
 
 ---
@@ -73,7 +73,7 @@ Tu **réutilises** tes meilleurs TikTok en Reels Instagram (et inversement). Le 
 | **J7** | Avant / Après | Preuve visible de progression *(Script T02)* | « Voilà ce qui change quand tu fais 1 truc dur par jour. » | « 365 jours, 365 défis. Lien en bio. » | Rendre la transformation tangible |
 | **J8** | Liste (erreurs) | « Pourquoi t'abandonnes le mercredi » *(Script T09)* | « 3 raisons pour lesquelles t'abandonnes le mercredi. » | « Le Filet de Reprise règle ça. Bio. » | Psychologie de l'abandon |
 | **J9** | Storytime (échec) | Le Filet de Reprise *(Script T07)* | « J'ai abandonné 6 défis 30 jours. Le 7e a tenu. » | « Ce qui a changé : le Filet de Reprise. Bio. » | Différenciation anti-abandon |
-| **J10** | Défi du jour (hors zone) | Sortie de zone de confort *(Script T12)* | « Difficulté 4 sur 5. Tu oses ou pas ? » | « Tous les niveaux sont dans Cap365. Bio. » | Curiosité + engagement |
+| **J10** | Défi du jour (hors zone) | Sortie de zone de confort *(Script T12)* | « Difficulté 8 sur 10. Tu oses ou pas ? » | « Tous les niveaux sont dans Cap365. Bio. » | Curiosité + engagement |
 | **J11** | Mythe vs Réalité | « Les 21 jours, c'est faux » *(Script T11)* | « ‘‘Faut 21 jours pour une habitude.’’ Faux. » | « La vraie méthode : Cap365. Lien en bio. » | Autorité douce + pédagogie |
 | **J12** | POV (projection) | Vision du 31 décembre *(Script T13)* | « POV : c'est le 31 décembre et t'as tenu. » | « Commence ton année maintenant. Bio. » | Projection émotionnelle |
 | **J13** | Réponse commentaire | Objection « j'ai pas le temps » *(Script T15)* | « ‘‘J'ai pas le temps.’’ Je disais pareil. » | « 10 min/jour, moins que ton scroll. Bio. » | Lever l'objection temps |
@@ -88,7 +88,7 @@ Tu **réutilises** tes meilleurs TikTok en Reels Instagram (et inversement). Le 
 | **J22** | Réponse commentaire | Objection « j'ai déjà acheté des trucs » | « ‘‘J'ai déjà acheté ça et jamais fini.’’ Justement. » | « Pas un programme à finir : un pas/jour. Bio. » | Lever l'objection passé |
 | **J23** | Avant / Après | Le Système de Preuves (courbe XP) | « 90 jours d'XP, ça ressemble à ça. » | « Ta progression, visible noir sur blanc. Bio. » | Preuve mesurable |
 | **J24** | Storytime | « Pourquoi je ne lis plus de dev perso » | « J'ai arrêté de lire sur le changement. J'ai commencé à le faire. » | « Action avant théorie. Cap365 en bio. » | Valeur de marque (action) |
-| **J25** | Liste (badges/niveaux) | Les 10 niveaux Éveil → Transformé | « De ‘‘Éveil’’ à ‘‘Transformé’’ en 1 an. » | « Monte les 10 niveaux. Lien en bio. » | Gamification + désir |
+| **J25** | Liste (badges/rangs) | Les 10 rangs Éveil → Légende | « De ‘‘Éveil’’ à ‘‘Légende’’ en 1 an. » | « Monte les 10 rangs. Lien en bio. » | Gamification + désir |
 | **J26** | POV (projection) | « La version de toi dans 1 an » | « POV : tu rencontres la version de toi d'il y a 1 an. » | « Une version de toi par an. Bio. » | Projection + slogan |
 | **J27** | Défi du jour | Catégorie Santé / douche froide | « 30 secondes d'eau froide. C'est ton défi. » | « 365 défis comme ça t'attendent. Bio. » | Démo simple + reach |
 | **J28** | Mythe vs Réalité | « Tu rates pas par manque de volonté » | « Si t'abandonnes, c'est pas un manque de volonté. » | « C'est un manque de système. Cap365. Bio. » | Psychologie + différenciation |
@@ -115,7 +115,7 @@ Tu **réutilises** tes meilleurs TikTok en Reels Instagram (et inversement). Le 
 | **J11** | Carrousel #2 | « Anatomie d'un défi Cap365 » | « À quoi ressemble vraiment un défi par jour. » | « Découvre les 365. Lien en bio. » | Démo produit + valeur perçue |
 | **J13** | Reel | Storytime transformation | « Il y a un an je ratais tout. Aujourd'hui je suis fiable. » | « Une version de toi par an. Bio. » | Preuve narrative |
 | **J15** | Reel | Objection temps | « ‘‘J'ai pas le temps.’’ Tu scrolles 2h par jour. » | « 10 min/jour. Tu remplaces, tu n'ajoutes pas. Bio. » | Lever objection temps |
-| **J17** | Carrousel #3 | « Les 10 niveaux de Cap365 » | « De ‘‘Éveil’’ à ‘‘Transformé’’. Voilà ton chemin. » | « Commence au Niveau 1. Lien en bio. » | Gamification + désir |
+| **J17** | Carrousel #3 | « Les 10 rangs de Cap365 » | « De ‘‘Éveil’’ à ‘‘Légende’’. Voilà ton chemin. » | « Commence au Rang 1. Lien en bio. » | Gamification + désir |
 | **J19** | Reel | Catégorie Confiance | « Le défi qui fait peur. Et qui change tout. » | « Pilier Confiance dans Cap365. Bio. » | Bénéfice émotionnel |
 | **J21** | Reel | Avant/Après progression | « 90 jours de défis. La preuve en image. » | « Ta progression, visible. Lien en bio. » | Preuve mesurable |
 | **J23** | Carrousel #4 | « Pourquoi un challenge classique te lâche » | « Liste figée vs système calibré. Le match. » | « Le système, c'est Cap365. Bio. » | Différenciation comparative |

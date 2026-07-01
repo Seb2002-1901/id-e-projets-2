@@ -56,7 +56,7 @@ Le plan suit **3 phases**, du socle au lancement, pour qu'aucune journée ne dé
 **✅ Check-list**
 - ⬜ Relire la Bible de marque (nom, slogan, ton, palette, gamification) et la garder ouverte en référence permanente.
 - ⬜ Lister les **15 catégories** et décider de leur répartition sur l'année (≈ 24-25 défis par catégorie sur 365).
-- ⬜ Définir l'échelle de **difficulté 1 à 5** et sa montée progressive sur 52 semaines (Courbe d'Inconfort Progressive).
+- ⬜ Définir l'échelle de **difficulté 1 à 10** et sa montée progressive sur 52 semaines (Courbe d'Inconfort Progressive).
 - ⬜ Créer le **modèle de fiche défi** (gabarit unique) : numéro du jour, titre, catégorie, difficulté, durée estimée, consigne, pourquoi ça compte, validation, XP.
 - ⬜ Choisir les outils définitifs (rédaction, mise en page, vente) et créer les comptes.
 - ⬜ Bloquer un planning de production réaliste sur 14 jours dans ton agenda.
@@ -73,11 +73,11 @@ Le plan suit **3 phases**, du socle au lancement, pour qu'aucune journée ne dé
 
 **✅ Check-list**
 - ⬜ Créer un **tableur maître** : 1 ligne = 1 défi (colonnes : Jour, Semaine, Catégorie, Difficulté, Titre court, XP, Statut).
-- ⬜ Affecter une **difficulté croissante** par bloc de semaines (S1-8 majorité difficulté 1-2, S9-30 difficulté 2-3, S31-52 difficulté 3-5).
+- ⬜ Affecter une **difficulté croissante** par bloc de semaines (S1-8 majorité difficulté 1-3, S9-30 difficulté 4-6, S31-52 difficulté 7-10).
 - ⬜ Définir les **52 thèmes hebdomadaires** (un fil conducteur par semaine).
 - ⬜ Équilibrer la présence des **15 catégories** sur l'ensemble de l'année (aucune catégorie oubliée, aucune sur-représentée).
 - ⬜ Calculer l'**XP par défi** (difficulté × 10) directement dans le tableur.
-- ⬜ Vérifier la cohérence : pas de difficulté 5 avant la semaine 20, montée fluide.
+- ⬜ Vérifier la cohérence : pas de difficulté 9-10 avant la semaine 20, montée fluide.
 
 **🧰 Outils :** Google Sheets / Notion (base de données), la Bible (catégories + formule XP).
 
@@ -111,7 +111,7 @@ Le plan suit **3 phases**, du socle au lancement, pour qu'aucune journée ne dé
 
 **✅ Check-list**
 - ⬜ Rédiger les fiches complètes des **défis 121 à 240**.
-- ⬜ Intégrer davantage de défis **difficulté 3-4** (social, confiance, aventure, sortie de zone de confort).
+- ⬜ Intégrer davantage de défis **difficulté 6-8** (social, confiance, aventure, sortie de zone de confort).
 - ⬜ Glisser un **jalon de mi-parcours** marquant autour du défi 182 (lien avec la Médaille de Mi-Parcours).
 - ⬜ Vérifier l'enchaînement avec le bloc 1 (pas de redite, progression sensible).
 - ⬜ Relire chaque défi sur smartphone pour valider la lisibilité mobile.
@@ -146,8 +146,8 @@ Le plan suit **3 phases**, du socle au lancement, pour qu'aucune journée ne dé
 **🎯 Objectif du jour :** transformer la liste de défis en **système** (XP, niveaux, badges, séries, suivi).
 
 **✅ Check-list**
-- ⬜ Mettre au propre le **système de niveaux** (10 paliers, seuils d'XP) tel que défini dans la Bible.
-- ⬜ Rédiger les **12 badges** et **6 trophées** (nom + condition + courte phrase de félicitation).
+- ⬜ Mettre au propre le **système de niveaux** (50 niveaux regroupés en 10 rangs, seuils d'XP) tel que défini dans la Bible.
+- ⬜ Rédiger les **24 badges** (4 raretés : Commun, Rare, Épique, Légendaire — les badges légendaires remplacent les anciens trophées) : nom + condition + courte phrase de félicitation.
 - ⬜ Décrire le mécanisme de **séries** (streak), de **journée de grâce** et le **Filet de Reprise** (rituel + badge Phénix).
 - ⬜ Concevoir le **carnet de suivi imprimable** (cases à cocher, série, journal de bord) et le **tableau de bord** (modèle Sheets/Notion).
 - ⬜ Rédiger le guide de démarrage « **Tes 7 premiers jours** » et le mini-guide « **Construire une habitude qui tient** ».
@@ -189,7 +189,7 @@ Le plan suit **3 phases**, du socle au lancement, pour qu'aucune journée ne dé
 - ⬜ Importer et mettre en page les **365 défis** dans les gabarits (objectif ~220 pages comme recommandé).
 - ⬜ Insérer les **séparateurs de mois / semaines** et les jalons (mi-parcours, fin d'année).
 - ⬜ Ajouter une **table des matières cliquable** et une numérotation claire des jours.
-- ⬜ Intégrer les **pages de gamification** (niveaux, badges, trophées, récompenses symboliques).
+- ⬜ Intégrer les **pages de gamification** (niveaux/rangs, radar des 8 stats, 24 badges, récompenses symboliques).
 - ⬜ Intégrer le **carnet de suivi imprimable** et le guide « Tes 7 premiers jours ».
 - ⬜ Relecture finale orthographe + cohérence visuelle sur l'ensemble.
 

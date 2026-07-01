@@ -251,7 +251,7 @@ Chaque vidéo, chaque bio, chaque Story renvoie vers **un seul lien** (page de c
 - **📊 KPIs :** ventes J15, taux de clic email objections.
 
 #### **J16 — Le différenciateur en avant**
-- **Actions :** **vidéo #12 « Difficulté 4 sur 5. Tu oses ou pas ? »** (sortie de zone de confort) + rappel des 3 mécanismes propriétaires (Courbe d'Inconfort Progressive, Système de Preuves, Filet de Reprise).
+- **Actions :** **vidéo #12 « Difficulté 8 sur 10. Tu oses ou pas ? »** (sortie de zone de confort) + rappel des 3 mécanismes propriétaires (Courbe d'Inconfort Progressive, Système de Preuves, Filet de Reprise).
 - **🎯 Objectif :** rappeler pourquoi Cap365 n'est comparable à aucun challenge classique.
 - **📊 KPIs :** ventes J16, engagement.
 

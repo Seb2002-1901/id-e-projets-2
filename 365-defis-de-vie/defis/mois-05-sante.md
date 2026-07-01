@@ -553,4 +553,4 @@ Tu viens de boucler **151 jours**. Ce mois ne t'a rien promis de magique : il t'
 
 **Stats dominantes du mois :** ce mois irrigue surtout ta **Vitalité** (santé et sport), avec un fort soutien du **Mental** (écoute de soi, gestion du stress et des émotions), de la **Discipline** (rituels, coupures, environnement) et des pointes de **Courage** (inconfort volontaire), **Savoir** (cuisine, enquêtes sur soi) et **Création** (expériences sensorielles inédites).
 
-> Avec ce mois à 1 580 XP, ton capital énergie pèse lourd dans ton compteur d'année. Tu consolides ta progression vers le **Niveau 8 — Forgé** (4 500 XP) et au-delà. Un défi par jour. Une version de toi par an. La santé est ton socle : cap sur le mois 6.
+> Avec ce mois à 1 580 XP, ton capital énergie pèse lourd dans ton compteur d'année. Tu consolides ta progression vers le **Rang 4 — Constant** (6 300 XP) et au-delà. Un défi par jour. Une version de toi par an. La santé est ton socle : cap sur le mois 6.

@@ -492,4 +492,4 @@ Tu viens de boucler **31 jours d'affilée**. Ce n'est pas rien : la plupart des 
 
 **Stats dominantes du mois :** ce premier cap muscle surtout ta **Discipline** (jours 2, 5, 7, 9, 18, 19, 22, 31) et ton **Courage** (jours 1, 16, 17, 27, 30), soutenus par ta **Vitalité** (jours 3, 8, 11, 20, 28) et ton **Charisme** (jours 6, 10, 21, 29). Le **Mental**, le **Savoir**, la **Création** et la **Prospérité** entrent eux aussi dans la danse. Un socle équilibré, taillé pour durer.
 
-> Avec 670 XP, tu franchis le seuil du **Niveau 3 — Cap franchi** (400 XP) et tu files vers le **Niveau 4 — Constance** (800 XP). Un défi par jour. Une version de toi par an. Le cap est lancé : on continue au mois 2.
+> Avec ~670 XP, tu avances déjà dans le **Rang 1 — Éveil** (0 → 900 XP) et tu vises le **Rang 2 — Élan** (≈ 2 200 XP). Un défi par jour. Une version de toi par an. Le cap est lancé : on continue au mois 2.

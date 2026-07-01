@@ -44,16 +44,16 @@
 - ✅ Vert `#27AE82` **strictement réservé** au succès/validation. Jamais décoratif.
 - 🎚️ **Hiérarchie chromatique :** Primaire (structure) → Secondaire (appui) → Accent (action) → Succès (récompense).
 
-### Codes de couleur par bloc difficulté (carte de défi)
-| Difficulté | XP | Pastille couleur | HEX |
+### Codes de couleur par bande de difficulté (carte de défi)
+| Bande de difficulté | XP | Pastille couleur | HEX |
 |---|---|---|---|
-| ★☆☆☆☆ Niveau 1 | 10 XP | Vert | `#27AE82` |
-| ★★☆☆☆ Niveau 2 | 20 XP | Bleu | `#2E5EAA` |
-| ★★★☆☆ Niveau 3 | 30 XP | Bleu nuit | `#1B2A4A` |
-| ★★★★☆ Niveau 4 | 40 XP | Orange | `#F5A623` |
-| ★★★★★ Niveau 5 | 50 XP | Orange foncé* | `#D98A12` |
+| Difficulté 1-3 (basse) | 10-30 XP | Vert | `#27AE82` |
+| Difficulté 4-5 | 40-50 XP | Bleu | `#2E5EAA` |
+| Difficulté 6 | 60 XP | Bleu nuit | `#1B2A4A` |
+| Difficulté 7-8 | 70-80 XP | Orange | `#F5A623` |
+| Difficulté 9-10 (haute) | 90-100 XP | Orange foncé* | `#D98A12` |
 
-> *Variante assombrie de l'accent pour signaler le « hors zone » (difficulté 4-5) sans sortir de la charte. À utiliser uniquement sur la pastille de difficulté max.
+> *Variante assombrie de l'accent pour signaler le « hors zone » (difficulté 9-10) sans sortir de la charte. À utiliser uniquement sur la pastille de difficulté max.
 
 ---
 
@@ -100,7 +100,7 @@
 | 🛤️ **Chemin** | Le parcours de 365 jours | Frises de progression, sommaire, fil conducteur. |
 | 📍 **Jalon** | Paliers, niveaux, mi-parcours | Pages de niveau, médaille de mi-parcours, fins de mois. |
 | 🛡️ **Bouclier** | Le Filet de Reprise, la résilience | Pages anti-abandon, badge Phénix, rituel de reprise. |
-| 🏅 **Médaille / sceau** | Badges, trophées, récompenses | Pages gamification, certificat, sceaux de pilier. |
+| 🏅 **Médaille / sceau** | Badges (dont badges légendaires), récompenses | Pages gamification, certificat, sceaux de pilier. |
 
 ### À faire / à éviter
 | ✅ À faire | ❌ À éviter |
@@ -158,7 +158,7 @@
 | 6-7 | **Promesse & ce que ce produit n'est PAS** | Ce que tu vas construire (discipline, confiance, compétences) — et les promesses qu'on ne te fait **jamais** (richesse, bonheur permanent, vie parfaite). |
 | 8-10 | **Mode d'emploi** | Comment ça marche : 1 défi/jour, 5-20 min, valider, gagner de l'XP. Comment lire une carte de défi. |
 | 11 | **Les 15 catégories** | Grille visuelle des 15 catégories + leurs icônes. |
-| 12-13 | **Le système de jeu (gamification)** | XP, niveaux, séries, badges, trophées — vue d'ensemble. |
+| 12-13 | **Le système de jeu (gamification)** | XP, niveaux/rangs, séries, badges, radar des 8 stats — vue d'ensemble. |
 | 14 | **La Courbe d'Inconfort Progressive** | Comment la difficulté monte sur 52 semaines. |
 | 15 | **Le Filet de Reprise** | Journée de grâce + rituel de reprise. Page bouclier. |
 | 16 | **Le Système de Preuves** | Chaque défi laisse une trace (XP, badge, journal). |
@@ -170,11 +170,11 @@
 | Page(s) | Élément | Contenu |
 |---|---|---|
 | 19-20 | **Dashboard de progression** | Tableau de bord : niveau actuel, XP totale, série en cours, record. |
-| 21 | **Jauge de niveau (Niv.1 → Niv.10)** | Échelle des 10 paliers avec seuils d'XP. |
+| 21 | **Jauge de rang (Rang 1 → Rang 10)** | Échelle des 50 niveaux regroupés en 10 rangs, avec seuils d'XP. |
 | 22 | **Calendrier annuel** | Grille 12 mois à cocher, vue d'oiseau de l'année. |
 | 23 | **Suivi de série (streak)** | Compteur de jours consécutifs + journées de grâce. |
-| 24 | **Mur des badges** | Les 12 badges à débloquer, états verrouillé/débloqué. |
-| 25 | **Vitrine des trophées** | Les 6 trophées + conditions. |
+| 24 | **Mur des badges** | Les 24 badges à débloquer (4 raretés : Commun, Rare, Épique, Légendaire), états verrouillé/débloqué. |
+| 25 | **Vitrine des badges légendaires** | Les badges de rareté Légendaire + conditions. |
 | 26 | **Mon record perso** | Classement strictement personnel : meilleure série, meilleure semaine, progression mensuelle. |
 
 ### 🔹 Bloc C — Les 12 mois (les 365 défis) *(pages 27 → 196)*
@@ -197,7 +197,7 @@
 | Mois 5 | 83-96 | Travail des piliers. |
 | Mois 6 | 97-110 | **Jour 182 → Médaille de Mi-Parcours** + badge **Demi-Tour Impossible**. |
 | Mois 7 | 111-124 | Relance post mi-parcours. |
-| Mois 8 | 125-138 | Défis hors zone (difficulté 4-5). |
+| Mois 8 | 125-138 | Défis hors zone (difficulté 7-10). |
 | Mois 9 | 139-152 | Jour 270 → cap des 3 trimestres. |
 | Mois 10 | 153-166 | Consolidation des habitudes. |
 | Mois 11 | 167-180 | Approche du sommet. |
@@ -283,34 +283,36 @@
 ### 8.1 — Barre de progression XP (vers le niveau suivant)
 
 ```
-NIVEAU 3 · CAP FRANCHI                              520 / 800 XP
+RANG 3 · APPRENTI                                 2 700 / 4 000 XP
 ┌──────────────────────────────────────────────────────────┐
 │██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
 └──────────────────────────────────────────────────────────┘
  ▲ rempli : orange #F5A623          ▲ vide : gris #8A93A2 (15%)
- Plus que 280 XP pour atteindre NIV.4 · CONSTANCE
+ Plus que 1 300 XP pour atteindre le RANG 4 · CONSTANT
 ```
 
 - **Hauteur** : 18 px, coins arrondis pleins.
 - **Rempli** : `#F5A623`. **Vide** : `#8A93A2` à 15 % d'opacité.
-- **Libellé** : palier actuel (gauche) + ratio XP (droite), Montserrat Bold 14 pt.
+- **Libellé** : rang actuel (gauche) + ratio XP (droite), Montserrat Bold 14 pt.
 
-### 8.2 — Échelle des 10 niveaux (jauge verticale du dashboard)
+### 8.2 — Échelle des 10 rangs (jauge verticale du dashboard)
 
-| Niveau | Palier | Seuil XP | État visuel |
+> Les 50 niveaux sont regroupés en 10 rangs (5 niveaux par rang). Seuils d'XP cumulée à l'entrée de chaque rang.
+
+| Rang | Nom | Seuil XP | État visuel |
 |---|---|---|---|
-| Niv.1 | Éveil | 0 XP | 🟠 point de départ |
-| Niv.2 | Élan | 150 XP | ⬤ |
-| Niv.3 | Cap franchi | 400 XP | ⬤ |
-| Niv.4 | Constance | 800 XP | ⬤ |
-| Niv.5 | Aguerri | 1 400 XP | ⬤ |
-| Niv.6 | Affirmé | 2 200 XP | ⬤ |
-| Niv.7 | Inarrêtable | 3 200 XP | ⬤ |
-| Niv.8 | Forgé | 4 500 XP | ⬤ |
-| Niv.9 | Maîtrise | 6 200 XP | ⬤ |
-| Niv.10 | Transformé | 8 500 XP | 🏔️ sommet |
+| Rang 1 | Éveil | 0 XP | 🟠 point de départ |
+| Rang 2 | Élan | 2 200 XP | ⬤ |
+| Rang 3 | Apprenti | 4 000 XP | ⬤ |
+| Rang 4 | Constant | 6 300 XP | ⬤ |
+| Rang 5 | Aguerri | 9 100 XP | ⬤ |
+| Rang 6 | Affirmé | 12 400 XP | ⬤ |
+| Rang 7 | Artisan | 16 000 XP | ⬤ |
+| Rang 8 | Maître | 19 800 XP | ⬤ |
+| Rang 9 | Mentor | 23 000 XP | ⬤ |
+| Rang 10 | Légende | ≈ 26 000 XP | 🏔️ sommet |
 
-- Représentée comme un **chemin ascendant** (métaphore sommet) : 10 jalons reliés, le palier atteint en `#F5A623`, les suivants en `#8A93A2`.
+- Représentée comme un **chemin ascendant** (métaphore sommet) : 10 jalons reliés, le rang atteint en `#F5A623`, les suivants en `#8A93A2`.
 
 ### 8.3 — Compteur de série (streak)
 
@@ -354,7 +356,7 @@ PROGRESSION DE L'ANNÉE
 ```
 
 - Jalon central `#F5A623` au jour 182 (Médaille de Mi-Parcours, badge **Demi-Tour Impossible**).
-- **Mur des badges** : grille de 12 vignettes ; débloqué = couleur + sceau, verrouillé = silhouette grise `#8A93A2`.
+- **Mur des badges** : grille de 24 vignettes (4 raretés : Commun, Rare, Épique, Légendaire) ; débloqué = couleur + sceau, verrouillé = silhouette grise `#8A93A2`.
 
 ---
 
@@ -370,7 +372,7 @@ PROGRESSION DE L'ANNÉE
 | 4 | **Page de défis** | 2-3 cartes de défi par page | `#F7F9FC` |
 | 5 | **Dashboard / progression** | Jauges, niveaux, calendrier | `#F7F9FC` + blocs primaires |
 | 6 | **Bilan (mois / trimestre)** | Pages à remplir | `#F7F9FC` |
-| 7 | **Badge / trophée / certificat** | Récompenses symboliques | `#1B2A4A` ou `#FFFFFF` cadré |
+| 7 | **Badge / certificat** | Récompenses symboliques (24 badges, 4 raretés) | `#1B2A4A` ou `#FFFFFF` cadré |
 | 8 | **Bonus / journal** | Pages bonus et journal libre | `#F7F9FC` |
 
 ### Pied de page commun (tous gabarits sauf couvertures)
@@ -401,7 +403,7 @@ Cap365 · 365 Défis de Vie                    Jour XXX / 365   ·   p. XX
 | XP / compteur | Montserrat | ExtraBold | 22 |
 
 ### Couleurs (à enregistrer dans « Couleurs de la marque »)
-`#1B2A4A` · `#2E5EAA` · `#F5A623` · `#27AE82` · `#222831` · `#8A93A2` · `#F7F9FC` · `#FFFFFF` (+ `#D98A12` pour difficulté 5).
+`#1B2A4A` · `#2E5EAA` · `#F5A623` · `#27AE82` · `#222831` · `#8A93A2` · `#F7F9FC` · `#FFFFFF` (+ `#D98A12` pour difficulté 9-10).
 
 ### Éléments graphiques
 - **Coins arrondis** : 12 px (cartes), 8 px (boutons/pastilles).
@@ -431,7 +433,7 @@ Cap365 · 365 Défis de Vie                    Jour XXX / 365   ·   p. XX
 - [ ] Titres en **Montserrat**, corps en **Inter** (corps **≥ 16 pt**).
 - [ ] **1 icône par catégorie**, même set, outline `#1B2A4A` (actif orange).
 - [ ] Chaque **carte de défi** a ses 8 zones (icône, catégorie, jour, titre, consigne, stats, case, micro-coaching).
-- [ ] **XP / niveaux / badges / trophées / séries** conformes à la bible (seuils, noms, conditions).
+- [ ] **XP / niveaux / rangs / badges / séries** conformes à la bible (seuils, noms, conditions).
 - [ ] Illustrations **propriétaires** (sommets, chemins, jalons), **zéro photo de stock**.
 - [ ] **Aucune promesse interdite** (richesse, bonheur permanent, vie parfaite) dans les textes intégrés.
 - [ ] Tout est **parfaitement lisible sur smartphone**.
@@ -439,6 +441,6 @@ Cap365 · 365 Défis de Vie                    Jour XXX / 365   ·   p. XX
 
 ---
 
-> 📎 **Rappel charte :** marque **Cap365**, baseline **365 Défis de Vie**, slogan **« Un défi par jour. Une version de toi par an. »** Primaire **`#1B2A4A`**, secondaire **`#2E5EAA`**, action **orange `#F5A623`**, succès **vert `#27AE82`**. Titres **Montserrat**, corps **Inter**. Niveaux Niv.1 Éveil → Niv.10 Transformé, 12 badges, 6 trophées, jalons jour 182 (Mi-Parcours) et jour 365 (Cap365). Ton direct, chaleureux, responsabilisant : on promet du travail et de la fierté, jamais de la magie.
+> 📎 **Rappel charte :** marque **Cap365**, baseline **365 Défis de Vie**, slogan **« Un défi par jour. Une version de toi par an. »** Primaire **`#1B2A4A`**, secondaire **`#2E5EAA`**, action **orange `#F5A623`**, succès **vert `#27AE82`**. Titres **Montserrat**, corps **Inter**. 50 niveaux en 10 rangs (Rang 1 Éveil → Rang 10 Légende, ≈ 26 000 XP), 24 badges (4 raretés : Commun, Rare, Épique, Légendaire), jalons jour 182 (Mi-Parcours) et jour 365 (Cap365). Ton direct, chaleureux, responsabilisant : on promet du travail et de la fierté, jamais de la magie.
 
 *Document de production — Cap365 · Design & maquette du PDF/produit.*

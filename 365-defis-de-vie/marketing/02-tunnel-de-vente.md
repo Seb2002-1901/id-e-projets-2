@@ -145,7 +145,7 @@ Incarner l'**univers premium** de Cap365 en quelques secondes, rassurer le visit
 ### 🧱 Structure de la page (mobile-first)
 1. **Hero** — logo, slogan *« Un défi par jour. Une version de toi par an. »*, visuel premium (palette `#1B2A4A` / accent `#F5A623`), CTA principal immédiat.
 2. **Les 3 mécanismes propriétaires** — Courbe d'Inconfort Progressive · Système de Preuves · Filet de Reprise (1 ligne chacun + icône outline).
-3. **Aperçu de la gamification** — capture stylisée : XP, niveaux (Niv.1 Éveil → Niv.10 Transformé), badges, série.
+3. **Aperçu de la gamification** — capture stylisée : XP, niveaux/rangs (Rang 1 Éveil → Rang 10 Légende), badges, radar des 8 stats, série.
 4. **Pour qui c'est** — le portrait de Lucas, en miroir (« Tu te reconnais ? »).
 5. **Preuve sociale** — *exemples fictifs à remplacer* clairement étiquetés.
 6. **Honnêteté radicale** — encart « Ce qu'on ne te promet PAS » (ni richesse, ni bonheur permanent, ni vie parfaite) → renforce la crédibilité premium.
@@ -221,7 +221,7 @@ Faire **choisir le bon palier** et pousser doucement vers l'offre phare **Cap365
 | Guide « 7 premiers jours » | ✅ | ✅ | ✅ |
 | Carnet de suivi imprimable | ✅ | ✅ | ✅ |
 | Niveaux & XP de base | ✅ | ✅ | ✅ |
-| Gamification complète (badges, trophées, classement perso) | — | ✅ | ✅ |
+| Gamification complète (24 badges 4 raretés, radar 8 stats, classement perso) | — | ✅ | ✅ |
 | Fiches des 52 thèmes hebdo | — | ✅ | ✅ |
 | Tableau de bord interactif | — | ✅ | ✅ |
 | **Filet de Reprise** (journées de grâce + rituel) | — | ✅ | ✅ |
@@ -423,7 +423,7 @@ Récupérer une partie de la valeur quand l'upsell est refusé, en proposant une
 |---|---|---|---|---|
 | E1 | Hebdomadaire | « Ton défi de la semaine + ton record à battre » | Maintenir l'habitude, rappeler le classement personnel. | « Relever le défi » |
 | E2 | Série cassée détectée | « Tu as sauté un jour — ce n'est PAS foutu » | Activer le rituel de reprise (badge Phénix), éviter l'abandon. | « Reprendre ma série » |
-| E3 | Cap atteint (90/182/365) | « Tu viens de franchir un cap 🏆 » | Célébrer les jalons (médaille mi-parcours, certificat). | « Voir mon trophée » |
+| E3 | Cap atteint (90/182/365) | « Tu viens de franchir un cap 🏆 » | Célébrer les jalons (médaille mi-parcours, certificat). | « Voir mon badge » |
 | E4 | Inactivité 5 jours | « On ne te lâche pas — un seul pas suffit » | Réactivation douce, sans culpabilisation. | « Faire un petit défi » |
 
 ### 11.3 — 📈 Séquence Montée en gamme (acheteurs Essentiel)

@@ -209,8 +209,8 @@ Ce mois, tu arrêtes de suivre pour commencer à porter. Le leadership n'est pas
 ---
 
 ### Jour 286 — Désamorce un conflit
-- **Catégorie :** Gestion des émotions · **Stat :** Sérénité
-- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Sérénité
+- **Catégorie :** Gestion des émotions · **Stat :** Mental
+- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Mental
 - **Temps :** 20 min · **Coût :** 0 €
 - **Objectif :** Jouer le rôle de médiateur et ramener le dialogue dans une tension réelle.
 - **Pourquoi ce défi :** Garder son calme et rétablir le dialogue dans la tension est une marque de maturité et de leadership.
@@ -311,8 +311,8 @@ Ce mois, tu arrêtes de suivre pour commencer à porter. Le leadership n'est pas
 ---
 
 ### Jour 292 — Le mentor d'un jour
-- **Catégorie :** Apprentissage · **Stat :** Sagesse
-- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Sagesse
+- **Catégorie :** Apprentissage · **Stat :** Mental
+- **Difficulté :** 7/10 · **XP :** +70 · **Stat :** +3 Mental
 - **Temps :** 30 min · **Coût :** 0 €
 - **Objectif :** Transmettre en direct une compétence à quelqu'un qui en a besoin, jusqu'à ce qu'il sache la refaire seul.
 - **Pourquoi ce défi :** Enseigner ancre ton expertise et te place en posture de référent. Donner, c'est diriger par la valeur.
@@ -379,8 +379,8 @@ Ce mois, tu arrêtes de suivre pour commencer à porter. Le leadership n'est pas
 ---
 
 ### Jour 296 — Gère une crise en temps réel
-- **Catégorie :** Gestion des émotions · **Stat :** Sérénité
-- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Sérénité
+- **Catégorie :** Gestion des émotions · **Stat :** Mental
+- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Mental
 - **Temps :** 20 min · **Coût :** 0 €
 - **Objectif :** Prendre le lead sur un imprévu impliquant d'autres personnes, garder ton calme et imposer un premier plan.
 - **Pourquoi ce défi :** C'est dans la tempête qu'on reconnaît un leader. Rester lucide et reprendre la main quand les autres paniquent fait toute la différence.
@@ -396,8 +396,8 @@ Ce mois, tu arrêtes de suivre pour commencer à porter. Le leadership n'est pas
 ---
 
 ### Jour 297 — Inspire par l'exemple physique
-- **Catégorie :** Sport · **Stat :** Force
-- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Force
+- **Catégorie :** Sport · **Stat :** Vitalité
+- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Vitalité
 - **Temps :** 30 min · **Coût :** 0 €
 - **Objectif :** Entraîner quelqu'un dans une séance de sport que tu mènes, et ne laisser personne lâcher avant la fin.
 - **Pourquoi ce défi :** Le leadership se prouve par l'action visible. Quand tu montres l'exemple corporel et que tu tiens l'autre, ta parole gagne en poids.
@@ -515,8 +515,8 @@ Ce mois, tu arrêtes de suivre pour commencer à porter. Le leadership n'est pas
 ---
 
 ### Jour 304 — Engage-toi sur ta charte de leader
-- **Catégorie :** Apprentissage · **Stat :** Sagesse
-- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Sagesse
+- **Catégorie :** Apprentissage · **Stat :** Mental
+- **Difficulté :** 8/10 · **XP :** +80 · **Stat :** +3 Mental
 - **Temps :** 30 min · **Coût :** 0 €
 - **Objectif :** Rédiger les principes de leadership que tu veux incarner, puis les partager à voix haute à quelqu'un qui pourra te tenir responsable.
 - **Pourquoi ce défi :** Mettre des mots sur tes valeurs de leader ancre ta transformation, mais c'est en t'engageant devant un témoin qu'elle devient réelle.
