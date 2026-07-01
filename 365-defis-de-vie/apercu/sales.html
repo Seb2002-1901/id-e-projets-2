@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cap365 — Un défi par jour. Une version de toi par an.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --primaire:#1B2A4A;
+    --secondaire:#2E5EAA;
+    --accent:#F5A623;
+    --accent2:#FF7A00;
+    --succes:#2EC27E;
+    --texte:#222831;
+    --texte2:#5A6472;
+    --texte3:#8A93A2;
+    --bordure:#E6E9EF;
+    --fond:#F7F8FA;
+    --surface:#FFFFFF;
+    --grad-marque:linear-gradient(135deg,#1B2A4A,#2E5EAA);
+    --grad-xp:linear-gradient(90deg,#F5A623,#FF7A00);
+    --r-carte:20px;
+    --r-btn:14px;
+    /* stats */
+    --s-discipline:#3B82C4;
+    --s-courage:#F5A623;
+    --s-vitalite:#2EC27E;
+    --s-charisme:#E86A5C;
+    --s-mental:#8B5CF6;
+    --s-savoir:#4FB0C9;
+    --s-creation:#EC4899;
+    --s-prosperite:#B08D57;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Inter',system-ui,-apple-system,sans-serif;
+    color:var(--texte);
+    background:var(--fond);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.font-title{font-family:'Poppins',sans-serif;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+  section{position:relative;}
+
+  /* ============ HERO ============ */
+  #hero{
+    background:var(--grad-marque);
+    color:#fff;
+    padding:72px 0 88px;
+    overflow:hidden;
+  }
+  #hero .wrap{
+    display:grid;
+    grid-template-columns:1fr 420px;
+    gap:56px;
+    align-items:center;
+  }
+  .hero-brand{
+    display:inline-flex;align-items:center;gap:10px;
+    font-family:'Poppins',sans-serif;font-weight:700;font-size:20px;
+    letter-spacing:.5px;margin-bottom:26px;
+  }
+  .hero-brand .logo-badge{
+    width:34px;height:34px;border-radius:10px;
+    background:var(--grad-xp);
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 6px 18px rgba(245,166,35,.35);
+  }
+  #hero h1{
+    font-weight:700;
+    font-size:clamp(30px,3.4vw,42px);
+    line-height:1.18;
+    letter-spacing:-.5px;
+    margin-bottom:22px;
+    max-width:600px;
+  }
+  #hero .sub{
+    font-size:18px;
+    color:rgba(255,255,255,.82);
+    max-width:520px;
+    margin-bottom:30px;
+  }
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    font-family:'Poppins',sans-serif;font-weight:600;font-size:17px;
+    border:none;border-radius:var(--r-btn);
+    padding:16px 32px;cursor:pointer;text-decoration:none;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn-accent{
+    background:var(--grad-xp);
+    color:#fff;
+    box-shadow:0 10px 26px rgba(255,122,0,.38);
+  }
+  .btn-accent:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(255,122,0,.46);}
+  .btn-outline{
+    background:transparent;color:var(--secondaire);
+    border:1.5px solid var(--bordure);
+  }
+  .hero-note{
+    margin-top:16px;
+    font-size:14px;
+    color:rgba(255,255,255,.68);
+    display:flex;align-items:center;gap:8px;
+  }
+  .hero-note svg{flex:none;}
+
+  /* ============ PHONE (CSS) ============ */
+  .phone{
+    width:390px;
+    background:#0E1730;
+    border-radius:44px;
+    padding:14px;
+    box-shadow:0 40px 90px rgba(10,18,40,.55), inset 0 0 0 2px rgba(255,255,255,.06);
+    position:relative;
+    margin:0 auto;
+  }
+  .phone::before{
+    content:"";position:absolute;top:22px;left:50%;transform:translateX(-50%);
+    width:120px;height:26px;background:#0E1730;border-radius:0 0 18px 18px;z-index:5;
+  }
+  .phone-screen{
+    background:var(--fond);
+    border-radius:32px;
+    overflow:hidden;
+    height:100%;
+  }
+  .ps-head{
+    background:var(--grad-marque);
+    color:#fff;
+    padding:40px 22px 22px;
+  }
+  .ps-topline{
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:13px;color:rgba(255,255,255,.7);margin-bottom:16px;
+  }
+  .ps-hi{font-family:'Poppins',sans-serif;font-weight:600;font-size:20px;}
+  .ps-streak{
+    display:inline-flex;align-items:center;gap:6px;
+    background:rgba(255,255,255,.13);
+    border:1px solid rgba(245,166,35,.5);
+    padding:6px 12px;border-radius:999px;
+    font-weight:600;font-size:15px;margin-top:8px;
+  }
+  .ps-xp-wrap{margin-top:20px;}
+  .ps-xp-top{display:flex;justify-content:space-between;font-size:12px;color:rgba(255,255,255,.75);margin-bottom:7px;}
+  .ps-xp-top b{color:#fff;font-weight:600;}
+  .ps-xp-bar{height:12px;border-radius:999px;background:rgba(255,255,255,.14);overflow:hidden;}
+  .ps-xp-fill{height:100%;width:64%;border-radius:999px;background:var(--grad-xp);}
+  .ps-rank{font-size:12px;color:rgba(255,255,255,.7);margin-top:8px;}
+  .ps-rank b{color:var(--accent);font-weight:600;}
+  .ps-body{padding:20px 18px 26px;}
+  .ps-label{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--texte3);font-weight:600;margin-bottom:10px;}
+  .ps-card{
+    background:var(--surface);
+    border:1px solid var(--bordure);
+    border-radius:18px;
+    padding:18px;
+    box-shadow:0 10px 24px rgba(27,42,74,.06);
+  }
+  .ps-card-tag{
+    display:inline-flex;align-items:center;gap:6px;
+    background:rgba(59,130,196,.12);color:var(--s-discipline);
+    font-weight:600;font-size:12px;padding:5px 10px;border-radius:999px;margin-bottom:12px;
+  }
+  .ps-card h4{font-family:'Poppins',sans-serif;font-weight:600;font-size:16px;margin-bottom:6px;color:var(--texte);}
+  .ps-card p{font-size:13px;color:var(--texte2);margin-bottom:14px;}
+  .ps-reward{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;}
+  .ps-chip{font-size:12px;font-weight:600;padding:5px 10px;border-radius:999px;}
+  .ps-chip.xp{background:rgba(245,166,35,.16);color:var(--accent2);}
+  .ps-chip.stat{background:rgba(46,194,126,.14);color:var(--succes);}
+  .ps-btn{
+    display:block;text-align:center;width:100%;
+    background:var(--grad-xp);color:#fff;
+    font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;
+    padding:12px;border-radius:12px;text-decoration:none;
+  }
+
+  /* ============ SECTION GENERIC ============ */
+  .sec{padding:84px 0;}
+  .sec-head{text-align:center;max-width:720px;margin:0 auto 52px;}
+  .eyebrow{
+    display:inline-block;
+    font-family:'Poppins',sans-serif;font-weight:600;font-size:13px;
+    letter-spacing:1.6px;text-transform:uppercase;
+    color:var(--secondaire);margin-bottom:14px;
+  }
+  .sec-head h2{
+    font-weight:700;font-size:clamp(26px,3vw,36px);
+    line-height:1.2;letter-spacing:-.5px;color:var(--primaire);margin-bottom:16px;
+  }
+  .sec-head p{font-size:18px;color:var(--texte2);}
+
+  /* ============ HERO MOBILE ============ */
+  #hero-mobile{
+    background:var(--fond);
+    padding:70px 0;
+    text-align:center;
+  }
+  #hero-mobile .eyebrow{display:inline-block;}
+  #hero-mobile h2{font-weight:700;font-size:28px;color:var(--primaire);margin-bottom:10px;}
+  #hero-mobile > .wrap > p{color:var(--texte2);font-size:16px;max-width:600px;margin:0 auto 44px;}
+  .hm-phone .ps-body{padding-bottom:22px;}
+  .hm-hero-inner{padding:34px 22px 26px;text-align:left;}
+  .hm-hero-inner h3{font-family:'Poppins',sans-serif;font-weight:600;font-size:20px;color:#fff;line-height:1.25;margin-bottom:16px;}
+  .hm-hero-inner .btn{width:100%;font-size:15px;padding:14px;}
+  .hm-hero-inner .hero-note{margin-top:14px;justify-content:flex-start;}
+
+  /* ============ COMMENT CA MARCHE ============ */
+  .steps{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:24px;
+    position:relative;
+  }
+  .step{
+    background:var(--surface);
+    border:1px solid var(--bordure);
+    border-radius:var(--r-carte);
+    padding:34px 28px;
+    text-align:center;
+    box-shadow:0 12px 30px rgba(27,42,74,.05);
+  }
+  .step-num{
+    position:absolute;top:-14px;left:50%;transform:translateX(-50%);
+    width:30px;height:30px;border-radius:50%;
+    background:var(--grad-marque);color:#fff;
+    font-family:'Poppins',sans-serif;font-weight:700;font-size:14px;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 6px 16px rgba(27,42,74,.25);
+  }
+  .step{position:relative;}
+  .step-icon{
+    width:66px;height:66px;border-radius:20px;
+    display:flex;align-items:center;justify-content:center;
+    margin:0 auto 20px;
+  }
+  .ic-blue{background:rgba(46,94,170,.12);}
+  .ic-green{background:rgba(46,194,126,.14);}
+  .ic-orange{background:rgba(245,166,35,.16);}
+  .step h3{font-family:'Poppins',sans-serif;font-weight:600;font-size:19px;color:var(--primaire);margin-bottom:10px;}
+  .step p{font-size:15px;color:var(--texte2);}
+
+  /* ============ RADAR ============ */
+  #vente-radar{background:var(--surface);}
+  .radar-grid{
+    display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;
+    max-width:920px;margin:0 auto;
+  }
+  .radar-svg-wrap{
+    background:var(--fond);
+    border:1px solid var(--bordure);
+    border-radius:var(--r-carte);
+    padding:24px;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 14px 34px rgba(27,42,74,.06);
+  }
+  .radar-legend{display:grid;grid-template-columns:1fr 1fr;gap:14px 20px;}
+  .leg{display:flex;align-items:center;gap:12px;}
+  .leg-dot{width:14px;height:14px;border-radius:4px;flex:none;}
+  .leg-name{font-weight:600;font-size:15px;color:var(--texte);}
+  .leg-val{margin-left:auto;font-family:'Poppins',sans-serif;font-weight:600;font-size:15px;color:var(--texte2);}
+  .leg-bar{width:100%;height:6px;border-radius:999px;background:var(--bordure);margin-top:5px;overflow:hidden;}
+  .leg-bar span{display:block;height:100%;border-radius:999px;}
+  .leg-item{width:100%;}
+
+  /* ============ OFFRES ============ */
+  #offres{background:var(--fond);}
+  .offers{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:26px;
+    align-items:stretch;padding:14px 0;
+  }
+  .offer{
+    background:var(--surface);
+    border:1px solid var(--bordure);
+    border-radius:var(--r-carte);
+    padding:34px 28px;
+    display:flex;flex-direction:column;
+    box-shadow:0 14px 34px rgba(27,42,74,.06);
+    position:relative;
+  }
+  .offer.featured{
+    border:2px solid var(--accent);
+    transform:scale(1.04);
+    box-shadow:0 26px 54px rgba(245,166,35,.22);
+    z-index:2;
+  }
+  .offer-badge{
+    position:absolute;top:-14px;left:50%;transform:translateX(-50%);
+    background:var(--grad-xp);color:#fff;
+    font-family:'Poppins',sans-serif;font-weight:700;font-size:12px;letter-spacing:1px;
+    padding:7px 16px;border-radius:999px;white-space:nowrap;
+    box-shadow:0 8px 20px rgba(255,122,0,.4);
+  }
+  .offer-name{font-family:'Poppins',sans-serif;font-weight:600;font-size:21px;color:var(--primaire);margin-bottom:4px;}
+  .offer-tag{font-size:14px;color:var(--texte3);margin-bottom:18px;}
+  .offer-price{font-family:'Poppins',sans-serif;font-weight:700;font-size:44px;color:var(--primaire);line-height:1;margin-bottom:4px;}
+  .offer-price span{font-size:18px;font-weight:600;color:var(--texte3);}
+  .offer-price-note{font-size:13px;color:var(--texte3);margin-bottom:24px;}
+  .offer ul{list-style:none;margin-bottom:28px;flex:1;}
+  .offer li{
+    display:flex;align-items:flex-start;gap:10px;
+    font-size:15px;color:var(--texte);padding:7px 0;
+  }
+  .offer li svg{flex:none;margin-top:3px;}
+  .offer .btn{width:100%;}
+  .offer.featured .offer-price{color:var(--accent2);}
+
+  /* ============ GARANTIE ============ */
+  #garantie{background:var(--surface);}
+  .guarantee{
+    background:var(--grad-marque);
+    border-radius:var(--r-carte);
+    padding:52px 48px;
+    display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:center;
+    color:#fff;
+    box-shadow:0 26px 60px rgba(27,42,74,.28);
+    overflow:hidden;position:relative;
+  }
+  .guarantee-seal{
+    width:150px;height:150px;flex:none;
+    border-radius:50%;
+    background:rgba(255,255,255,.06);
+    border:2px dashed rgba(245,166,35,.6);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;
+  }
+  .guarantee-seal .big{font-family:'Poppins',sans-serif;font-weight:700;font-size:42px;color:var(--accent);line-height:1;}
+  .guarantee-seal .small{font-size:12px;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.8);margin-top:4px;}
+  .guarantee h3{font-family:'Poppins',sans-serif;font-weight:600;font-size:26px;margin-bottom:12px;}
+  .guarantee p{font-size:17px;color:rgba(255,255,255,.85);max-width:560px;}
+  .guarantee .honesty{
+    margin-top:16px;font-size:15px;color:rgba(255,255,255,.72);
+    border-left:3px solid var(--accent);padding-left:16px;font-style:italic;
+  }
+
+  /* ============ TEMOIGNAGES ============ */
+  #temoignages{background:var(--fond);}
+  .testimonials{display:grid;grid-template-columns:1fr 1fr;gap:26px;}
+  .testi{
+    background:var(--surface);
+    border:1px solid var(--bordure);
+    border-radius:var(--r-carte);
+    padding:32px 30px;
+    box-shadow:0 14px 34px rgba(27,42,74,.05);
+  }
+  .testi-fic{
+    display:inline-block;
+    font-size:12px;font-weight:600;letter-spacing:.5px;
+    color:var(--texte3);
+    background:var(--fond);
+    border:1px dashed var(--bordure);
+    padding:4px 12px;border-radius:999px;margin-bottom:18px;
+  }
+  .testi-stars{color:var(--accent);font-size:16px;letter-spacing:2px;margin-bottom:14px;}
+  .testi-quote{font-size:16px;color:var(--texte);line-height:1.6;margin-bottom:22px;}
+  .testi-person{display:flex;align-items:center;gap:14px;}
+  .testi-av{
+    width:48px;height:48px;border-radius:50%;flex:none;
+    background:var(--grad-marque);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Poppins',sans-serif;font-weight:600;font-size:18px;
+  }
+  .testi-name{font-family:'Poppins',sans-serif;font-weight:600;font-size:15px;color:var(--texte);}
+  .testi-meta{font-size:13px;color:var(--texte3);}
+
+  /* ============ FOOTER CTA ============ */
+  #footer-cta{background:var(--grad-marque);color:#fff;text-align:center;padding:76px 0;}
+  #footer-cta h2{font-weight:700;font-size:clamp(26px,3vw,34px);margin-bottom:14px;letter-spacing:-.5px;}
+  #footer-cta .slogan{font-family:'Poppins',sans-serif;font-weight:600;font-size:20px;color:var(--accent);margin-bottom:28px;}
+  #footer-cta .foot-note{margin-top:18px;font-size:14px;color:rgba(255,255,255,.65);}
+  .footer-bar{background:#0E1730;color:rgba(255,255,255,.5);font-size:13px;text-align:center;padding:24px;}
+
+  /* Responsive */
+  @media(max-width:900px){
+    #hero .wrap{grid-template-columns:1fr;gap:44px;}
+    .phone{width:340px;}
+    .steps,.offers,.testimonials,.radar-grid,.radar-legend{grid-template-columns:1fr;}
+    .offer.featured{transform:none;}
+    .guarantee{grid-template-columns:1fr;text-align:center;justify-items:center;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ 1. HERO ============ -->
+<section id="hero">
+  <div class="wrap">
+    <div class="hero-left">
+      <div class="hero-brand">
+        <span class="logo-badge">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7L12 16.9 5.7 20.5 8 13.5 2 8.9h7.6L12 2z" fill="#fff"/></svg>
+        </span>
+        Cap365
+      </div>
+      <h1>Transforme ta vie comme si tu faisais évoluer ton personnage dans un RPG — pendant 365 jours.</h1>
+      <p class="sub">Un défi concret chaque jour. Tu valides, tu gagnes de l'XP, tes 8 stats montent. Ta progression devient enfin visible.</p>
+      <a href="#offres" class="btn btn-accent">Je relève le défi
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <div class="hero-note">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#F5A623" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Dès 19 € · accès immédiat · garantie 30 jours
+      </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="hero-right">
+      <div class="phone">
+        <div class="phone-screen">
+          <div class="ps-head">
+            <div class="ps-topline"><span>Aujourd'hui · Jour 47</span><span>◐ 9:41</span></div>
+            <div class="ps-hi">Salut, Lucas 👋</div>
+            <span class="ps-streak">🔥 Série de 47 jours</span>
+            <div class="ps-xp-wrap">
+              <div class="ps-xp-top"><span>Rang 4 · Constant</span><b>6 240 XP</b></div>
+              <div class="ps-xp-bar"><div class="ps-xp-fill"></div></div>
+              <div class="ps-rank">Plus que <b>760 XP</b> avant le Rang 5</div>
+            </div>
+          </div>
+          <div class="ps-body">
+            <div class="ps-label">Défi du jour</div>
+            <div class="ps-card">
+              <span class="ps-card-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#3B82C4" stroke-width="2.2"/><path d="M12 8v4l2.5 2.5" stroke="#3B82C4" stroke-width="2.2" stroke-linecap="round"/></svg>
+                Discipline
+              </span>
+              <h4>10 minutes sans téléphone au réveil</h4>
+              <p>Commence ta journée sans écran. Respire, planifie, existe.</p>
+              <div class="ps-reward">
+                <span class="ps-chip xp">+40 XP</span>
+                <span class="ps-chip stat">+2 Discipline</span>
+              </div>
+              <a href="#offres" class="ps-btn">Valider le défi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. COMMENT CA MARCHE ============ -->
+<section class="sec" id="comment">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Comment ça marche</span>
+      <h2>Trois gestes par jour. C'est tout.</h2>
+      <p>Pas de théorie interminable. Un rituel simple, répété, qui construit la personne que tu veux devenir.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">1</span>
+        <div class="step-icon ic-blue">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="4" stroke="#2E5EAA" stroke-width="2"/><path d="M8 12h8M12 8v8" stroke="#2E5EAA" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Le défi du jour</h3>
+        <p>Chaque matin, un défi concret et réalisable t'attend, ciblé sur l'une de tes 8 stats.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">2</span>
+        <div class="step-icon ic-green">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#2EC27E" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#2EC27E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Tu le valides</h3>
+        <p>Tu le fais, tu coches. Un geste d'honnêteté envers toi-même, jour après jour.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">3</span>
+        <div class="step-icon ic-orange">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M12 3l2.4 6.9H22l-6 4.6 2.3 7L12 17.9 5.7 21.5 8 14.5 2 9.9h7.6L12 3z" stroke="#F5A623" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>+XP, +stat, +série</h3>
+        <p>Tu gagnes de l'XP, ta stat monte et ta série grandit. Ta progression devient tangible.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. RADAR ============ -->
+<section class="sec" id="vente-radar">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Ta progression, visible</span>
+      <h2>Tu ne crois plus que tu progresses. Tu le VOIS.</h2>
+      <p>Huit statistiques qui évoluent avec toi. Ton profil se dessine, semaine après semaine, comme une fiche de personnage bien réelle.</p>
+    </div>
+    <div class="radar-grid">
+      <div class="radar-svg-wrap">
+        <!-- Radar 8 axes -->
+        <svg width="360" height="360" viewBox="0 0 360 360" role="img" aria-label="Radar des 8 statistiques de Lucas">
+          <defs>
+            <radialGradient id="radarFill" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#2E5EAA" stop-opacity="0.42"/>
+              <stop offset="100%" stop-color="#1B2A4A" stop-opacity="0.28"/>
+            </radialGradient>
+          </defs>
+          <g transform="translate(180,180)">
+            <!-- rings -->
+            <!-- 8 axes: angle step 45deg, start at top (-90) -->
+            <!-- ring polygons at 25/50/75/100% of R=140 -->
+            <!-- ring 100 -->
+            <polygon points="0,-140 98.99,-98.99 140,0 98.99,98.99 0,140 -98.99,98.99 -140,0 -98.99,-98.99" fill="none" stroke="#E6E9EF" stroke-width="1.2"/>
+            <polygon points="0,-105 74.25,-74.25 105,0 74.25,74.25 0,105 -74.25,74.25 -105,0 -74.25,-74.25" fill="none" stroke="#E6E9EF" stroke-width="1.2"/>
+            <polygon points="0,-70 49.5,-49.5 70,0 49.5,49.5 0,70 -49.5,49.5 -70,0 -49.5,-49.5" fill="none" stroke="#E6E9EF" stroke-width="1.2"/>
+            <polygon points="0,-35 24.75,-24.75 35,0 24.75,24.75 0,35 -24.75,24.75 -35,0 -24.75,-24.75" fill="none" stroke="#E6E9EF" stroke-width="1.2"/>
+            <!-- spokes -->
+            <line x1="0" y1="0" x2="0" y2="-140" stroke="#E6E9EF" stroke-width="1.2"/>
+            <line x1="0" y1="0" x2="98.99" y2="-98.99" stroke="#E6E9EF" stroke-width="1.2"/>
+            <line x1="0" y1="0" x2="140" y2="0" stroke="#E6E9EF" stroke-width="1.2"/>
+            <line x1="0" y1="0" x2="98.99" y2="98.99" stroke="#E6E9EF" stroke-width="1.2"/>
+            <line x1="0" y1="0" x2="0" y2="140" stroke="#E6E9EF" stroke-width="1.2"/>
+            <line x1="0" y1="0" x2="-98.99" y2="98.99" stroke="#E6E9EF" stroke-width="1.2"/>
+            <line x1="0" y1="0" x2="-140" y2="0" stroke="#E6E9EF" stroke-width="1.2"/>
+            <line x1="0" y1="0" x2="-98.99" y2="-98.99" stroke="#E6E9EF" stroke-width="1.2"/>
+
+            <!-- data polygon; R=140 -> value/100*140 -->
+            <!-- Discipline 72 top(-90): r=100.8 -> 0,-100.8 -->
+            <!-- Courage 65 (-45): r=91 -> x=91*cos(-45)=64.35, y=91*sin(-45)=-64.35 -> (64.35,-64.35) -->
+            <!-- Vitalite 58 (0): r=81.2 -> (81.2,0) -->
+            <!-- Charisme 61 (45): r=85.4 -> (60.39,60.39) -->
+            <!-- Mental 54 (90): r=75.6 -> (0,75.6) -->
+            <!-- Savoir 40 (135): r=56 -> (-39.6,39.6) -->
+            <!-- Creation 33 (180): r=46.2 -> (-46.2,0) -->
+            <!-- Prosperite 28 (225): r=39.2 -> (-27.72,-27.72) -->
+            <polygon points="0,-100.8 64.35,-64.35 81.2,0 60.39,60.39 0,75.6 -39.6,39.6 -46.2,0 -27.72,-27.72"
+              fill="url(#radarFill)" stroke="#2E5EAA" stroke-width="2.4" stroke-linejoin="round"/>
+
+            <!-- data points colored per stat -->
+            <circle cx="0" cy="-100.8" r="5.5" fill="#3B82C4" stroke="#fff" stroke-width="2"/>
+            <circle cx="64.35" cy="-64.35" r="5.5" fill="#F5A623" stroke="#fff" stroke-width="2"/>
+            <circle cx="81.2" cy="0" r="5.5" fill="#2EC27E" stroke="#fff" stroke-width="2"/>
+            <circle cx="60.39" cy="60.39" r="5.5" fill="#E86A5C" stroke="#fff" stroke-width="2"/>
+            <circle cx="0" cy="75.6" r="5.5" fill="#8B5CF6" stroke="#fff" stroke-width="2"/>
+            <circle cx="-39.6" cy="39.6" r="5.5" fill="#4FB0C9" stroke="#fff" stroke-width="2"/>
+            <circle cx="-46.2" cy="0" r="5.5" fill="#EC4899" stroke="#fff" stroke-width="2"/>
+            <circle cx="-27.72" cy="-27.72" r="5.5" fill="#B08D57" stroke="#fff" stroke-width="2"/>
+
+            <!-- axis labels -->
+            <text x="0" y="-152" text-anchor="middle" font-family="Poppins,sans-serif" font-size="12" font-weight="600" fill="#3B82C4">Discipline</text>
+            <text x="112" y="-108" text-anchor="middle" font-family="Poppins,sans-serif" font-size="12" font-weight="600" fill="#F5A623">Courage</text>
+            <text x="156" y="4" text-anchor="middle" font-family="Poppins,sans-serif" font-size="12" font-weight="600" fill="#2EC27E">Vitalité</text>
+            <text x="112" y="116" text-anchor="middle" font-family="Poppins,sans-serif" font-size="12" font-weight="600" fill="#E86A5C">Charisme</text>
+            <text x="0" y="160" text-anchor="middle" font-family="Poppins,sans-serif" font-size="12" font-weight="600" fill="#8B5CF6">Mental</text>
+            <text x="-108" y="116" text-anchor="middle" font-family="Poppins,sans-serif" font-size="12" font-weight="600" fill="#4FB0C9">Savoir</text>
+            <text x="-156" y="4" text-anchor="middle" font-family="Poppins,sans-serif" font-size="12" font-weight="600" fill="#EC4899">Création</text>
+            <text x="-112" y="-108" text-anchor="middle" font-family="Poppins,sans-serif" font-size="12" font-weight="600" fill="#B08D57">Prospérité</text>
+          </g>
+        </svg>
+      </div>
+
+      <!-- Legend -->
+      <div class="radar-legend">
+        <div class="leg-item">
+          <div class="leg"><span class="leg-dot" style="background:#3B82C4"></span><span class="leg-name">Discipline</span><span class="leg-val">72</span></div>
+          <div class="leg-bar"><span style="width:72%;background:#3B82C4"></span></div>
+        </div>
+        <div class="leg-item">
+          <div class="leg"><span class="leg-dot" style="background:#F5A623"></span><span class="leg-name">Courage</span><span class="leg-val">65</span></div>
+          <div class="leg-bar"><span style="width:65%;background:#F5A623"></span></div>
+        </div>
+        <div class="leg-item">
+          <div class="leg"><span class="leg-dot" style="background:#2EC27E"></span><span class="leg-name">Vitalité</span><span class="leg-val">58</span></div>
+          <div class="leg-bar"><span style="width:58%;background:#2EC27E"></span></div>
+        </div>
+        <div class="leg-item">
+          <div class="leg"><span class="leg-dot" style="background:#E86A5C"></span><span class="leg-name">Charisme</span><span class="leg-val">61</span></div>
+          <div class="leg-bar"><span style="width:61%;background:#E86A5C"></span></div>
+        </div>
+        <div class="leg-item">
+          <div class="leg"><span class="leg-dot" style="background:#8B5CF6"></span><span class="leg-name">Mental</span><span class="leg-val">54</span></div>
+          <div class="leg-bar"><span style="width:54%;background:#8B5CF6"></span></div>
+        </div>
+        <div class="leg-item">
+          <div class="leg"><span class="leg-dot" style="background:#4FB0C9"></span><span class="leg-name">Savoir</span><span class="leg-val">40</span></div>
+          <div class="leg-bar"><span style="width:40%;background:#4FB0C9"></span></div>
+        </div>
+        <div class="leg-item">
+          <div class="leg"><span class="leg-dot" style="background:#EC4899"></span><span class="leg-name">Création</span><span class="leg-val">33</span></div>
+          <div class="leg-bar"><span style="width:33%;background:#EC4899"></span></div>
+        </div>
+        <div class="leg-item">
+          <div class="leg"><span class="leg-dot" style="background:#B08D57"></span><span class="leg-name">Prospérité</span><span class="leg-val">28</span></div>
+          <div class="leg-bar"><span style="width:28%;background:#B08D57"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. OFFRES ============ -->
+<section class="sec" id="offres">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Choisis ton chemin</span>
+      <h2>Un point de départ pour chaque niveau d'engagement.</h2>
+      <p>Trois formules, une même promesse : un défi par jour, une version de toi par an.</p>
+    </div>
+    <div class="offers">
+      <!-- Le Sentier -->
+      <div class="offer">
+        <div class="offer-name">Le Sentier</div>
+        <div class="offer-tag">Pour commencer en douceur</div>
+        <div class="offer-price">19 €<span></span></div>
+        <div class="offer-price-note">accès immédiat</div>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Un défi par jour, 365 jours</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Système d'XP, rangs et série</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Radar des 8 statistiques</li>
+        </ul>
+        <a href="#footer-cta" class="btn btn-outline">Choisir Le Sentier</a>
+      </div>
+
+      <!-- L'Ascension (featured) -->
+      <div class="offer featured">
+        <div class="offer-badge">⭐ RECOMMANDÉ</div>
+        <div class="offer-name">L'Ascension</div>
+        <div class="offer-tag">L'expérience complète</div>
+        <div class="offer-price">39 €<span></span></div>
+        <div class="offer-price-note">accès immédiat · le plus choisi</div>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout Le Sentier, inclus</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Défis personnalisés selon tes stats</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Bilans hebdo de progression</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Rappels et rituels du soir</li>
+        </ul>
+        <a href="#footer-cta" class="btn btn-accent">Choisir L'Ascension</a>
+      </div>
+
+      <!-- Le Sommet -->
+      <div class="offer">
+        <div class="offer-name">Le Sommet</div>
+        <div class="offer-tag">Pour aller le plus loin</div>
+        <div class="offer-price">89 €<span></span></div>
+        <div class="offer-price-note">accès immédiat</div>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout L'Ascension, inclus</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Parcours thématiques approfondis</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Accès à la communauté engagée</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#2EC27E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Défis bonus et challenges saisonniers</li>
+        </ul>
+        <a href="#footer-cta" class="btn btn-outline">Choisir Le Sommet</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. GARANTIE ============ -->
+<section class="sec" id="garantie">
+  <div class="wrap">
+    <div class="guarantee">
+      <div class="guarantee-seal">
+        <span class="big">30</span>
+        <span class="small">jours</span>
+      </div>
+      <div>
+        <h3>30 jours satisfait ou remboursé</h3>
+        <p>Essaie Cap365 pendant un mois entier. Si le rituel ne te correspond pas, on te rembourse — sans discussion, sans mauvaise foi.</p>
+        <p class="honesty">Honnêteté radicale : on ne te porte pas au sommet, on te montre la voie. Le travail, c'est toi qui le fais — jour après jour.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. TEMOIGNAGES ============ -->
+<section class="sec" id="temoignages">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Ils avancent avec Cap365</span>
+      <h2>Une série qui tient, une progression qu'on voit.</h2>
+    </div>
+    <div class="testimonials">
+      <div class="testi">
+        <span class="testi-fic">(exemple fictif à remplacer)</span>
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">« Ce que j'aime, c'est de voir mon radar bouger. Avant je me disais que je stagnais. Là, je vois mes stats monter, et ça me donne envie de ne pas casser ma série. »</p>
+        <div class="testi-person">
+          <div class="testi-av">M</div>
+          <div>
+            <div class="testi-name">Maxime R.</div>
+            <div class="testi-meta">Série de 88 jours · Rang 5</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi">
+        <span class="testi-fic">(exemple fictif à remplacer)</span>
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">« Un petit défi par jour, c'est tenable. Le côté RPG rend la routine presque ludique. J'ai enfin quelque chose de concret pour mesurer où j'en suis. »</p>
+        <div class="testi-person">
+          <div class="testi-av">L</div>
+          <div>
+            <div class="testi-name">Léa V.</div>
+            <div class="testi-meta">Série de 52 jours · Rang 4</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2. HERO MOBILE ============ -->
+<section id="hero-mobile">
+  <div class="wrap">
+    <span class="eyebrow">Aperçu mobile</span>
+    <h2>Cap365 dans ta poche</h2>
+    <p>Le rituel quotidien, condensé sur ton écran d'accueil.</p>
+    <div class="phone hm-phone">
+      <div class="phone-screen">
+        <div class="ps-head hm-hero-inner">
+          <div class="hero-brand" style="margin-bottom:18px;font-size:17px;">
+            <span class="logo-badge" style="width:28px;height:28px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7L12 16.9 5.7 20.5 8 13.5 2 8.9h7.6L12 2z" fill="#fff"/></svg>
+            </span>
+            Cap365
+          </div>
+          <h3>Transforme ta vie comme un personnage de RPG — pendant 365 jours.</h3>
+          <a href="#offres" class="btn btn-accent">Je relève le défi</a>
+          <div class="hero-note">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#F5A623" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Dès 19 € · garantie 30 jours
+          </div>
+        </div>
+        <div class="ps-body">
+          <div class="ps-label">Défi du jour · 🔥 47</div>
+          <div class="ps-card">
+            <span class="ps-card-tag">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#3B82C4" stroke-width="2.2"/><path d="M12 8v4l2.5 2.5" stroke="#3B82C4" stroke-width="2.2" stroke-linecap="round"/></svg>
+              Discipline
+            </span>
+            <h4>10 minutes sans téléphone au réveil</h4>
+            <p>Commence ta journée sans écran. Respire, planifie, existe.</p>
+            <div class="ps-reward">
+              <span class="ps-chip xp">+40 XP</span>
+              <span class="ps-chip stat">+2 Discipline</span>
+            </div>
+            <a href="#offres" class="ps-btn">Valider le défi</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER CTA ============ -->
+<section id="footer-cta">
+  <div class="wrap">
+    <h2>Prêt à faire évoluer ton personnage ?</h2>
+    <p class="slogan">« Un défi par jour. Une version de toi par an. »</p>
+    <a href="#offres" class="btn btn-accent">Je relève le défi</a>
+    <div class="foot-note">Dès 19 € · accès immédiat · garantie 30 jours satisfait ou remboursé</div>
+  </div>
+</section>
+
+<div class="footer-bar">
+  Cap365 — Un défi par jour. Une version de toi par an. · Aperçu de conception.
+</div>
+
+</body>
+</html>
