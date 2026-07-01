@@ -1,0 +1,6 @@
+/* Cap365 — Dégradés (CSS). Utiliser en background. */
+.grad-marque  { background: linear-gradient(135deg,#1B2A4A,#2E5EAA); }   /* en-têtes, hero */
+.grad-xp      { background: linear-gradient(90deg,#F5A623,#FF7A00); }    /* barres d'XP, boutons */
+.grad-succes  { background: linear-gradient(90deg,#2EC27E,#22A567); }    /* validation */
+.grad-wrapped { background: linear-gradient(160deg,#1B2A4A,#6D3CE0,#F5A623); } /* Wrapped / célébration */
+.grad-rangup  { background: radial-gradient(circle,#F5A623 0%,#1B2A4A 80%); }  /* montée de rang */

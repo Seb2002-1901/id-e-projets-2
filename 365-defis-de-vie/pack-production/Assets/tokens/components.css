@@ -1,0 +1,37 @@
+/* Cap365 — Composants réutilisables (CSS). Nécessite colors.css + gradients.css. Polices : Poppins (titres), Inter (corps). */
+
+/* Carte */
+.cap-card {
+  background: var(--cap-surface); border-radius: var(--radius-carte);
+  box-shadow: var(--ombre-carte); padding: 20px;
+}
+.cap-card--defi { border-left: 4px solid var(--stat-charisme); } /* liseré = couleur de la stat */
+.cap-card--valide { background: rgba(46,194,126,.08); border-left-color: var(--cap-succes); }
+
+/* Boutons */
+.cap-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  min-height:48px; padding:0 24px; border-radius: var(--radius-bouton);
+  font-family:'Poppins',sans-serif; font-weight:700; font-size:16px; border:0; cursor:pointer; }
+.cap-btn--primaire { background: linear-gradient(90deg,#F5A623,#FF7A00); color:#fff; box-shadow: var(--ombre-bouton); }
+.cap-btn--secondaire { background:#fff; color: var(--cap-primaire); border:1.5px solid var(--cap-primaire); }
+.cap-btn--fantome { background:transparent; color: var(--cap-secondaire); font-weight:600; }
+
+/* Barre de progression */
+.cap-progress { height:10px; background: var(--cap-bordure); border-radius: var(--radius-pill); overflow:hidden; }
+.cap-progress__fill { height:100%; border-radius: var(--radius-pill); background: linear-gradient(90deg,#F5A623,#FF7A00); }
+.cap-progress__fill--annee { background: var(--cap-secondaire); }
+
+/* Puce / chip */
+.cap-chip { display:inline-flex; align-items:center; gap:6px; padding:6px 12px;
+  border-radius: var(--radius-pill); font-family:'Inter',sans-serif; font-weight:600; font-size:11px; letter-spacing:.4px; }
+.cap-chip--stat { background:#EEF2F8; color: var(--cap-primaire); }
+.cap-chip--serie { background: rgba(245,166,35,.12); color: var(--cap-accent); font-weight:700; }
+.cap-chip--rarete-rare { background: rgba(59,130,196,.15); color: var(--rarete-rare); font-weight:700; }
+
+/* Jauge de stat (barre horizontale colorée) */
+.cap-gauge { height:10px; background: var(--cap-bordure); border-radius: var(--radius-pill); overflow:hidden; }
+.cap-gauge__fill { height:100%; border-radius: var(--radius-pill); } /* background = couleur de la stat, width = valeur% */
+
+/* Tuile de badge */
+.cap-badge { width:64px; height:64px; border-radius:16px; display:grid; place-items:center; color:#fff; }
+.cap-badge--verrouille { background: rgba(138,147,162,.2); color: var(--cap-texte-3); }

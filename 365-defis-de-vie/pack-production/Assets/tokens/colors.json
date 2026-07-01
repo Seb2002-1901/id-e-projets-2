@@ -1,0 +1,36 @@
+{
+  "marque": { "primaire": "#1B2A4A", "secondaire": "#2E5EAA", "accent": "#F5A623", "accent2": "#FF7A00", "succes": "#2EC27E", "ambre": "#E8A13A" },
+  "neutres": { "texte": "#222831", "texte2": "#5A6472", "texte3": "#8A93A2", "bordure": "#E6E9EF", "fond": "#F7F8FA", "surface": "#FFFFFF" },
+  "dark": { "fond": "#12192B", "surface": "#1B2A4A", "texte": "#F7F8FA" },
+  "stats": {
+    "Discipline": "#3B82C4", "Courage": "#F5A623", "Vitalité": "#2EC27E", "Charisme": "#E86A5C",
+    "Mental": "#8B5CF6", "Savoir": "#4FB0C9", "Création": "#EC4899", "Prospérité": "#B08D57"
+  },
+  "raretes": { "Commun": "#6BBF8A", "Rare": "#3B82C4", "Épique": "#8B5CF6", "Légendaire": "#F5A623" },
+  "rangs": {
+    "1_Éveil": "#6BBF8A", "2_Élan": "#4FB0C9", "3_Apprenti": "#B08D57", "4_Constant": "#3B82C4", "5_Aguerri": "#9AA7B4",
+    "6_Affirmé": "#E86A5C", "7_Artisan": "#8B5CF6", "8_Maître": "#F5A623", "9_Mentor": "#F2C14E", "10_Légende": "#1B2A4A"
+  },
+  "gradients": {
+    "marque": "linear-gradient(135deg,#1B2A4A,#2E5EAA)",
+    "xp": "linear-gradient(90deg,#F5A623,#FF7A00)",
+    "succes": "linear-gradient(90deg,#2EC27E,#22A567)",
+    "wrapped": "linear-gradient(160deg,#1B2A4A,#6D3CE0,#F5A623)",
+    "rangup": "radial-gradient(circle,#F5A623 0%,#1B2A4A 80%)"
+  },
+  "rayons": { "carte": 20, "bouton": 14, "pill": 999, "progress": 999 },
+  "ombres": {
+    "carte": "0 4px 16px rgba(27,42,74,.08)",
+    "active": "0 8px 24px rgba(27,42,74,.12)",
+    "bouton": "0 2px 10px rgba(245,166,35,.35)"
+  },
+  "typographie": {
+    "titres": "Poppins", "corps": "Inter",
+    "tailles_px": { "h1": 30, "h2": 24, "h3": 20, "corps": 16, "label": 13, "micro": 11 }
+  },
+  "produit": {
+    "marque_maison": "Cairn", "produit": "Cap365", "baseline": "365 Défis de Vie",
+    "slogan": "Un défi par jour. Une version de toi par an.",
+    "offres": { "Le Sentier": 19, "L'Ascension": 39, "Le Sommet": 89 }, "garantie_jours": 30
+  }
+}

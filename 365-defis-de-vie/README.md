@@ -10,6 +10,8 @@
 > 👉 **Pour lancer :** lis [`livraison-finale/00-RAPPORT-FINAL.md`](./livraison-finale/00-RAPPORT-FINAL.md) (audit + notes), exécute [`execution-finale/`](./execution-finale/00-README.md) (CSV Notion + données de test + runbooks J1-J7), et reproduis les visuels avec [`livraison-visuelle/`](./livraison-visuelle/00-README.md) — **kit graphique verrouillé + specs des 8 écrans + visuels de vente + mockups** (à reproduire dans Canva sans réfléchir). Lançable **seul en 7 jours**.
 >
 > 👁️ **Voir le produit rendu :** [`apercu/`](./apercu/00-README.md) contient les **maquettes des 8 écrans rendues en PNG** (via Chromium), la page de vente, 27 prompts de génération d'images et le dossier Canva — de quoi voir Cap365 terminé et raccourcir la production visuelle.
+>
+> 📦 **Pack de production :** [`pack-production/`](./pack-production/README.md) = tous les assets réels prêts à l'emploi — **31 SVG** (logo, 14 icônes, 5 badges, radar, composants), **48 PNG** (écrans, SVG rendus, fonds dégradés), **tokens** (colors.css/json, components.css), **9 CSV Notion**, 6 pages TinyPages, emails, dossier Canva, plan PDF.
 
 ---
 
