@@ -5,7 +5,7 @@
 > **365 Défis de Vie** — le système premium de transformation par l'action quotidienne.
 > **Marque maison : Cairn** · **Produit : Cap365**. Un *cairn* est l'amas de pierres qui balise un sentier : chaque défi validé = une pierre posée, l'amas qui grandit = ta progression visible.
 >
-> 🔧 **Le produit existe en deux états :** la **V1** (ce dossier) et la **V2** — audit critique + transformation en *RPG de la vie réelle* (8 stats, radar, 50 niveaux/10 rangs, anti-abandon incarné, expérience « app sans app »). Voir [`v2-audit-et-transformation/`](./v2-audit-et-transformation/README.md) et l'expérience [`experience/`](./experience/).
+> 🔧 **Le produit existe en deux états :** la **V1** (ce dossier) et la **V2** — audit critique + transformation en *RPG de la vie réelle* (8 stats, radar, 50 niveaux/10 rangs, anti-abandon incarné, expérience « app sans app »). Voir [`v2-audit-et-transformation/`](./v2-audit-et-transformation/README.md), l'expérience [`experience/`](./experience/) et le **kit de lancement commercial** [`lancement-commercial/`](./lancement-commercial/00-README.md).
 
 ---
 

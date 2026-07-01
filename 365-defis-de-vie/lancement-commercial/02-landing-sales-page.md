@@ -1,6 +1,7 @@
 # Cap365 — Page de vente (landing longue)
 
 > **À coller dans TinyPages.** Chaque section est un bloc délimité. Les indications entre `[[ … ]]` sont des notes de mise en page / visuel à ne pas publier telles quelles.
+> **Marque :** *Cairn présente* **Cap365 — 365 Défis de Vie**. (Cairn = la maison ; Cap365 = le programme. Le nom « Cairn » peut apparaître discrètement en logo/en-tête ; la métaphore de la pierre porte l'univers dans toute la page.)
 
 ---
 
