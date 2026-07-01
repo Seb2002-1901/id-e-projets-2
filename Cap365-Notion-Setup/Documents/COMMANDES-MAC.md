@@ -68,6 +68,29 @@ cd ~/Desktop/Cap365-Notion-Setup/Builder && ./post-install.sh
 
 ---
 
+## 6) (Premium) Passer le tableau de bord en version « application »
+```bash
+cd ~/Desktop/Cap365-Notion-Setup/Builder && chmod +x post-install-v3.sh && ./post-install-v3.sh
+```
+➡️ Reconstruit la même page **« 🎮 Cap365 — Quartier Général »** en dashboard premium
+(cartes RPG en colonnes, table des matières, toggles, navigation) + rapport
+`POST-INSTALL-V3-REPORT.md` (clics exacts restants, % d'automatisation). Add-only,
+**ne touche pas aux 365 défis**.
+
+```bash
+# lire le rapport V3
+open ~/Desktop/Cap365-Notion-Setup/Builder/POST-INSTALL-V3-REPORT.md
+```
+
+### Tout enchaîner (les 3 commandes)
+```bash
+cd ~/Desktop/Cap365-Notion-Setup/Builder
+chmod +x run.sh post-install.sh post-install-v3.sh
+./run.sh && ./post-install.sh && ./post-install-v3.sh
+```
+
+---
+
 ## En cas de souci
 ```bash
 # Node manquant

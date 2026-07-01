@@ -11,9 +11,11 @@ En une phrase : tu crées une intégration Notion, tu partages une page, tu coll
 ```
 Cap365-Notion-Setup/
 ├── LISEZ-MOI.md              ← tu es ici
-├── CSV/                      ← les données (6 bases + 2 fichiers de test)
+├── CSV/                      ← les données des 6 bases
 ├── Builder/                  ← le script qui monte tout (lance Builder/run.sh)
-│   ├── run.sh  package.json  package-lock.json  .env.example  README.md
+│   ├── run.sh  post-install.sh  post-install-v3.sh   ← les 3 commandes
+│   ├── package.json  package-lock.json  .env.example  README.md
+│   ├── POST-INSTALL-V3-REPORT.md   (rapport de référence, régénéré à chaque run)
 │   ├── src/                  (le code)
 │   └── csv/                  (copie des CSV utilisée par le script)
 └── Documents/
@@ -24,8 +26,11 @@ Cap365-Notion-Setup/
 ```
 
 ## L'essentiel
-- **2 commandes** (depuis `Builder/`) : `./run.sh` monte le template, puis `./post-install.sh` construit le tableau de bord « 🎮 Cap365 — Quartier Général » (voir `Documents/POST-INSTALL-MAC.md`).
-- **Idempotent** : les deux commandes sont relançables sans créer de doublons.
-- **Sans risque** : la post-installation **ne modifie jamais tes 365 défis** (elle ajoute une page + des colonnes manquantes).
+- **3 commandes** (depuis `Builder/`) :
+  1. `./run.sh` — monte le template (6 bases + 365 défis).
+  2. `./post-install.sh` — construit le tableau de bord « 🎮 Cap365 — Quartier Général ».
+  3. `./post-install-v3.sh` — passe ce tableau de bord en **version premium** (cartes RPG en colonnes, toggles, navigation) + rapport `POST-INSTALL-V3-REPORT.md`.
+- **Idempotent** : les trois commandes sont relançables sans créer de doublons.
+- **Sans risque** : les post-installations **ne modifient jamais tes 365 défis** (elles ajoutent une page + des colonnes manquantes, en add-only).
 - **Token privé** : uniquement dans `Builder/.env`, jamais dans le code.
-- **Limite** : l'API Notion crée les bases/données/formules **et** la page de dashboard, **pas** les vues ni le radar (à finaliser à la main, ~30-60 min — voir les rapports générés).
+- **Limite** : l'API Notion crée les bases/données/formules **et** la page de dashboard, **pas** les vues ni le radar (à finaliser à la main, ~12 min — les clics exacts sont listés dans `POST-INSTALL-V3-REPORT.md`).

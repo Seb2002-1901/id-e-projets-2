@@ -51,6 +51,14 @@ cd ~/Desktop/Cap365-Notion-Setup/Builder
 ```
 Elle crée la page **« 🎮 Cap365 — Quartier Général »** (les 7 sections, les liens vers tes 6 bases, un tableau, une checklist…) et un rapport `POST-INSTALL-NOTION.md`. **Relançable** : elle reconstruit la page sans doublon et **ne modifie jamais tes 365 défis**. Pas-à-pas dédié : `POST-INSTALL-MAC.md`.
 
+## Étape 6 — Version premium du tableau de bord (recommandé)
+Pour un rendu « application » (cartes RPG en colonnes, table des matières, toggles, navigation), lance la **3ᵉ commande** (même `.env`, add-only, sans risque) :
+```bash
+cd ~/Desktop/Cap365-Notion-Setup/Builder
+./post-install-v3.sh
+```
+Elle **reconstruit la même page** en version premium et génère `POST-INSTALL-V3-REPORT.md` : il liste les **clics exacts restants** pour créer les vues (que l'API Notion ne sait pas créer : ~40 clics, ~12 min) et le **% d'automatisation obtenu**. Relançable à l'identique.
+
 ---
 
 ## Ce qui se crée tout seul
@@ -78,4 +86,4 @@ L'API Notion ne crée pas la partie « visuelle ». À faire dans Notion après 
 ## Bon à savoir
 - **Relançable sans risque** : si tu relances `./run.sh`, rien n'est dupliqué (bases réutilisées, lignes mises à jour).
 - **Ton token reste privé** : il est seulement dans `.env` (jamais partagé, jamais dans le code).
-- Le dossier **`/CSV`** (au niveau du dossier décompressé) contient les mêmes données + 2 fichiers de **test** (`test-defis-valides-14j.csv`, `test-kpi-7jours.csv`) pour vérifier (voir `CHECKLIST-NOTION.md`).
+- Le dossier **`/CSV`** (au niveau du dossier décompressé) contient les mêmes données que celles importées (les 6 bases), pour référence.

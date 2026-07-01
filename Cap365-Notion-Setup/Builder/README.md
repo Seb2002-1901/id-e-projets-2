@@ -152,4 +152,28 @@ open POST-INSTALL-NOTION.md
 ```
 
 ---
-*Ce builder n'ajoute aucune fonctionnalité à Cap365 : il monte, dans Notion, exactement les bases/propriétés/formules/données déjà définies dans le dépôt (`pack-production/Notion/*.csv`, `production/03-template-notion-final.md`). La post-installation ne fait qu'ajouter une page de tableau de bord et des colonnes manquantes — sans jamais modifier tes données.*
+
+## 10. Post-installation V3 — dashboard premium « application » (`./post-install-v3.sh`)
+
+La **V3** pousse l'automatisation **au maximum de ce que l'API Notion autorise** pour obtenir un produit quasi fini. Elle **reconstruit la même page** « 🎮 Cap365 — Quartier Général » (jamais de doublon) en véritable **tableau de bord d'application**.
+
+```bash
+chmod +x post-install-v3.sh
+./post-install-v3.sh
+```
+> Utilise le **même `.env`**. Add-only, idempotent. **Ne touche jamais aux 365 défis.**
+
+### Ce qu'elle fait en plus de la V2 (via l'API)
+- **Mise en page premium** : **table des matières**, **grille de 7 cartes RPG** en **colonnes** de callouts colorés (🔥 Série · ⭐ Niveau · 🏵️ Rang · ⚡ XP · 🎯 Défis · 🏆 Badges · 🗺️ Quêtes), section **👤 Mon personnage sur 2 colonnes**, **toggles** (Paramètres, Guide, vues à finaliser), tableaux, checklists.
+- **8 sections** : 👤 Mon personnage · 🎯 Défi du jour · 📈 Progression · 🏆 Badges · 🗺️ Quêtes · 📅 Calendrier · ⚙️ Paramètres · 📚 Comment utiliser — plus header, cartes RPG, navigation (6 bases) et « 📐 Vues à finaliser ».
+- **Rapport détaillé** `POST-INSTALL-V3-REPORT.md` : actions auto / éléments impossibles / **nombre de clics manuels restants** / instructions exactes / validation 365-50-10-24-19 / **% d'automatisation & minutes restantes**.
+
+### Limite honnête (identique pour toute l'API Notion)
+L'API **ne crée pas de vues** (filtrées, galerie, calendrier, liées). Pour ces éléments, la V3 génère la **liste exacte des clics restants** (≈ 40 clics, ~12 min) dans la page et dans le rapport. La page premium est le **socle** où insérer ces vues en « /vue liée de base ».
+
+### Résilience & idempotence
+- Chaque section est posée indépendamment ; si un bloc en colonnes n'était pas accepté, une **variante simplifiée** est posée automatiquement (le résultat reste complet).
+- Reconstruction **à l'identique** à chaque exécution (contenu remplacé, aucun doublon).
+
+---
+*Ce builder n'ajoute aucune fonctionnalité à Cap365 : il monte, dans Notion, exactement les bases/propriétés/formules/données déjà définies dans le dépôt (`pack-production/Notion/*.csv`, `production/03-template-notion-final.md`). Les post-installations (V2, V3) ne font qu'ajouter une page de tableau de bord et des colonnes manquantes — sans jamais modifier tes données.*

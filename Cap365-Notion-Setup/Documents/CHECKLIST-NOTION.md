@@ -22,7 +22,7 @@
 ## 🧪 Test de cohérence (recommandé)
 - [ ] Coche **Validé** sur les **jours 1 à 14** de la base Défis.
 - [ ] Sur **Profil** : **XP cumulée ≈ 220**, **Niveau (auto) = 1**, **Rang (auto) = 1 · Éveil**.
-      *(Correspond au fichier `CSV/test-defis-valides-14j.csv`.)*
+      *(Valeurs de référence pour valider le calcul d'XP.)*
 - [ ] Décoche-les ensuite si tu veux repartir de zéro.
 
 ## 🎨 À finaliser à la main (l'API ne le fait pas)
@@ -41,6 +41,18 @@
 - [ ] Le **tableau barème XP** et la **checklist de démarrage** sont présents.
 - [ ] Le rapport **`POST-INSTALL-NOTION.md`** est généré (0 erreur attendu).
 - [ ] Relancer `./post-install.sh` → la page est **reconstruite sans doublon**.
+
+## 🚀 Version premium — post-installation V3 (`./post-install-v3.sh`)
+> 3ᵉ commande, après `./post-install.sh`. Add-only, idempotente, ne touche pas aux 365 défis.
+- [ ] `./post-install-v3.sh` se termine par « ✅ Terminé » et affiche un lien de page.
+- [ ] La page **« 🎮 Cap365 — Quartier Général »** est passée en version premium
+      (table des matières + **cartes RPG en colonnes** + toggles + navigation).
+- [ ] Les **8 sections** sont présentes (Personnage, Défi du jour, Progression, Badges,
+      Quêtes, Calendrier, Paramètres, Comment utiliser).
+- [ ] Le rapport **`POST-INSTALL-V3-REPORT.md`** est généré (validation 365/50/10/24/19,
+      % d'automatisation, clics restants).
+- [ ] Relancer `./post-install-v3.sh` → page **reconstruite à l'identique** (aucun doublon).
+- [ ] Finaliser les **vues** en suivant la SECTION 4 du rapport V3 (~40 clics, ~12 min).
 
 ## 🔒 Sécurité
 - [ ] Le **token** n'est que dans `Builder/.env` (jamais partagé).
