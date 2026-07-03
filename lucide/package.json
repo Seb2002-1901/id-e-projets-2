@@ -1,0 +1,14 @@
+{
+  "name": "lucide",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "typecheck": "npm run typecheck -w @lucide/shared && npm run typecheck -w mobile",
+    "test": "npm run test -w @lucide/shared",
+    "lint:forbidden": "! grep -rniE 'jour 0|day 0|série brisée' apps/mobile/src apps/mobile/app packages/shared/src --include='*.ts' --include='*.tsx'"
+  },
+  "devDependencies": {
+    "typescript": "~5.5.4",
+    "vitest": "^2.1.8"
+  }
+}

@@ -1,0 +1,50 @@
+name: ci
+on:
+  pull_request:
+  push: { branches: [main] }
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: Typecheck (shared + mobile)
+        run: npm run typecheck
+      - name: Tests règles métier + machine à états + bilan (shared)
+        run: npm run test -w @lucide/shared
+      - name: Tests app (sélecteurs purs)
+        run: npm run test -w mobile
+      - name: Interdits produit — BR-13 (« jour 0 » introuvable)
+        run: npm run lint:forbidden
+      - name: Bundle Metro iOS (preuve de compilation)
+        run: cd apps/mobile && npx expo export --platform ios --output-dir /tmp/export
+
+  db:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15
+        env: { POSTGRES_PASSWORD: postgres }
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Migrations rejouées de zéro
+        run: |
+          for f in supabase/migrations/*.sql; do
+            PGPASSWORD=postgres psql -h localhost -U postgres -v ON_ERROR_STOP=1 -f "$f"
+          done
+      - name: Seed de dev
+        run: PGPASSWORD=postgres psql -h localhost -U postgres -v ON_ERROR_STOP=1 -f supabase/seed/seed.sql
+      - name: Tests RLS multi-comptes
+        run: PGPASSWORD=postgres psql -h localhost -U postgres -v ON_ERROR_STOP=1 -f supabase/tests/rls_test.sql
+
+  # e2e Detox + budget perf SOS < 2 s : LUC-49→52 (nécessite macOS runner + build simulateur).
