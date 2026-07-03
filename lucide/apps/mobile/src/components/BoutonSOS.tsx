@@ -6,7 +6,7 @@ import { router } from 'expo-router';
 export function BoutonSOS() {
   return (
     <Pressable
-      accessibilityRole="button" accessibilityLabel="SOS — j’ai besoin d’aide maintenant"
+      testID="sos-button" accessibilityRole="button" accessibilityLabel="SOS — j’ai besoin d’aide maintenant"
       onPress={() => router.push('/sos')}
       style={({ pressed }) => ({
         position: 'absolute', bottom: 24, alignSelf: 'center',

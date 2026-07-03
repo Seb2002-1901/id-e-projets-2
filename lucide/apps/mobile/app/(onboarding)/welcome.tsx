@@ -16,7 +16,7 @@ export default function Welcome() {
         <Text style={{ fontSize: 26, lineHeight: 36, fontWeight: '700', color: t.text }}>{S.promise}</Text>
         <Text style={{ color: t.sub, fontSize: 15 }}>{S.promiseSub}</Text>
       </View>
-      <Bouton label={S.start} size="xl" onPress={() => router.push('/(onboarding)/goal')} />
+      <View testID="welcome-screen"><Bouton label={S.start} size="xl" onPress={() => router.push('/(onboarding)/goal')} /></View>
     </Ecran>
   );
 }

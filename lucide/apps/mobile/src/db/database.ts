@@ -3,6 +3,10 @@ import { LOCAL_SCHEMA } from './schema';
 
 let db: SQLite.SQLiteDatabase | null = null;
 
+export async function resetDbHandle(): Promise<void> {
+  if (db) { await db.closeAsync().catch(() => undefined); db = null; }
+}
+
 export async function getDb(): Promise<SQLite.SQLiteDatabase> {
   if (db) return db;
   db = await SQLite.openDatabaseAsync('lucide.db');

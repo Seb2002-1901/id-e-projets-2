@@ -3,7 +3,23 @@
   "compilerOptions": {
     "strict": true,
     "noUncheckedIndexedAccess": true,
-    "paths": { "@/*": ["./src/*"], "@lucide/shared": ["../../packages/shared/src/index.ts"] }
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@lucide/shared": [
+        "../../packages/shared/src/index.ts"
+      ]
+    }
   },
-  "include": ["app", "src", "test", "app.config.ts", "expo-env.d.ts"]
+  "include": [
+    "app",
+    "src",
+    "test",
+    "app.config.ts",
+    "expo-env.d.ts"
+  ],
+  "exclude": [
+    "e2e"
+  ]
 }

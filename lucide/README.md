@@ -37,20 +37,24 @@ cp .env.example apps/mobile/.env   # renseigner EXPO_PUBLIC_SUPABASE_URL + ANON_
 | Check-in ≤ 30 s + déclenchement écart → protocole R → compteur de rebond (« 12 j sur 15 », jamais de remise à zéro) | fait |
 | Corpus de démonstration : 12 cartes sourcées (J1-J10 + 2 maintenance) avec badges 🟢🟡⚪, « ce que ça ne dit pas », fiches sources | fait |
 | Enveloppe personnelle (arrêt = zéro / réduction = max semaine·occasion·jours off) | fait |
-| Notifications locales N1 (carte du jour) + N5 (fin d’essai) | fait |
+| Notifications locales N1 (carte du jour) + N2 (créneaux à risque, ≤3/sem, dédupliquées/jour) + N5 (fin d’essai) | fait |
 | Migrations Postgres + RLS + seed (2 personas) + test RLS · Edge Functions sync-push / weekly-report / n3-dispatch | écrits, prêts à déployer |
+| Auth e-mail OTP (Supabase) avec fallback local dev · client Supabase à session persistée (SQLite) | fait |
+| Abstraction achats (paywall branché, essai simulé proprement, interface RevenueCat prête) | fait |
+| Analytics PostHog EU : client HTTP batch maison, opt-in persisté, file locale, zéro SDK | fait |
+| Export local : données JSON (share sheet) + audio du coffre · **purge locale réelle** (SQLite, audio, notifs, stores) | fait |
+| e2e Detox écrits (3 flux + budget perf SOS < 2 s) + testIDs posés | prêts (exécution sur macOS) |
 | CI GitHub Actions (typecheck, tests, interdits produit, bundle, migrations+RLS) | fait |
 
-## 🔌 À brancher manuellement (TODO précis dans le code)
+## 🔌 Reste à faire manuellement (liste finale — tout exige une clé/un compte externe)
 
-1. **Supabase réel** : renseigner `.env` → `SupabaseTransport` s’active seul (sinon mode local pur). `TODO(LUC-07)` auth Apple/OTP dans `account.tsx`.
-2. **RevenueCat/StoreKit** : `paywall.tsx` simule l’essai — `TODO(LUC-43)`.
-3. **Chiffrement du coffre** (libsodium) avant tout upload : `TODO(LUC-16)` — en attendant, l’audio reste local (sans risque).
-4. **Export/suppression RGPD serveur** : `TODO(LUC-47/48)` dans `settings.tsx` (purge locale + job serveur).
-5. **PostHog EU** : `TODO(LUC-11)` dans `analytics.ts` (wrapper opt-in prêt, événements typés).
-6. **Corpus complet 90 cartes** : pipeline prêt (`corpus.json`) — rédaction + validation clinicienne = `LUC-61` (bloquant bêta).
-7. **N2 (créneaux à risque)** : planification locale à câbler sur `profile.riskSlots`.
-8. e2e Detox + budget perf SOS en CI macOS (`LUC-49→52`).
+1. **Supabase prod (UE)** : créer le projet, appliquer `supabase/migrations/`, déployer les 3 functions, remplir `.env` → l'auth e-mail OTP et la sync **s'activent seules** (déjà branchées).
+2. **Apple Developer** : Sign in with Apple (`TODO LUC-07` dans `src/auth/auth.ts`, exige un build EAS) + certificats push.
+3. **RevenueCat** : `npm i react-native-purchases` + clé + build EAS → remplacer `DevPurchases` (`src/purchases/purchases.ts`, interface prête, l'UI ne change pas).
+4. **PostHog EU** : créer le projet, poser `EXPO_PUBLIC_POSTHOG_KEY` — le client HTTP batch opt-in est déjà écrit, zéro SDK.
+5. **Clinicienne** : corpus 90 cartes (LUC-61), liste de crise de prod (LUC-62), DPIA (LUC-63) — bloquants bêta.
+6. **libsodium** (LUC-16) : chiffrer le coffre avant d'activer son upload (aujourd'hui : local only, sans risque).
+7. **e2e Detox** : `npm i -D detox jest` sur un Mac + `npx expo prebuild -p ios` → les 3 flux et le budget perf SOS < 2 s sont déjà écrits (`e2e/`).
 
 ## Avant TestFlight (ordre concret)
 

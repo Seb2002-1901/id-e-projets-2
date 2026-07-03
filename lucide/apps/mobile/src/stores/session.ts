@@ -28,6 +28,7 @@ interface SessionState {
   patchDraft(p: Partial<OnboardingDraft>): void;
   completeOnboarding(profile: Profile): void;
   setSubStatus(s: SubStatus): void;
+  reset(): void;
 }
 
 export const useSession = create<SessionState>((set) => ({
@@ -37,4 +38,5 @@ export const useSession = create<SessionState>((set) => ({
   patchDraft: (p) => set((s) => ({ draft: { ...s.draft, ...p } })),
   completeOnboarding: (profile) => set({ onboarded: true, profile, draft: emptyDraft }),
   setSubStatus: (subStatus) => set({ subStatus }),
+  reset: () => set({ hydrated: true, triage: null, onboarded: false, profile: null, subStatus: 'free', draft: emptyDraft }),
 }));

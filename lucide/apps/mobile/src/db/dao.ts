@@ -15,6 +15,22 @@ export async function kvSet(k: string, v: string): Promise<void> {
   const db = await getDb();
   await db.runAsync('insert into kv(k,v) values(?,?) on conflict(k) do update set v=excluded.v', k, v);
 }
+export async function kvDel(k: string): Promise<void> {
+  const db = await getDb();
+  await db.runAsync('delete from kv where k = ?', k);
+}
+
+/** Export RGPD local : toutes les données de l'appareil en un objet JSON. */
+export async function exportAllJson(): Promise<string> {
+  const db = await getDb();
+  const dump: Record<string, unknown> = { exportedAt: new Date().toISOString(), app: 'Lucide V1' };
+  for (const table of ['checkins','sos_sessions','lapse_waves','lapse_events','lapse_context','rebounds','if_then_plans','proofs'] as const) {
+    dump[table] = await db.getAllAsync(`select * from ${table}`);
+  }
+  const kvRows = await db.getAllAsync<{ k: string; v: string }>("select k, v from kv where k in ('profile','envelope','last_checkin_date')");
+  dump['settings'] = Object.fromEntries(kvRows.map((r) => [r.k, r.v]));
+  return JSON.stringify(dump, null, 2);
+}
 
 // ---------- Check-ins ----------
 export async function upsertCheckin(c: Omit<Checkin, 'id'> & { id?: string }): Promise<Checkin> {

@@ -64,7 +64,7 @@ export default function Sos() {
   );
 
   return (
-    <View style={{ flex: 1, backgroundColor: t.bg, padding: 24, paddingTop: 70 }}>
+    <View testID="sos-screen" style={{ flex: 1, backgroundColor: t.bg, padding: 24, paddingTop: 70 }}>
       {step === 'choice' && (
         <View style={{ flex: 1, justifyContent: 'center', gap: 20 }}>
           <Big label={S.sosCravingBtn} onPress={() => { startRef.current = Date.now(); setStep('craving'); }} />

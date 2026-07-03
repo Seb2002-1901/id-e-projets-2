@@ -10,6 +10,8 @@ import { track } from '@/analytics/analytics';
 import { todayIso } from '@/stores/journey';
 import { persistProfile, persistSub } from '@/stores/persist';
 import { kvSet } from '@/db/dao';
+import { scheduleTrialEnd } from '@/notifications/local';
+import { purchases } from '@/purchases/purchases';
 import { useSession } from '@/stores/session';
 import { useTheme } from '@/theme/useTheme';
 
@@ -17,7 +19,13 @@ export default function Paywall() {
   const { draft, completeOnboarding, setSubStatus } = useSession();
   const t = useTheme();
 
-  async function finish(sub: 'trial' | 'free') {
+  async function finish(kind: 'trial' | 'free') {
+    let sub: 'trial' | 'free' = kind;
+    if (kind === 'trial') {
+      const status = await purchases.purchase('annual'); // DevPurchases → 'trial' ; RevenueCat en LUC-43
+      sub = status === 'trial' || status === 'active' ? 'trial' : 'free';
+      if (sub === 'trial') await scheduleTrialEnd(new Date(Date.now() + 7 * 86400_000)); // N5 à J6
+    }
     const profile: Profile = {
       goal: draft.goal ?? 'reduce',
       reasons: draft.reasons as Profile['reasons'],
@@ -45,7 +53,7 @@ export default function Paywall() {
         <Text style={{ color: t.sub, marginTop: 4 }}>ou 14,99 €/mois · essai gratuit 7 jours · remboursé 30 jours sans condition</Text>
       </View>
       <Corps sub>{S.paywallSafety}</Corps>
-      {/* TODO(LUC-43): RevenueCat + StoreKit — achat réel. En dev : essai simulé. */}
+      {!purchases.ready() && <Corps sub>Mode démo : l’essai est simulé (achat réel branché en LUC-43).</Corps>}
       <View style={{ gap: 8 }}>
         <Bouton label="Commencer mes 7 jours" size="xl" onPress={() => void finish('trial')} />
         <Bouton label="Continuer en version gratuite" variant="ghost" onPress={() => void finish('free')} />

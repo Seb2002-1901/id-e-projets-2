@@ -1,4 +1,5 @@
 import type { Profile, SubStatus, TriageOutcome } from '@lucide/shared';
+import { hydrateAnalytics } from '@/analytics/analytics';
 import { kvGet, kvSet, loadWaveCtx } from '@/db/dao';
 import { useJourney } from './journey';
 import { useSession } from './session';
@@ -14,6 +15,7 @@ export async function hydrateStores(): Promise<void> {
     subStatus: (sub as SubStatus | null) ?? 'free',
   });
   if (waveCtx) useJourney.getState().setWaveCtx(waveCtx);
+  await hydrateAnalytics();
 }
 export async function persistTriage(outcome: TriageOutcome): Promise<void> {
   await kvSet('triage_outcome', outcome); // C2 : LOCAL uniquement, jamais synchronisé
