@@ -1,0 +1,282 @@
+openapi: 3.1.0
+info:
+  title: Lucide API
+  version: 1.0.0
+  description: >
+    API V1 (gelée). Auth: Bearer JWT Supabase. Idempotence par ULID client.
+    Le triage ne transite JAMAIS par cette API (décision C2).
+servers:
+  - url: https://{project}.supabase.co/functions/v1
+security: [{ bearerAuth: [] }]
+
+paths:
+  /sync/push:
+    post:
+      summary: Pousse les mutations locales (outbox) — upsert idempotent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/SyncPushRequest' }
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/SyncPushResponse' }
+        '401': { $ref: '#/components/responses/Auth' }
+
+  /sync/pull:
+    get:
+      summary: Récupère les deltas serveur (curseur updated_at)
+      parameters:
+        - { name: since, in: query, schema: { type: string }, description: curseur opaque }
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/SyncPullResponse' }
+
+  /envelopes:
+    post:
+      summary: Nouvelle version d'enveloppe (BR-11 appliquée serveur)
+      requestBody:
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/EnvelopeCreate' }
+      responses:
+        '201': { content: { application/json: { schema: { $ref: '#/components/schemas/Envelope' } } } }
+        '409':
+          description: Verrouillée (hebdo ou 24 h post-écart)
+          content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } }
+
+  /weekly-report:
+    get:
+      summary: Bilan de la semaine (généré à la volée si absent — déterministe)
+      parameters:
+        - { name: week, in: query, required: true, schema: { type: string, format: date } }
+      responses:
+        '200': { content: { application/json: { schema: { $ref: '#/components/schemas/WeeklyReport' } } } }
+
+  /vault/presign:
+    post:
+      summary: URL signée d'upload d'un blob de coffre (déjà chiffré côté device)
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [kind, contentLength]
+              properties:
+                kind: { type: string, enum: [audio] }
+                contentLength: { type: integer, maximum: 10485760 }
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: { uploadUrl: { type: string }, storageKey: { type: string } }
+
+  /vault/presign/{storageKey}:
+    get:
+      summary: URL signée de téléchargement (restauration d'appareil)
+      parameters: [{ name: storageKey, in: path, required: true, schema: { type: string } }]
+      responses:
+        '200': { content: { application/json: { schema: { type: object, properties: { downloadUrl: { type: string } } } } } }
+
+  /export:
+    post:
+      summary: Export RGPD (JSON complet ; l'audio s'exporte DEPUIS l'app — décision C5)
+      responses: { '202': { content: { application/json: { schema: { type: object, properties: { jobId: { type: string } } } } } } }
+
+  /delete-account:
+    post:
+      summary: Demande de suppression (purge ≤ 30 j)
+      responses: { '202': { description: enregistrée } }
+
+  /content/manifest:
+    get:
+      summary: Manifest du corpus (public, signé, servi par CDN)
+      security: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  version: { type: integer }
+                  cards:
+                    type: array
+                    items: { type: object, properties: { slug: { type: string }, hash: { type: string }, url: { type: string } } }
+
+  /rc-webhook:
+    post:
+      summary: Webhook RevenueCat → subscriptions (signature vérifiée)
+      security: []
+      responses: { '200': { description: ok } }
+
+components:
+  securitySchemes:
+    bearerAuth: { type: http, scheme: bearer, bearerFormat: JWT }
+  responses:
+    Auth: { description: Non authentifié }
+  schemas:
+    Error:
+      type: object
+      required: [code, message]
+      properties:
+        code: { type: string, enum: [AUTH, LOCKED, VALIDATION, CONFLICT, RATE_LIMITED] }
+        message: { type: string }
+
+    Checkin:
+      type: object
+      required: [id, date, mood, cravings, withinEnvelope, backfilled]
+      properties:
+        id: { type: string, description: ULID client }
+        date: { type: string, format: date }
+        mood: { type: integer, minimum: 1, maximum: 5 }
+        cravings: { type: integer, minimum: 0, maximum: 3 }
+        withinEnvelope: { type: boolean }
+        drinksCount: { type: integer, minimum: 0, maximum: 30 }
+        backfilled: { type: boolean }
+      # C6 : conflit sur (user,date) → DO UPDATE (l'édition du jour remplace la ligne).
+
+    SosSession:
+      type: object
+      required: [id, startedAt, type, toolsUsed]
+      properties:
+        id: { type: string }
+        startedAt: { type: string, format: date-time }
+        type: { type: string, enum: [craving, danger] }
+        durationS: { type: integer }
+        toolsUsed: { type: array, items: { type: string, enum: [curve, voice, breath, ally, walk] } }
+        outcome: { type: string, enum: [passed, escalated, abandoned] }
+        triggerChip: { type: string }
+        placeChip: { type: string }
+
+    LapseWave:
+      type: object
+      required: [id, openedAt, detectedVia]
+      properties:
+        id: { type: string }
+        openedAt: { type: string, format: date-time }
+        detectedVia: { type: string, enum: [checkin, button, silence] }
+
+    LapseEvent:
+      type: object
+      required: [id, waveId, occurredOn]
+      properties:
+        id: { type: string }
+        waveId: { type: string }
+        occurredOn: { type: string, format: date }
+        drinksCount: { type: integer }
+
+    LapseContext:
+      type: object
+      required: [waveId]
+      properties:
+        waveId: { type: string }
+        whereChip: { type: string }
+        whoChip: { type: string }
+        emotionChip: { type: string }
+        helperChip: { type: string }
+        freeTextCipherB64: { type: string, description: chiffré device — le serveur ne déchiffre jamais }
+
+    ProtocolCompletion:
+      type: object
+      required: [waveId, completedAt]
+      properties:
+        waveId: { type: string }
+        completedAt: { type: string, format: date-time }
+        planChange:
+          type: object
+          properties: { planId: { type: string }, ifText: { type: string }, thenText: { type: string } }
+      # Le serveur exécute reduceWave() (shared) et calcule rebound_hours (BR-14).
+
+    IfThenPlan:
+      type: object
+      required: [id, triggerLabel, ifText, thenText, version, active, source]
+      properties:
+        id: { type: string }
+        triggerLabel: { type: string, maxLength: 60 }
+        ifText: { type: string, maxLength: 140 }
+        thenText: { type: string, maxLength: 140 }
+        version: { type: integer }
+        active: { type: boolean }
+        source: { type: string, enum: [onboarding, weekly, post_lapse] }
+
+    Proof:
+      type: object
+      required: [id, kind, label, occurredAt]
+      properties:
+        id: { type: string }
+        kind: { type: string }
+        label: { type: string }
+        occurredAt: { type: string, format: date-time }
+        payload: { type: object }
+
+    PushToken:
+      type: object
+      required: [token]
+      properties: { token: { type: string }, platform: { type: string, default: ios } }
+
+    EnvelopeCreate:
+      type: object
+      required: [id, rules]
+      properties:
+        id: { type: string }
+        rules:
+          oneOf:
+            - { type: object, required: [zero], properties: { zero: { const: true } } }
+            - type: object
+              required: [maxWeek, maxOccasion, offDays]
+              properties:
+                maxWeek: { type: integer, minimum: 0, maximum: 30 }
+                maxOccasion: { type: integer, minimum: 0, maximum: 10 }
+                offDays: { type: array, items: { type: integer, minimum: 1, maximum: 7 } }
+
+    Envelope:
+      allOf:
+        - { $ref: '#/components/schemas/EnvelopeCreate' }
+        - type: object
+          properties: { version: { type: integer }, active: { type: boolean }, createdAt: { type: string, format: date-time } }
+
+    SyncPushRequest:
+      type: object
+      properties:
+        checkins: { type: array, items: { $ref: '#/components/schemas/Checkin' } }
+        sosSessions: { type: array, items: { $ref: '#/components/schemas/SosSession' } }
+        lapseWaves: { type: array, items: { $ref: '#/components/schemas/LapseWave' } }
+        lapseEvents: { type: array, items: { $ref: '#/components/schemas/LapseEvent' } }
+        lapseContexts: { type: array, items: { $ref: '#/components/schemas/LapseContext' } }
+        protocolCompletions: { type: array, items: { $ref: '#/components/schemas/ProtocolCompletion' } }
+        plans: { type: array, items: { $ref: '#/components/schemas/IfThenPlan' } }
+        proofs: { type: array, items: { $ref: '#/components/schemas/Proof' } }
+        pushTokens: { type: array, items: { $ref: '#/components/schemas/PushToken' } }
+
+    SyncPushResponse:
+      type: object
+      required: [accepted, rejected]
+      properties:
+        accepted: { type: array, items: { type: string } }
+        rejected:
+          type: array
+          items: { type: object, properties: { id: { type: string }, reason: { type: string } } }
+
+    SyncPullResponse:
+      type: object
+      properties:
+        envelopes: { type: array, items: { $ref: '#/components/schemas/Envelope' } }
+        plans: { type: array, items: { $ref: '#/components/schemas/IfThenPlan' } }
+        proofs: { type: array, items: { $ref: '#/components/schemas/Proof' } }
+        weeklyReports: { type: array, items: { $ref: '#/components/schemas/WeeklyReport' } }
+        subscription: { type: object }
+        cursor: { type: string }
+
+    WeeklyReport:
+      type: object
+      required: [weekStart, payload]
+      properties:
+        weekStart: { type: string, format: date }
+        payload: { type: object, description: WeeklyReportPayload (types.ts) }
