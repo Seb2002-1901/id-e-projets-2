@@ -126,4 +126,4 @@ Chaque vague traversée est une donnée. Note-la ici à chaud, puis recopie-la d
 
 Relis ce tableau quand une nouvelle vague monte. Tu n'affrontes jamais la première : tu affrontes la suivante d'une série que tu as déjà traversée. Et avec l'entraînement, deux choses se produisent : les vagues s'espacent, et ton tableau se remplit moins vite — c'est exactement le signe que tu cherches. 🟢
 
-Un dernier mot. Un dernier mot — la promesse de la maison : on ne te promet pas que ce sera facile. On te promet que tu ne seras plus jamais surpris : tu sais maintenant à quoi ressemble une vague, combien de temps elle dure, et ce que tu fais pendant qu'elle passe. C'est tout ce qu'il faut pour les 10 minutes où tout se joue.
+Un dernier mot — la promesse de la maison : on ne te promet pas que ce sera facile. On te promet que tu ne seras plus jamais surpris : tu sais maintenant à quoi ressemble une vague, combien de temps elle dure, et ce que tu fais pendant qu'elle passe. C'est tout ce qu'il faut pour les 10 minutes où tout se joue.
